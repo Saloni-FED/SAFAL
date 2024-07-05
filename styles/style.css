@@ -5975,10 +5975,14 @@ Go Top CSS
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .history-timeline h2{
+    padding:10px;
+  }
   .history-timeline-event {
       flex-direction: column;
       align-items: flex-start;
+      padding:10px;
   }
 
   .history-timeline-description {
