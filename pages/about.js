@@ -4,6 +4,8 @@ import RegisterArea from "../components/Common/RegisterArea";
 import AboutContent from "../components/About/AboutContent";
 import HistoryTimeline from "../components/HistoryTimeline";
 
+import Values from "../components/Value/Value";
+
 const About = () => {
   return (
     <>
@@ -13,8 +15,11 @@ const About = () => {
 
       <AdvisorArea bgColor="bg-f9f9f9" />
       <RegisterArea ctaImage="/images/man.png" />
+      
+        <Values />
 
-      <AccountCreate title="Our Values" />
+
+      {/* <AccountCreate title="Connect With us" /> */}
     </>
   );
 };

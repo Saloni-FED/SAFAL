@@ -187,7 +187,8 @@ const Banner = () => {
             </div>
             <div className="col-xl-4 col-lg-12 col-md-12 p-0">
               <div className="main-banner-image">
-                <img src="/images/banner/banner-img1.png" alt="image" />
+                {/* <img src="/images/banner/banner-img1.png" alt="image" /> */}
+                <img src="/images/allNewImages/girlPhone.png" alt="image" width={539} height={849}/>
               </div>
             </div>
           </div>

@@ -60,12 +60,12 @@ Default CSS
   --fontFamily: "Lato", sans-serif;
   --fontFamily2: "Open Sans", sans-serif;
   --mainColor: #5466f9;
-  --optionalColor: #00a79D;
+  --optionalColor: #00a79d;
   --whiteColor: #ffffff;
   --blackColor: #000000;
   --paragraphColor: #666666;
   --fontSize: 15px;
-  --transition: .5s;
+  --transition: 0.5s;
 }
 
 body {
@@ -76,7 +76,18 @@ body {
   font-family: var(--fontFamily);
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--blackColor);
   font-family: var(--fontFamily2);
   font-weight: 700;
@@ -295,7 +306,8 @@ Navbar Area CSS
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a.active {
+.navbar-area .navbar .navbar-nav .nav-item a:hover,
+.navbar-area .navbar .navbar-nav .nav-item a.active {
   color: var(--mainColor);
 }
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle {
@@ -355,7 +367,13 @@ Navbar Area CSS
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a.dropdown-toggle::before {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.dropdown-toggle::before {
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
@@ -367,52 +385,156 @@ Navbar Area CSS
   margin-top: 0;
   visibility: hidden;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: var(--blackColor);
   padding-left: 20px;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover {
   color: var(--mainColor);
   padding-left: 25px;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   top: 0;
   opacity: 0;
   left: 250px;
   visibility: hidden;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: var(--blackColor);
   padding-left: 20px;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover {
   padding-left: 25px;
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: var(--mainColor);
 }
-.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   margin-top: 0;
   visibility: visible;
@@ -424,21 +546,41 @@ Navbar Area CSS
 .navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu {
   padding: 0;
 }
-.navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .nav-link {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item.megamenu
+  .dropdown-menu
+  .nav-item
+  .nav-link {
   position: relative;
   border-bottom: 1px solid #eeeeee;
   padding-top: 18px;
   padding-left: 65px;
   padding-bottom: 18px;
 }
-.navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .nav-link img {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item.megamenu
+  .dropdown-menu
+  .nav-item
+  .nav-link
+  img {
   transform: translateY(-50%);
   position: absolute;
   max-width: 36px;
   left: 19px;
   top: 50%;
 }
-.navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .nav-link i {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item.megamenu
+  .dropdown-menu
+  .nav-item
+  .nav-link
+  i {
   transform: translateY(-50%);
   position: absolute;
   margin-top: -1px;
@@ -446,7 +588,13 @@ Navbar Area CSS
   left: 19px;
   top: 50%;
 }
-.navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item:last-child .nav-link {
+.navbar-area
+  .navbar
+  .navbar-nav
+  .nav-item.megamenu
+  .dropdown-menu
+  .nav-item:last-child
+  .nav-link {
   border-bottom: none;
 }
 .navbar-area .navbar .others-option {
@@ -561,16 +709,32 @@ Navbar Area CSS
     font-size: 15px;
     border: none !important;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li a {
-    border-top-color: #DBEEFD;
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a {
+    border-top-color: #dbeefd;
     color: var(--blackColor);
     text-transform: unset;
     font-weight: 600;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li a i {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a
+    i {
     display: none;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li a.mean-expand {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.mean-expand {
     width: 50%;
     height: 28px;
     text-align: right;
@@ -579,22 +743,53 @@ Navbar Area CSS
     border-left: none !important;
     border-bottom: none !important;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li a.active {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
     color: var(--mainColor);
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li li a {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    li
+    a {
     font-size: 14px;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li.megamenu li a {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li.megamenu
+    li
+    a {
     padding-left: 75px;
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li.megamenu li a img {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li.megamenu
+    li
+    a
+    img {
     top: 50%;
     left: 29px;
     position: absolute;
     transform: translateY(-50%);
   }
-  .raimo-responsive-nav .raimo-responsive-menu.mean-container .mean-nav ul li.megamenu li a i {
+  .raimo-responsive-nav
+    .raimo-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li.megamenu
+    li
+    a
+    i {
     display: inline-block;
     font-size: 35px;
     line-height: 1;
@@ -828,16 +1023,29 @@ Main Banner Area CSS
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-.main-banner-box .currency-selection .dropdown .dropdown-menu .dropdown-item:last-child {
+.main-banner-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.main-banner-box .currency-selection .dropdown .dropdown-menu .dropdown-item img {
+.main-banner-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.main-banner-box .currency-selection .dropdown .dropdown-menu .dropdown-item:hover {
+.main-banner-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   color: var(--mainColor);
 }
 .main-banner-box .currency-selection .dropdown .dropdown-menu.show {
@@ -892,7 +1100,8 @@ Main Banner Area CSS
 .main-banner-box .features-list li .first-span {
   width: 130px;
 }
-.main-banner-box button, .main-banner-box .coinbaseBtn {
+.main-banner-box button,
+.main-banner-box .coinbaseBtn {
   display: block;
   width: 100%;
   border-radius: 3px;
@@ -908,7 +1117,8 @@ Main Banner Area CSS
   font-size: var(--fontSize);
   font-weight: 600;
 }
-.main-banner-box button i, .main-banner-box .coinbaseBtn i {
+.main-banner-box button i,
+.main-banner-box .coinbaseBtn i {
   font-size: 20px;
   margin-left: -30px;
   position: absolute;
@@ -916,7 +1126,8 @@ Main Banner Area CSS
   transform: translateY(-50%);
   line-height: 1;
 }
-.main-banner-box button:hover, .main-banner-box .coinbaseBtn:hover {
+.main-banner-box button:hover,
+.main-banner-box .coinbaseBtn:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
@@ -1000,7 +1211,11 @@ Main Banner Area CSS
   right: 0;
   top: 0;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-toggle {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle {
   border: none;
   height: 70px;
   transition: var(--transition);
@@ -1013,23 +1228,44 @@ Main Banner Area CSS
   font-weight: 600;
   font-size: 17px;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-toggle img {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle
+  img {
   width: 35px;
   position: absolute;
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-toggle::after {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle::after {
   display: none;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-toggle.show {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle.show {
   background-color: #f9f9f9;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-toggle.show::before {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle.show::before {
   transform: translateY(-50%) rotate(180deg);
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu {
   position: absolute;
   display: block;
   width: 100%;
@@ -1052,18 +1288,40 @@ Main Banner Area CSS
   inset: unset !important;
   border-radius: 0 5px 0 0;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu li {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li {
   border-bottom: 1px solid #eeeeee;
   padding: 20px 15px;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu li:last-child {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li:last-child {
   border-bottom: none;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu li .coin-wrapper img {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li
+  .coin-wrapper
+  img {
   margin-right: 10px;
   width: 30px;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu .dropdown-item {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item {
   cursor: pointer;
   position: relative;
   color: var(--blackColor);
@@ -1075,19 +1333,39 @@ Main Banner Area CSS
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu .dropdown-item:last-child {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu .dropdown-item img {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu .dropdown-item:hover {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   color: var(--mainColor);
 }
-.banner-content .cryptocurrency-search-box .currency-selection .dropdown .dropdown-menu.show {
+.banner-content
+  .cryptocurrency-search-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu.show {
   opacity: 1;
   visibility: visible;
   margin-top: 0 !important;
@@ -1310,30 +1588,42 @@ About Area CSS
   align-self: center;
   display: flex;
 }
-.history-timeline.timeline .timeline-event:nth-child(2n+1) {
+.history-timeline.timeline .timeline-event:nth-child(2n + 1) {
   flex-direction: row-reverse;
 }
-.history-timeline.timeline .timeline-event:nth-child(2n+1) .timeline-event-icon {
+.history-timeline.timeline
+  .timeline-event:nth-child(2n + 1)
+  .timeline-event-icon {
   margin-right: 0;
   margin-left: 20px;
 }
-.history-timeline.timeline .timeline-event:nth-child(2n+1) .timeline-event-icon:after {
+.history-timeline.timeline
+  .timeline-event:nth-child(2n + 1)
+  .timeline-event-icon:after {
   left: auto;
   right: 100%;
 }
-.history-timeline.timeline .timeline-event:nth-child(2n+1) .timeline-event-date {
+.history-timeline.timeline
+  .timeline-event:nth-child(2n + 1)
+  .timeline-event-date {
   border-radius: 0 5px 5px 0;
 }
-.history-timeline.timeline .timeline-event:nth-child(2n+1) .timeline-event-content {
+.history-timeline.timeline
+  .timeline-event:nth-child(2n + 1)
+  .timeline-event-content {
   border-radius: 5px 0 0 5px;
 }
 .history-timeline.timeline .timeline-event:last-child {
   margin-bottom: 0;
 }
-.history-timeline.timeline .timeline-event:last-child .timeline-event-icon:before {
+.history-timeline.timeline
+  .timeline-event:last-child
+  .timeline-event-icon:before {
   display: none;
 }
-.history-timeline.timeline .timeline-event:last-child .timeline-event-icon:after {
+.history-timeline.timeline
+  .timeline-event:last-child
+  .timeline-event-icon:after {
   display: none;
 }
 .history-timeline.timeline .timeline-event-content {
@@ -1691,7 +1981,12 @@ Cryptocurrency Platform Area CSS
   width: 10px;
   height: 10px;
 }
-.cryptocurrency-platform-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .cryptocurrency-platform-slides .swiper-pagination .swiper-pagination-bullet:hover {
+.cryptocurrency-platform-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.cryptocurrency-platform-slides
+  .swiper-pagination
+  .swiper-pagination-bullet:hover {
   background-color: var(--mainColor);
 }
 
@@ -1848,7 +2143,10 @@ Cryptocurrency Details Area CSS
   font-weight: 700;
   font-family: var(--fontFamily2);
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .currency-selection .cryptocurrency {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .currency-selection
+  .cryptocurrency {
   position: absolute;
   right: 0;
   top: 0;
@@ -1865,7 +2163,11 @@ Cryptocurrency Details Area CSS
   font-weight: 600;
   font-size: 17px;
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .currency-selection .cryptocurrency img {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .currency-selection
+  .cryptocurrency
+  img {
   width: 30px;
   position: absolute;
   left: 20px;
@@ -1907,16 +2209,30 @@ Cryptocurrency Details Area CSS
   background-color: #eeeeee;
   z-index: -1;
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .features-list li:nth-child(1) {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .features-list
+  li:nth-child(1) {
   padding-bottom: 12px;
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .features-list li:nth-child(2) {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .features-list
+  li:nth-child(2) {
   padding-top: 0;
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .features-list li .second-span {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .features-list
+  li
+  .second-span {
   margin-left: 20px;
 }
-.cryptocurrency-details-sidebar .buy-cryptocurrency .features-list li .first-span {
+.cryptocurrency-details-sidebar
+  .buy-cryptocurrency
+  .features-list
+  li
+  .first-span {
   width: 130px;
 }
 .cryptocurrency-details-sidebar .buy-cryptocurrency button {
@@ -2065,10 +2381,10 @@ Value Trade Area CSS
   left: 0;
 }
 .single-value-trade-box p .trending.up {
-  color: #38837B;
+  color: #38837b;
 }
 .single-value-trade-box p .trending.down {
-  color: #AC2817;
+  color: #ac2817;
 }
 
 /*================================================
@@ -2154,7 +2470,9 @@ Best Seller Cryptocurrency Area CSS
   width: 10px;
   height: 10px;
 }
-.cryptocurrency-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.cryptocurrency-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #fff;
 }
 
@@ -2386,7 +2704,9 @@ Feedback Area CSS
   width: 10px;
   height: 10px;
 }
-.feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.feedback-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: var(--mainColor);
 }
 
@@ -2631,7 +2951,10 @@ Portfolio Area CSS
   width: 10px;
   height: 10px;
 }
-.content-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .content-slides .swiper-pagination .swiper-pagination-bullet:hover {
+.content-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.content-slides .swiper-pagination .swiper-pagination-bullet:hover {
   background-color: #000;
 }
 
@@ -2775,13 +3098,13 @@ Features Area CSS
   margin-bottom: 25px;
 }
 .single-features-item .icon.bg-F87100 {
-  background-color: #F87100;
+  background-color: #f87100;
 }
 .single-features-item .icon.bg-5466f9 {
   background-color: #5466f9;
 }
 .single-features-item .icon.bg-FF9900 {
-  background-color: #FF9900;
+  background-color: #ff9900;
 }
 .single-features-item .icon.bg-cc00ff {
   background-color: #cc00ff;
@@ -2932,7 +3255,8 @@ App Download Area CSS
   }
 }
 @keyframes border-transform {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
   }
   14% {
@@ -3026,11 +3350,15 @@ Wallet Area CSS
   transition: var(--transition);
   text-align: center;
 }
-.wallet-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected i {
+.wallet-tabs
+  .react-tabs__tab-list
+  .react-tabs__tab.react-tabs__tab--selected
+  i {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
-.wallet-tabs .react-tabs__tab-list .react-tabs__tab:focus, .wallet-tabs .react-tabs__tab-list .react-tabs__tab::after {
+.wallet-tabs .react-tabs__tab-list .react-tabs__tab:focus,
+.wallet-tabs .react-tabs__tab-list .react-tabs__tab::after {
   background-color: initial;
 }
 .wallet-tabs .react-tabs__tab-list .react-tabs__tab:lats-child {
@@ -3336,7 +3664,8 @@ Reigster Area CSS
 }
 
 @keyframes border-transform {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
   }
   14% {
@@ -3359,14 +3688,9 @@ Reigster Area CSS
   }
 }
 
-
 /*================================================
 Timeline
 =================================================*/
-
-
-
-
 
 /*================================================
 Data Table Area CSS
@@ -3512,7 +3836,11 @@ Data Table Area CSS
 .cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate span {
   display: inline-block;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate span .paginate_button {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  span
+  .paginate_button {
   transition: var(--transition);
   width: 35px;
   height: 35px;
@@ -3529,17 +3857,28 @@ Data Table Area CSS
   margin-left: 3px;
   margin-right: 3px;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate span .paginate_button:hover {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  span
+  .paginate_button:hover {
   border-color: rgb(236, 239, 241);
   background: transparent;
   color: var(--mainColor) !important;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate span .paginate_button.current {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  span
+  .paginate_button.current {
   background: var(--mainColor);
   color: var(--whiteColor) !important;
   border-color: var(--mainColor) !important;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.previous {
   font-size: 0;
   width: 35px;
   position: relative;
@@ -3550,16 +3889,25 @@ Data Table Area CSS
   border: 1px solid #eeeeee;
   transition: var(--transition);
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.previous:hover {
   background: transparent;
   color: var(--mainColor) !important;
   border-color: rgb(236, 239, 241);
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.previous.disabled {
   pointer-events: none;
   opacity: 0.5 !important;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.previous::before {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.previous::before {
   content: "\e9af";
   font-family: "boxicons";
   position: absolute;
@@ -3569,7 +3917,10 @@ Data Table Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.next {
   font-size: 0;
   width: 35px;
   height: 35px;
@@ -3580,16 +3931,25 @@ Data Table Area CSS
   border: 1px solid #eeeeee;
   transition: var(--transition);
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.next:hover {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.next:hover {
   background: transparent;
   color: var(--mainColor) !important;
   border-color: rgb(236, 239, 241);
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.next.disabled {
   pointer-events: none;
   opacity: 0.5 !important;
 }
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate .paginate_button.next::before {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  .paginate_button.next::before {
   content: "\e9b2";
   font-family: "boxicons";
   position: absolute;
@@ -3706,7 +4066,12 @@ Page Title Area CSS
   animation: run 7s 0s infinite;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, var(--whiteColor) 75%, var(--whiteColor) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    var(--whiteColor) 75%,
+    var(--whiteColor) 100%
+  );
 }
 .lines .line:nth-child(1) {
   margin-left: -35%;
@@ -3863,7 +4228,10 @@ Buy Cryptocurrency Area CSS
 .buy-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show {
   background-color: #f9f9f9;
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show::before {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle.show::before {
   transform: translateY(-50%) rotate(180deg);
 }
 .buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu {
@@ -3893,10 +4261,18 @@ Buy Cryptocurrency Area CSS
   border-bottom: 1px solid #eeeeee;
   padding: 20px 15px;
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu li:last-child {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li:last-child {
   border-bottom: none;
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item {
   cursor: pointer;
   position: relative;
   color: var(--blackColor);
@@ -3908,16 +4284,29 @@ Buy Cryptocurrency Area CSS
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:last-child {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item img {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:hover {
+.buy-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   color: var(--mainColor);
 }
 .buy-cryptocurrency-box .currency-selection .dropdown .dropdown-menu.show {
@@ -4109,7 +4498,10 @@ Sell Cryptocurrency Area CSS
 .sell-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show {
   background-color: #f9f9f9;
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show::before {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle.show::before {
   transform: translateY(-50%) rotate(180deg);
 }
 .sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu {
@@ -4140,14 +4532,22 @@ Sell Cryptocurrency Area CSS
   padding: 20px 15px;
   font-size: 14px;
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu li:last-child {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li:last-child {
   border-bottom: none;
 }
 .sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu li img {
   margin-right: 10px;
   width: 30px;
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item {
   cursor: pointer;
   position: relative;
   color: var(--blackColor);
@@ -4159,16 +4559,29 @@ Sell Cryptocurrency Area CSS
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:last-child {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item img {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:hover {
+.sell-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   color: var(--mainColor);
 }
 .sell-cryptocurrency-box .currency-selection .dropdown .dropdown-menu.show {
@@ -4356,13 +4769,19 @@ Trade Cryptocurrency Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle::after {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle::after {
   display: none;
 }
 .trade-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show {
   background-color: #f9f9f9;
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-toggle.show::before {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-toggle.show::before {
   transform: translateY(-50%) rotate(180deg);
 }
 .trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu {
@@ -4393,14 +4812,22 @@ Trade Cryptocurrency Area CSS
   padding: 20px 15px;
   font-size: 14px;
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu li:last-child {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  li:last-child {
   border-bottom: none;
 }
 .trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu li img {
   width: 30px;
   margin-right: 10px;
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item {
   cursor: pointer;
   position: relative;
   color: var(--blackColor);
@@ -4412,16 +4839,29 @@ Trade Cryptocurrency Area CSS
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:last-child {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item img {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu .dropdown-item:hover {
+.trade-cryptocurrency-box
+  .currency-selection
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   color: var(--mainColor);
 }
 .trade-cryptocurrency-box .currency-selection .dropdown .dropdown-menu.show {
@@ -4542,7 +4982,11 @@ Profile Authentication Area CSS
 .login-form form .remember-me-wrap {
   margin-top: 5px;
 }
-.login-form form .remember-me-wrap .form-check .form-check-input[type=checkbox] {
+.login-form
+  form
+  .remember-me-wrap
+  .form-check
+  .form-check-input[type="checkbox"] {
   border-radius: 0;
   box-shadow: unset;
 }
@@ -4618,9 +5062,9 @@ Profile Authentication Area CSS
 .login-form .login-with-button button {
   width: 100%;
   display: block;
-  color: #248BD2;
+  color: #248bd2;
   border-radius: 5px;
-  border: 1px solid #D2D2D2;
+  border: 1px solid #d2d2d2;
   background-color: transparent;
   transition: var(--transition);
   padding-top: 13px;
@@ -4636,7 +5080,7 @@ Profile Authentication Area CSS
 }
 .login-form .login-with-button button:hover {
   color: var(--blackColor);
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 
 .register-form {
@@ -4677,9 +5121,9 @@ Profile Authentication Area CSS
 .register-form .register-with-button button {
   width: 100%;
   display: block;
-  color: #248BD2;
+  color: #248bd2;
   border-radius: 5px;
-  border: 1px solid #D2D2D2;
+  border: 1px solid #d2d2d2;
   background-color: transparent;
   transition: var(--transition);
   padding-top: 13px;
@@ -4695,7 +5139,7 @@ Profile Authentication Area CSS
 }
 .register-form .register-with-button button:hover {
   color: var(--blackColor);
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 
 /*================================================
@@ -4774,7 +5218,11 @@ Blog Area CSS
   padding: 0.1% 0px;
   display: inline;
   color: inherit;
-  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-image: linear-gradient(
+    to right,
+    currentColor 0%,
+    currentColor 100%
+  );
   background-size: 0px 2px;
   background-position: 0px 95%;
   background-repeat: no-repeat;
@@ -4955,7 +5403,14 @@ Blog Details Area CSS
   background-color: #0077b5;
 }
 .blog-details-desc .article-content .social-links li a.instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 .blog-details-desc .article-content .social-links li a:hover {
   opacity: 0.8;
@@ -5026,25 +5481,52 @@ Blog Details Area CSS
 .blog-details-desc .comment-respond .comment-form .form-check {
   margin-top: 10px;
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-label {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-label {
   color: var(--paragraphColor);
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-label a {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-label
+  a {
   color: var(--mainColor);
   font-weight: 500;
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-label a:hover {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-label
+  a:hover {
   text-decoration: underline;
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-label strong {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-label
+  strong {
   font-weight: 600;
   color: var(--blackColor);
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-input[type=checkbox] {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-input[type="checkbox"] {
   border-radius: 0;
   box-shadow: unset !important;
 }
-.blog-details-desc .comment-respond .comment-form .form-check .form-check-input[type=checkbox]:checked {
+.blog-details-desc
+  .comment-respond
+  .comment-form
+  .form-check
+  .form-check-input[type="checkbox"]:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -5052,14 +5534,16 @@ Blog Details Area CSS
   margin-top: 10px;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 40px 50px !important;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   line-height: 1.7;
   margin-bottom: 0;
   color: var(--blackColor);
@@ -5067,13 +5551,15 @@ blockquote p, .blockquote p {
   font-style: italic;
   font-size: 20px !important;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   padding-left: 30px;
   position: relative;
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
-blockquote cite::before, .blockquote cite::before {
+blockquote cite::before,
+.blockquote cite::before {
   left: 0;
   top: 50%;
   width: 20px;
@@ -5308,7 +5794,8 @@ Pagination CSS
   color: var(--paragraphColor);
   transition: var(--transition);
   background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
-  box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+  box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15),
+    0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
   font-size: 16px;
   font-weight: 700;
   margin-left: 5px;
@@ -5435,7 +5922,14 @@ Contact Area CSS
   background-color: #0077b5;
 }
 .contact-info .social-links li a.instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 .contact-info .social-links li:last-child {
   margin-right: 0;
@@ -5487,11 +5981,11 @@ Contact Area CSS
   margin-left: 0;
   margin-right: 5px;
 }
-.contact-form .form-check .form-check-input[type=checkbox] {
+.contact-form .form-check .form-check-input[type="checkbox"] {
   border-radius: 0;
   box-shadow: unset !important;
 }
-.contact-form .form-check .form-check-input[type=checkbox]:checked {
+.contact-form .form-check .form-check-input[type="checkbox"]:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -5562,7 +6056,10 @@ Footer Area CSS
   border: 1px solid #eee;
   padding-left: 15px;
 }
-.single-footer-widget .newsletter-form form .input-newsletter::-moz-placeholder {
+.single-footer-widget
+  .newsletter-form
+  form
+  .input-newsletter::-moz-placeholder {
   color: #a7a7a7;
   -moz-transition: var(--transition);
   transition: var(--transition);
@@ -5571,10 +6068,16 @@ Footer Area CSS
   color: #a7a7a7;
   transition: var(--transition);
 }
-.single-footer-widget .newsletter-form form .input-newsletter:focus::-moz-placeholder {
+.single-footer-widget
+  .newsletter-form
+  form
+  .input-newsletter:focus::-moz-placeholder {
   color: transparent;
 }
-.single-footer-widget .newsletter-form form .input-newsletter:focus::placeholder {
+.single-footer-widget
+  .newsletter-form
+  form
+  .input-newsletter:focus::placeholder {
   color: transparent;
 }
 .single-footer-widget .newsletter-form form button {
@@ -5655,7 +6158,14 @@ Footer Area CSS
   background-color: #0077b5;
 }
 .single-footer-widget .social-links li a.instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 .single-footer-widget .social-links li:last-child {
   margin-right: 0;
@@ -5884,7 +6394,11 @@ Go Top CSS
   font-weight: 500;
 }
 
-.cryptocurrency-data-table .dataTables_wrapper .dataTables_paginate span .paginate_button.current {
+.cryptocurrency-data-table
+  .dataTables_wrapper
+  .dataTables_paginate
+  span
+  .paginate_button.current {
   background: var(--mainColor);
   color: var(--whiteColor) !important;
   border-color: var(--mainColor) !important;
@@ -5932,9 +6446,7 @@ Go Top CSS
 }
 .lang-dropdown .dropdown-list li a {
   font-size: 13px;
-}/*# sourceMappingURL=style.css.map */
-
-
+} /*# sourceMappingURL=style.css.map */
 
 /*History Timeline */
 
@@ -5956,7 +6468,7 @@ Go Top CSS
 
 .history-timeline-event {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid #e0e0e0;
@@ -5965,7 +6477,7 @@ Go Top CSS
 .history-timeline-year {
   font-weight: bold;
   color: #2980b9;
-  width:8rem;
+  width: 8rem;
 }
 
 .history-timeline-description {
@@ -5976,19 +6488,199 @@ Go Top CSS
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .history-timeline .history_h2{
-    padding:10px;
+  .history-timeline {
+    padding: 10px;
+  }
+  .history-timeline .history_h2 {
+    padding: 10px;
     text-align: center;
     font-size: large;
   }
   .history-timeline-event {
-      flex-direction: column;
-      align-items: flex-start;
-      padding:10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
   }
 
   .history-timeline-description {
-      margin-left: 0;
-      margin-top: 5px;
+    margin-left: 0;
+    margin-top: 5px;
   }
 }
+
+/* Values */
+.values_h1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+.values-container {
+  width: 70rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 10rem;
+}
+
+.value-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.value-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.value-description {
+  font-size: 1em;
+  color: #7f8c8d;
+}
+
+/* Responsive design */
+@media (max-width: 1300px) {
+  .values-container {
+      width: fit-content;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .values-container {
+      grid-template-columns: 1fr;
+      min-width: 100%; /* Ensure full width for small screens */
+  }
+}
+
+
+/* Why us */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.safal-container {
+  background-color: white;
+  margin : 3rem auto;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  padding : 2rem 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.safal-title {
+  text-align: center;
+  /* background-color: #008CBA; */
+  /* color: white; */
+  padding: 20px;
+}
+
+.safal-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.safal-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.safal-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.safal-info {
+  flex: 2;
+  padding: 20px;
+}
+
+.safal-subtitle {
+  color: #008CBA;
+  margin-bottom: 20px;
+}
+
+.safal-features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.safal-feature {
+  display: flex;
+  align-items: center;
+}
+
+.safal-icon {
+  font-size: 2rem;
+  color: #008CBA;
+  margin-right: 20px;
+}
+
+.safal-text h3 {
+  margin-bottom: 10px;
+}
+
+.safal-text p {
+  color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .safal-content {
+    flex-direction: column;
+  }
+
+  .safal-image,
+  .safal-info {
+    flex: none;
+    width: 100%;
+  }
+
+  .safal-features {
+    gap: 10px;
+  }
+
+  .safal-icon {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Products component */

@@ -17,7 +17,8 @@ const BuySell = ({ pt70 }) => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12 col-md-12">
               <div className="buy-sell-cryptocurrency-image">
-                <img src="/images/women-with-tab.png" alt="image" />
+                {/* <img src="/images/women-with-tab.png" alt="image" /> */}
+                <img src="/images/allNewImages/buy.png" alt="image" width={618} height={1000}/>
               </div>
             </div>
 

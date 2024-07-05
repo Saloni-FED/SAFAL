@@ -1,4 +1,3 @@
-
 const AccountCreate = ({ title }) => {
   return (
     <>
@@ -21,13 +20,12 @@ const AccountCreate = ({ title }) => {
                   <div className="col-lg-4 col-sm-6 col-md-6">
                     <div className="single-process-box">
                       <div className="icon">
-                        <img src="/images/allNewImages/vision.png" alt="image" />
+                        <img src="/images/icon/icon1.png" alt="image" />
                       </div>
-                      <h3>Our Vision</h3>
+                      <h3>Create Account</h3>
                       <p>
-                        To be a leading brokerage house partnering our clients
-                        in their journey of wealth creation and wealth
-                        management.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore.
                       </p>
                     </div>
                   </div>
@@ -35,14 +33,12 @@ const AccountCreate = ({ title }) => {
                   <div className="col-lg-4 col-sm-6 col-md-6">
                     <div className="single-process-box">
                       <div className="icon">
-                        <img src="/images/allNewImages/philosophy.png" alt="image" />
+                        <img src="/images/icon/icon2.png" alt="image" />
                       </div>
-                      <h3>Our Philosophy</h3>
+                      <h3>Link Your Bank Account</h3>
                       <p>
-                        Our business model harnesses the strengths of our
-                        clients, commitment of our business associates and
-                        dedication of our employees. Our philosophy is unique
-                        and clearly defined:
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore.
                       </p>
                     </div>
                   </div>
@@ -50,15 +46,12 @@ const AccountCreate = ({ title }) => {
                   <div className="col-lg-4 col-sm-6 col-md-6">
                     <div className="single-process-box">
                       <div className="icon">
-                        <img src="/images/allNewImages/public-relation.png" alt="image" />
+                        <img src="/images/icon/icon3.png" alt="image" />
                       </div>
-                      <h3>Towards Our Clients</h3>
+                      <h3>Start Buying & Selling</h3>
                       <p>
-                        We strive to understand the needs of our clients To
-                        serve their diverse requirement we have developed a
-                        bouquet of high quality products and services besides
-                        providing guidance and hand holding. We invest in
-                        building long-term relationship with our clients.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore.
                       </p>
                     </div>
                   </div>

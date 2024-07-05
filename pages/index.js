@@ -10,6 +10,8 @@ import Portfolio from '../components/Common/Portfolio';
 import OurFeature from '../components/Common/OurFeature';
 import AppDownload from '../components/Common/AppDownload';
 import RegisterAreaTwo from '../components/Common/RegisterAreaTwo';
+import WhyUs from "../components/WhyUs/WhyUs"
+import Products from '../components/Products/Products';
 
 const Index = () => {
   
@@ -19,7 +21,11 @@ const Index = () => {
 
       <Funfact pt100='pt-100' />
 
+      <WhyUs  title="Why Choose SAFAL?"/>
+
       <BuySell pt70='pt-70' />
+
+     {/* <Products/> */}
 
       <AccountCreate title='Get Started in a Few Minutes' />
 
@@ -33,7 +39,7 @@ const Index = () => {
 
       <AppDownload />
       
-      <RegisterAreaTwo title='Start Trading on Novis' />
+      <RegisterAreaTwo title='Start Trading on Safal' />
     </>
   );
 };
