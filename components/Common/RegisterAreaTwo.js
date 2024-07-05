@@ -7,11 +7,11 @@ const RegisterAreaTwo = ({ title }) => {
         <div className="container">
           <div className="account-register-content">
             <h2>{title}</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
+            </p> */}
             <Link
               href="https://www.coinbase.com/signup"
               className="default-btn global-cursor"

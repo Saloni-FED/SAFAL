@@ -6560,19 +6560,18 @@ Go Top CSS
 /* Responsive design */
 @media (max-width: 1300px) {
   .values-container {
-      width: fit-content;
-      grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .values-container {
-      grid-template-columns: 1fr;
-      min-width: 100%; /* Ensure full width for small screens */
+    grid-template-columns: 1fr;
+    min-width: 100%; /* Ensure full width for small screens */
   }
 }
-
 
 /* Why us */
 
@@ -6593,11 +6592,11 @@ Go Top CSS
 
 .safal-container {
   background-color: white;
-  margin : 3rem auto;
+  margin: 3rem auto;
   border-radius: 10px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
-  padding : 2rem 0;
+  padding: 2rem 0;
   width: 100%;
   max-width: 1200px;
 }
@@ -6632,7 +6631,7 @@ Go Top CSS
 }
 
 .safal-subtitle {
-  color: #008CBA;
+  color: #008cba;
   margin-bottom: 20px;
 }
 
@@ -6649,7 +6648,7 @@ Go Top CSS
 
 .safal-icon {
   font-size: 2rem;
-  color: #008CBA;
+  color: #008cba;
   margin-right: 20px;
 }
 
@@ -6682,5 +6681,80 @@ Go Top CSS
   }
 }
 
-
 /* Products component */
+.comp_product{
+  padding: 3rem 0;
+}
+.comp_product .comp_h5{
+  text-align: center;
+  font-size: large;
+  margin: 3rem 0;
+}
+.logos-wrapper {
+  display: flex;
+  overflow-x: hidden;
+}
+.logos-slide {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.embla {
+  max-width: 70rem;
+  margin: auto;
+  --slide-height: 10rem;
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+  --slide-spacing-sm: 1.6rem;
+  --slide-size-sm: 50%;
+  --slide-spacing-lg: 1rem;
+  --slide-size-lg: calc(100% / 5);
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+@media (min-width: 750px) {
+  .embla__container {
+    margin-left: calc(var(--slide-spacing-sm) * -1);
+  }
+}
+@media (min-width: 1200px) {
+  .embla__container {
+    margin-left: calc(var(--slide-spacing-lg) * -1);
+  }
+}
+.embla__slide {
+  min-width: 0;
+  flex: 0 0 var(--slide-size);
+  padding-left: var(--slide-spacing);
+}
+@media (min-width: 750px) {
+  .embla__slide {
+    flex: 0 0 var(--slide-size-sm);
+    padding-left: var(--slide-spacing-sm);
+  }
+}
+@media (min-width: 1200px) {
+  .embla__slide {
+    flex: 0 0 var(--slide-size-lg);
+    padding-left: var(--slide-spacing-lg);
+  }
+}
+.embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+}

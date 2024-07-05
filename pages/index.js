@@ -19,25 +19,25 @@ const Index = () => {
     <>
       <Banner />
 
-      <Funfact pt100='pt-100' />
+      {/* <Funfact pt100='pt-100' /> */}
 
       <WhyUs  title="Why Choose SAFAL?"/>
 
       <BuySell pt70='pt-70' />
 
-     {/* <Products/> */}
+     <Products/>
 
-      <AccountCreate title='Get Started in a Few Minutes' />
+      {/* <AccountCreate title='Get Started in a Few Minutes' /> */}
 
-      <Platform />
+      {/* <Platform /> */}
 
-      <FeedBack />
+      {/* <FeedBack /> */}
 
-      <Portfolio bgColor='bg-f9f9f9' />
+      {/* <Portfolio bgColor='bg-f9f9f9' /> */}
 
-      <OurFeature title='Our Features' />
+      {/* <OurFeature title='Our Features' /> */}
 
-      <AppDownload />
+      {/* <AppDownload /> */}
       
       <RegisterAreaTwo title='Start Trading on Safal' />
     </>

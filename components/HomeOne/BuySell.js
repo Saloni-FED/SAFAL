@@ -7,18 +7,23 @@ const BuySell = ({ pt70 }) => {
         <div className="container">
           <div className="section-title">
             <h2>How to Buy and Sell Cryptocurrency</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
+            </p> */}
           </div>
 
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12 col-md-12">
               <div className="buy-sell-cryptocurrency-image">
                 {/* <img src="/images/women-with-tab.png" alt="image" /> */}
-                <img src="/images/allNewImages/buy.png" alt="image" width={618} height={1000}/>
+                <img
+                  src="/images/allNewImages/buy.png"
+                  alt="image"
+                  width={618}
+                  height={1000}
+                />
               </div>
             </div>
 
@@ -31,10 +36,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon12.png" alt="image" />
                       </div>
                       <h3>Bank Transfers</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Easy Bank Transfer</p>
                     </div>
                   </div>
 
@@ -44,10 +46,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon13.png" alt="image" />
                       </div>
                       <h3>Online Wallets</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Facility Of Online Wallets.</p>
                     </div>
                   </div>
 
@@ -57,10 +56,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon14.png" alt="image" />
                       </div>
                       <h3>Cash Payment</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Cash Payment is available.</p>
                     </div>
                   </div>
 
@@ -70,10 +66,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon15.png" alt="image" />
                       </div>
                       <h3>Debit/Credit Cards</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Debit Card can be applied</p>
                     </div>
                   </div>
 
@@ -83,10 +76,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon16.png" alt="image" />
                       </div>
                       <h3>Discounted Gift Cards</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Get upto 80% Discount on Gift Cards</p>
                     </div>
                   </div>
 
@@ -96,10 +86,7 @@ const BuySell = ({ pt70 }) => {
                         <img src="/images/icon/icon17.png" alt="image" />
                       </div>
                       <h3>Goods & Services</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut.
-                      </p>
+                      <p>Amazing Goods & Services offered</p>
                     </div>
                   </div>
                 </div>

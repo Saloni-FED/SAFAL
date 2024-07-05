@@ -22,7 +22,8 @@ const TopHeader = () => {
               },
             }}
             autoplay={{
-              delay: 5000,
+              delay: 500,
+              waitForTransition: false,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}
