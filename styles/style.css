@@ -6689,6 +6689,7 @@ Go Top CSS
   text-align: center;
   font-size: large;
   margin: 3rem 0;
+  padding: 0 20px;
 }
 .logos-wrapper {
   display: flex;
@@ -6706,9 +6707,9 @@ Go Top CSS
   margin: auto;
   --slide-height: 10rem;
   --slide-spacing: 1rem;
-  --slide-size: 100%;
+  --slide-size: 35%;
   --slide-spacing-sm: 1.6rem;
-  --slide-size-sm: 50%;
+  --slide-size-sm: 25%;
   --slide-spacing-lg: 1rem;
   --slide-size-lg: calc(100% / 5);
 }
@@ -6739,7 +6740,7 @@ Go Top CSS
 .embla__slide {
   min-width: 0;
   flex: 0 0 var(--slide-size);
-  padding-left: var(--slide-spacing);
+  padding-left: 3rem;
 }
 @media (min-width: 750px) {
   .embla__slide {
