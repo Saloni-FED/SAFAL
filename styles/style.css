@@ -3358,6 +3358,16 @@ Reigster Area CSS
     border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
   }
 }
+
+
+/*================================================
+Timeline
+=================================================*/
+
+
+
+
+
 /*================================================
 Data Table Area CSS
 =================================================*/
@@ -5923,3 +5933,56 @@ Go Top CSS
 .lang-dropdown .dropdown-list li a {
   font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+/*History Timeline */
+
+.history-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding-bottom: 10rem; */
+  padding-bottom: 5rem;
+  font-size: medium;
+  font-family: Arial, sans-serif;
+}
+
+.history-timeline h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #2c3e50;
+}
+
+.history-timeline-event {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.history-timeline-year {
+  font-weight: bold;
+  color: #2980b9;
+  width:8rem;
+}
+
+.history-timeline-description {
+  flex: 1;
+  margin-left: 20px;
+  color: #7f8c8d;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .history-timeline-event {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .history-timeline-description {
+      margin-left: 0;
+      margin-top: 5px;
+  }
+}

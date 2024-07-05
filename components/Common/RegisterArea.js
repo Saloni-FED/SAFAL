@@ -8,13 +8,20 @@ const RegisterArea = ({ bgGradient, blackText, ctaImage }) => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-12">
               <div className={`cta-content ${blackText}`}>
-                <h2>Start Trading on Novis</h2>
+                <h2>About Safal Capital (India) Limited Our History</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                  Safal Capital (India) Limited is one of the leading financial
+                  services company is central india. Safal Capital has
+                  successfully provide trading facilities in multiple segment to
+                  thousand of clients through a vast network of its business
+                  associates and highly qualified staff . The foundation of
+                  Safal Capital firmly rests on ethics Professionalism and
+                  accountability
                 </p>
-                <Link href="https://www.coinbase.com/signup" className="default-btn global-cursor">
+                <Link
+                  href="https://www.coinbase.com/signup"
+                  className="default-btn global-cursor"
+                >
                   <i className="bx bxs-user"></i> Register Now
                 </Link>
               </div>
