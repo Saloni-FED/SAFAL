@@ -44,7 +44,7 @@ const Products = () => {
                       height={100}
                       className="product-icon"
                     />
-                    <p>{product.name}</p>
+                    <p className="para_embla">{product.name}</p>
                   </div>
                 </div>
               </div>

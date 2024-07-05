@@ -6712,6 +6712,10 @@ Go Top CSS
   --slide-spacing-lg: 1rem;
   --slide-size-lg: calc(100% / 5);
 }
+.para_embla{
+  text-align: center;
+  margin-top:10px;
+}
 
 .embla__viewport {
   overflow: hidden;
