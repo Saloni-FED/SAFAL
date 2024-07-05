@@ -17,7 +17,7 @@ const HistoryTimeline = () => {
 
     return (
         <div className="history-timeline">
-            <h2>Journey of Madhya Pradesh Stock Exchange to Madhya Pradesh Stock and Capital Market Limited</h2>
+            <h2 className="history_h2">Journey of Madhya Pradesh Stock Exchange to Madhya Pradesh Stock and Capital Market Limited</h2>
             {events.map((event, index) => (
                 <div key={index} className="history-timeline-event">
                     <span className="history-timeline-year">{event.year}</span>

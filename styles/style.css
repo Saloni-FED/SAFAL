@@ -5947,7 +5947,7 @@ Go Top CSS
   font-family: Arial, sans-serif;
 }
 
-.history-timeline h2 {
+.history-timeline .history_h2 {
   text-align: left;
   margin-bottom: 20px;
   font-size: 1.5em;
@@ -5976,8 +5976,10 @@ Go Top CSS
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .history-timeline h2{
+  .history-timeline .history_h2{
     padding:10px;
+    text-align: center;
+    font-size: large;
   }
   .history-timeline-event {
       flex-direction: column;

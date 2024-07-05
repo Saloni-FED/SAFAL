@@ -9,14 +9,12 @@ const About = () => {
     <>
       <AboutContent />
 
-      <HistoryTimeline/>
+      <HistoryTimeline />
 
       <AdvisorArea bgColor="bg-f9f9f9" />
+      <RegisterArea ctaImage="/images/man.png" />
 
       <AccountCreate title="Our Values" />
-
-      
-      <RegisterArea ctaImage="/images/man.png" />
     </>
   );
 };
