@@ -45,7 +45,8 @@ const Navbar = () => {
               </div>
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo.png" alt="logo" />
+                  {/* <img src="/images/allNewImages/safal-logo.png" alt="logo" /> */}
+                  <h1 style={{color:"var(--mainColor)"}}>SAFAL</h1>
                 </Link>
               </div>
             </div>
@@ -61,7 +62,8 @@ const Navbar = () => {
         >
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/logo.png" alt="logo" />
+              {/* <img src="/images/allNewImages/safal-logo.png" alt="logo" width={}/> */}
+              <h1 style={{color:"var(--mainColor)"}}>SAFAL</h1>
             </Link>
 
             <div className="collapse navbar-collapse mean-menu">

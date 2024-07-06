@@ -10,7 +10,7 @@ const Wallet = () => {
     <>
       <PageBanner
         pageTitle="Cryptocurrency Wallet"
-        pageSubTitle="Novis is the easiest place to buy and sell cryptocurrency"
+        pageSubTitle="Safal is the easiest place to buy and sell cryptocurrency"
       />
 
       <BeYourOwnBank />

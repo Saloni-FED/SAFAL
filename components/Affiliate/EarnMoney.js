@@ -6,7 +6,7 @@ const EarnMoney = () => {
       <div className="earn-money-area pt-100 pb-70 bg-f9f9f9">
         <div className="container">
           <div className="section-title">
-            <h2>Earn Money With Novis</h2>
+            <h2>Earn Money With Safal</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

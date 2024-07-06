@@ -6,7 +6,7 @@ const Guides = () => {
     <>
       <PageBanner
         pageTitle="How to Buy Cryptocurrency"
-        pageSubTitle="Novis is the easiest place to buy and sell cryptocurrency"
+        pageSubTitle="Safal is the easiest place to buy and sell cryptocurrency"
       />
 
       <GuidesStep />
