@@ -18,14 +18,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Novis - React Next Blockchain & Cryptocurrency Template</title>
+        <title>Safal- React Next Blockchain & Cryptocurrency Template</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta
           name="description"
-          content="Novis - React Next Blockchain & Cryptocurrency Template"
+          content="Safal - React Next Blockchain & Cryptocurrency Template"
         />
       </Head>
 
