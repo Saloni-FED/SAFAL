@@ -1660,19 +1660,25 @@ About Area CSS
   font-weight: 700;
 }
 .history-timeline.timeline .timeline-event-date.bg1 {
-  background-image: url(/images/history/history1.jpg);
+  background-image: url(/images/history/history1.png);
 }
 .history-timeline.timeline .timeline-event-date.bg2 {
-  background-image: url(/images/history/history2.jpg);
+  background-image: url(/images/history/history2.png);
 }
 .history-timeline.timeline .timeline-event-date.bg3 {
-  background-image: url(/images/history/history3.jpg);
+  background-image: url(/images/history/history3.png);
 }
 .history-timeline.timeline .timeline-event-date.bg4 {
-  background-image: url(/images/history/history4.jpg);
+  background-image: url(/images/history/history4.png);
 }
 .history-timeline.timeline .timeline-event-date.bg5 {
-  background-image: url(/images/history/history5.jpg);
+  background-image: url(/images/history/history7.png);
+}
+.history-timeline.timeline .timeline-event-date.bg6 {
+  background-image: url(/images/history/history5.png);
+}
+.history-timeline.timeline .timeline-event-date.bg8 {
+  background-image: url(/images/history/history8.png);
 }
 .history-timeline.timeline .timeline-event-icon {
   width: 40px;

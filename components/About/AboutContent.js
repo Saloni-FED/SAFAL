@@ -125,7 +125,7 @@ const AboutContent = () => {
               <div className="timeline-event-icon">
                 <i className="bx bx-sun"></i>
               </div>
-              <div className="timeline-event-date bg2">
+              <div className="timeline-event-date bg8">
                 <span>2008 </span>
               </div>
               <div className="timeline-event-content">
@@ -143,7 +143,7 @@ const AboutContent = () => {
               <div className="timeline-event-icon">
                 <i className="bx bxs-pie-chart-alt"></i>
               </div>
-              <div className="timeline-event-date bg5">
+              <div className="timeline-event-date bg6">
                 <span>2009 </span>
               </div>
               <div className="timeline-event-content">
