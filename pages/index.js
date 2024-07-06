@@ -12,6 +12,7 @@ import AppDownload from '../components/Common/AppDownload';
 import RegisterAreaTwo from '../components/Common/RegisterAreaTwo';
 import WhyUs from "../components/WhyUs/WhyUs"
 import Products from '../components/Products/Products';
+import Listing from '../components/Listing/Listing';
 
 const Index = () => {
   
@@ -23,11 +24,11 @@ const Index = () => {
 
       <WhyUs  title="Why Choose SAFAL?"/>
 
-      <BuySell pt70='pt-70' />
+      {/* <BuySell pt70='pt-70' /> */}
 
      <Products/>
 
-      {/* <AccountCreate title='Get Started in a Few Minutes' /> */}
+      <AccountCreate title='Get Started in a Few Minutes' />
 
       {/* <Platform /> */}
 
@@ -38,6 +39,8 @@ const Index = () => {
       {/* <OurFeature title='Our Features' /> */}
 
       {/* <AppDownload /> */}
+
+      <Listing/>
       
       <RegisterAreaTwo title='Start Trading on Safal' />
     </>

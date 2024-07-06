@@ -20,11 +20,9 @@ const ContactUsForm = () => {
 
           <div className="contact-form">
             <div className="section-title">
-              <h2>Get In Touch!</h2>
+              <h2>Get In Touch</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+                Get in Touch with Safal by submitting this form
               </p>
             </div>
 

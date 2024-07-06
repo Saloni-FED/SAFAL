@@ -35,21 +35,26 @@ const Footer = () => {
                   <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1>
                 </Link>
 
-                <div className="newsletter-form">
-                  <p>SUBSCRIBE TO OUR NEWSLETTER</p>
-
-                  <form>
-                    <input
-                      type="email"
-                      className="input-newsletter"
-                      placeholder="Enter your email"
-                      name="EMAIL"
-                      required
-                    />
-                    <button type="submit">
-                      Subscribe Now <i className="bx bxs-paper-plane"></i>
-                    </button>
-                  </form>
+                <div className="single-footer-widget">
+                  <h3>Contact Info</h3>
+                  <ul className="footer-contact-info">
+                    <li>
+                      Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur
+                      Gate, Sarangpur, Ahmedabad. Gujarat-380002.
+                    </li>
+                    <li>
+                      Email:{" "}
+                      <a href="mailto:hello@novis.com">
+                        helpdesk@safalcapital.in
+                      </a>
+                    </li>
+                    <li>
+                      Phone: <a href="tel:+44587154756"> 7227906014</a>
+                    </li>
+                    {/* <li>
+                    Fax: <a href='tel:+44587154756'>+1416-555-0477</a>
+                  </li> */}
+                  </ul>
                 </div>
 
                 <ul className="social-links">
@@ -82,19 +87,22 @@ const Footer = () => {
                 <h3>Cryptocurrency</h3>
                 <ul className="services-links">
                   <li>
-                    <Link href="/buy">Buy Bitcoin</Link>
+                    <Link href="/buy">BSE</Link>
                   </li>
                   <li>
-                    <Link href="/buy">Buy BNB</Link>
+                    <Link href="/buy">NSE</Link>
                   </li>
                   <li>
-                    <Link href="/buy">Buy Ethereum</Link>
+                    <Link href="/buy">MCX</Link>
                   </li>
                   <li>
-                    <Link href="/buy">Buy Ripple</Link>
+                    <Link href="/buy">NCDEX</Link>
                   </li>
                   <li>
-                    <Link href="/buy">Buy Litecoin</Link>
+                    <Link href="/buy">SEBI</Link>
+                  </li>
+                  <li>
+                    <Link href="/buy">RBI</Link>
                   </li>
                 </ul>
               </div>
@@ -119,6 +127,12 @@ const Footer = () => {
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
+                  <li>
+                    <Link href="/contact">Escalation Matrix</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Sub Broker</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -128,18 +142,16 @@ const Footer = () => {
                 <h3>Contact Info</h3>
                 <ul className="footer-contact-info">
                   <li>
-                    Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur Gate,
-                    Sarangpur, Ahmedabad. Gujarat-380002.
+                    SAFAL CAPITAL (INDIA) LIMITED CIN No:- U67110MP2000PLC014099
+                    | SEBI Registration No. (NSE/BSE/MSEI) :- INZ000155333 |
+                    CDSL–IN–DP-CDSL-168-2002
                   </li>
                   <li>
-                    Email:{" "}
                     <a href="mailto:hello@novis.com">
-                      helpdesk@safalcapital.in
+                    For Investor Grievances: investorgrievancedesk@safalcapital.in
                     </a>
                   </li>
-                  <li>
-                    Phone: <a href="tel:+44587154756"> 7227906014</a>
-                  </li>
+                  
                   {/* <li>
                     Fax: <a href='tel:+44587154756'>+1416-555-0477</a>
                   </li> */}
@@ -166,53 +178,7 @@ const Footer = () => {
               Disclaimer
             </a>
           </div>
-          <div>
-            <div className="content">
-              <h6 className="center-text">
-                SAFAL CAPITAL (INDIA) LIMITED CIN No:- U67110MP2000PLC014099 |
-                SEBI Registration No. (NSE/BSE/MSEI) :- INZ000155333 |
-                CDSL–IN–DP-CDSL-168-2002
-              </h6>
-              <h6 className="left-text">
-                For Investor Grievances: investorgrievancedesk@safalcapital.in
-              </h6>
-              <h6 className="bold-text">Useful Links :-</h6>
-              <div>
-                <a
-                  href="http://safalcapital.in/Pdfs/ESCALATION%20MATRIX.pdf"
-                  target="_blank"
-                  className="link bold"
-                >
-                  Escalation Matrix
-                </a>
-                <div style={{marginTop:"1rem"}}>
-                  <a
-                    href="https://www.swastika.co.in/sub-broker"
-                    target="_blank"
-                    className="link bold"
-                  >
-                    Sub Broker
-                  </a>
-                </div>
-
-                <div className="margin-top" style={{ marginTop: "1rem" }}>
-                  <span className="bold">Other Links: </span>
-                  {links.map((link, index) => (
-                    <a
-                      key={link.name}
-                      href={link.href}
-                      style={linkStyle(index)}
-                      className="link alignment"
-                      onMouseEnter={() => setHoveredIndex(index)}
-                      onMouseLeave={() => setHoveredIndex(null)}
-                    >
-                      {link.name}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
 
         <div className="copyright-area">

@@ -12,24 +12,21 @@ const FaqContent = () => {
     <>
       <div className="faq-area ptb-100">
         <div className="container">
+          <h2>FAQs</h2>
           <div className="faq-accordion">
             <Accordion>
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    What shipping methods are available?
+                    What are Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    A sub-broker is an agent who works with a main broker to
+                    help clients buy and sell stocks and other securities. They
+                    assist investors in making informed decisions and facilitate
+                    their trading activities.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -37,19 +34,14 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    Do you ship internationally?
+                    How do i become a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    To become a sub-broker, you need to register with Swastika.
+                    We will guide you through the process, including the
+                    required documentation and training.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -57,19 +49,15 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    How do I place an order?
+                    what are the benfits of becoming Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    As a sub-broker, you can earn commissions on the trades you
+                    help facilitate, gain access to a wide range of financial
+                    products, receive training and support from us and build
+                    your own client base.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -77,20 +65,15 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    Is it possible to pay for an order with Visa and MasterCard
-                    payment cards?
+                    What are the requirements to become a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    You typically need a minimum educational qualification,
+                    basic knowledge of the stock market, and a clean financial
+                    and criminal record. Specific requirements may vary
+                    depending on the regulatory authority and the main broker.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -98,19 +81,14 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    How long will it take to get my package?
+                    How Much can i earch as a Sub-broker
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    Earnings as a sub-broker depend on the volume of trades you
+                    facilitate and the commission structure. Higher trading
+                    volumes usually result in higher earnings.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -118,19 +96,15 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    What payment methods are accepted?
+                    What kind of support I will get from Safal?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    Safal provides training, marketing materials, trading
+                    platforms, and customer support to help you succeed as a
+                    sub-broker. They may also offer tools and resources to help
+                    you grow your client base.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -138,19 +112,15 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    Can I return the product after purchase?
+                    How do I attract clients as a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip. Conse ctetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    To attract clients, you can network within your community,
+                    offer educational seminars, use social media, and provide
+                    excellent customer service. Building trust and maintaining
+                    good relationships are key to gaining and retaining clients.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>

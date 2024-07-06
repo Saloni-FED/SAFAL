@@ -24,8 +24,8 @@ const AccountCreate = ({ title }) => {
                       </div>
                       <h3>Create Account</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore.
+                        Sign up now to get started with our services and enjoy
+                        the benefits of being a member.
                       </p>
                     </div>
                   </div>
@@ -37,8 +37,8 @@ const AccountCreate = ({ title }) => {
                       </div>
                       <h3>Link Your Bank Account</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore.
+                        Easily link your bank account to manage your finances
+                        and make transactions seamlessly.
                       </p>
                     </div>
                   </div>
@@ -50,8 +50,8 @@ const AccountCreate = ({ title }) => {
                       </div>
                       <h3>Start Buying & Selling</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore.
+                        Get started with buying and selling today to take
+                        advantage of great deals and offers.
                       </p>
                     </div>
                   </div>

@@ -5,8 +5,10 @@ const ContactInfo = () => {
     <>
       <div className="contact-info">
         <h3>Contact Address:</h3>
+        <h3>Regional Office Communication Address</h3>
         <p>
-          Contact us with your details & ready to start with us. Get In Touch!
+          350 -A, New Cloth Market, O/s Raipur Gate, Sarangpur, Ahmedabad,
+          Gujarat-380002
         </p>
 
         <ul className="contact-list">
@@ -15,22 +17,32 @@ const ContactInfo = () => {
               <i className="bx bx-support"></i>
             </div>
             <p>
-              <a href="tel:+44587154756">+44 587 154756</a>
+              <a href="tel:079-66633606">079-66633606</a>
             </p>
           </li>
           <li>
             <div className="icon">
               <i className="bx bx-globe"></i>
             </div>
+            {/* "white-space: normal; word-break: break-all; display: block" */}
             <p>
-              <a href="mailto:hello@novis.com">hello@novis.com</a>
+              <a
+                href="mailto:hello@novis.com"
+                style={{whiteSpace:"normal", wordBreak : "break-all", display:"block"}}
+              >
+                compliance@safalcapital.in
+              </a>
             </p>
           </li>
           <li>
             <div className="icon">
               <i className="bx bx-map"></i>
             </div>
-            <p>2750, Quadra Street Victoria, Canada</p>
+            {/* <h4></h4> */}
+            <p>
+              Registered Office Address :- 238 Chitvan Bungalow, South Bopal,
+              Ahmedaad : 380058
+            </p>
           </li>
         </ul>
 
