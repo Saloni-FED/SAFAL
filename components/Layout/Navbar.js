@@ -309,9 +309,9 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/sell/"
+                        href="/download"
                         className={`nav-link ${
-                          currentPath == "/sell/" && "active"
+                          currentPath == "/download" && "active"
                         }`}
                       >
                         {/* <img

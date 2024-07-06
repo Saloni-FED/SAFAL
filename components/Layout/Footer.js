@@ -165,7 +165,7 @@ const Footer = () => {
             <a
               className="link link-right"
               style={{ marginRight: "1rem" }}
-              href="#"
+              href="/privacy-policy"
             >
               Privacy Policy
             </a>

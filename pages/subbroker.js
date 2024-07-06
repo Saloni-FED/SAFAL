@@ -4,6 +4,7 @@ import Faq from "../components/Faq/FaqContent";
 import PageBanner from "../components/Common/PageBanner";
 import PartnershipOptions from "../components/PartnerShips/PartnerShipsOptions";
 import Platform from "../components/HomeOne/Platform";
+import FeedBack from "../components/HomeOne/FeedBack";
 const subbroker = () => {
   return (
     <div style={{width:"100%"}}>
@@ -12,6 +13,7 @@ const subbroker = () => {
         />
         <PartnershipOptions/>
         <Platform title={"What our community of sub-brokers has to say"}/>
+        {/* <FeedBack /> */}
         <div style={{width:"100%", overflow:"hidden"}}>
          <div className="contact-form">
         <div className="section-title">

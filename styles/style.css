@@ -6889,18 +6889,12 @@ Go Top CSS
 
 
 /* Card.css */
-/* .card {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  /* overflow: hidden;
-  display: flex; */
-  /* padding: 10px;
-  transition: transform 0.2s; */
-/* } */
 
-/* .card:hover {
+
+.card:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  cursor:pointer
 }
 
 .card-image {
@@ -6946,7 +6940,7 @@ Go Top CSS
   font-size: 0.875rem;
   color: #a0aec0;
   margin-top: 5px;
-} */
+}
 
 
 /* Partner Ship */

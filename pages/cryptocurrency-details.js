@@ -15,7 +15,7 @@ const CryptocurrencyDetails = () => {
 
       <FeaturesArea />
 
-      <RegisterAreaTwo title="Start Trading on Novis" />
+      <RegisterAreaTwo title="Start Trading on Safal" />
     </>
   );
 };

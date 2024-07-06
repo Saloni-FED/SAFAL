@@ -19,9 +19,9 @@ const Products = () => {
       icon: "/images/allNewImages/products/derivatives.png",
     },
     { name: "Management", icon: "/images/allNewImages/products/suitcase.png" },
-    { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
-    { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
-    { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
+    { name: "Mutual Funds", icon: "/images/allNewImages/public-relation.png" },
+    // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
+    // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
   ];
 
   return (
