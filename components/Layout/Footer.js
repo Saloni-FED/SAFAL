@@ -185,7 +185,17 @@ const Footer = () => {
                 >
                   Escalation Matrix
                 </a>
-                <div className="margin-top" style={{marginTop:"1rem"}}>
+                <div style={{marginTop:"1rem"}}>
+                  <a
+                    href="https://www.swastika.co.in/sub-broker"
+                    target="_blank"
+                    className="link bold"
+                  >
+                    Sub Broker
+                  </a>
+                </div>
+
+                <div className="margin-top" style={{ marginTop: "1rem" }}>
                   <span className="bold">Other Links: </span>
                   {links.map((link, index) => (
                     <a
