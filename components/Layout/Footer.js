@@ -143,7 +143,7 @@ const Footer = () => {
                   <li>
                     <span>
                       For Investor Grievances:{" "}
-                      <a href="investorgrievancedesk@safalcapital.in">
+                      <a href="mailto:investorgrievancedesk@safalcapital.in">
                         investorgrievancedesk@safalcapital.in
                       </a>
                     </span>

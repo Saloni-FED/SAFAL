@@ -31,7 +31,9 @@ const Layout = ({ children }) => {
       </Head>
 
       {/* {pathname === "/" ? <TopHeader /> : ""} */}
-      {pathname === "/index-2" ? <NavbarTwo /> : <Navbar />}
+      {pathname === "/index-2" ? <NavbarTwo /> : <div>
+        <Navbar/>
+        </div>}
 
       {children}
       <Toaster/>

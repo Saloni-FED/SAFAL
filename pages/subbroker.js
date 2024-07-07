@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { db } from "../firebase/firebaseConfig";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
-import AccountCreate from "../components/Common/AccountCreate";
 import Faq from "../components/Faq/FaqContent";
 import PageBanner from "../components/Common/PageBanner";
 import PartnershipOptions from "../components/PartnerShips/PartnerShipsOptions";
 import Platform from "../components/HomeOne/Platform";
-import FeedBack from "../components/HomeOne/FeedBack";
-import { toast } from "react-hot-toast"
- 
+import { toast } from "react-hot-toast";
+import SubTable from "../components/SubTable";
+import FeatureCards from "../components/SubBRokerFeature";
+
 const Subbroker = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -35,7 +35,7 @@ const Subbroker = () => {
         phone_number: "",
         msg_subject: "",
         question: "",
-        createdAt:serverTimestamp()
+        createdAt: serverTimestamp(),
       });
     } catch (error) {
       console.error("Error adding document: ", error);
@@ -48,7 +48,28 @@ const Subbroker = () => {
         pageTitle="Partner with us"
         pageSubTitle="Join our family of more than 2261 business partners."
       />
-      <PartnershipOptions />
+      {/* <PartnershipOptions /> */}
+      <div className="sub_table">
+        <h1>Do you have what it takes to be an entrepreneur?</h1>
+        <p>Select from any of these partnership options</p>
+        <SubTable />
+        <div className="option-item  d-lg-block">
+          <a
+            target="_blank"
+            className="default-btn"
+            style={{ marginTop: "2rem", marginBottom: "3rem" }}
+          >
+            <i className="bx bxs-contact"></i> Get Started
+          </a>
+        </div>
+      </div>
+
+      <div style={{ marginTop:"3rem", marginBottom:"10rem" }}>
+        <h3 style={{textAlign:"center"}}>Checkout our Profits</h3>
+
+        <FeatureCards />
+      </div>
+      
       <Platform title={"What our community of sub-brokers has to say"} />
       {/* <FeedBack /> */}
       <div style={{ width: "100%", overflow: "hidden" }}>
@@ -150,7 +171,9 @@ const Subbroker = () => {
         </div>
       </div>
 
-      <Faq />
+      <div style={{ padding: "0 6rem" }}>
+        <Faq />
+      </div>
     </div>
   );
 };

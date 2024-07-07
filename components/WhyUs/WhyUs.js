@@ -6,7 +6,7 @@ function App({title}) {
       <h1 className="safal-title">{title}</h1>
       <div className="safal-content">
         <div className="safal-image">
-          <img src="/images/allNewImages/whyus.png" alt="Safal Capital" />
+          <img src="/images/why.png" alt="Safal Capital" />
         </div>
         <div className="safal-info">
           {/* <h2 className="safal-subtitle">Why Choose SAFAL?</h2> */}

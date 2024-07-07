@@ -268,8 +268,6 @@ Navbar Area CSS
 .navbar-area .container {
   max-width: 1400px;
 }
-
-
 .navbar-area.is-sticky {
   top: 0;
   left: 0;
@@ -6030,7 +6028,7 @@ Footer Area CSS
 }
 .single-footer-widget h3 {
   position: relative;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
   padding-bottom: 8px;
   font-size: 20px;
 }
@@ -6830,6 +6828,7 @@ Go Top CSS
 
 .container {
   max-width: 1200px;
+  overflow: hidden;
   margin: 0 auto;
   padding: 5px;
 }
@@ -6989,14 +6988,79 @@ Go Top CSS
 }
 
 
-/* Footer Other links */
+/* Other links */
+
 .other_links{
-  /* text-align: center; */
-  padding-left: 3rem;
+  padding-left:3rem;
 }
-@media (max-width: 768px) {
+
+@media (max-width:800px){
   .other_links{
-     text-align: left;
-     padding-left: 0;
+    padding-left:0;
   }
+}
+
+
+/* Sub Broker table */
+
+.sub_table{
+  padding:1rem 5rem;
+  margin-top:5rem;
+  margin-bottom:5rem;
+  text-align: center;
+}
+
+.sub_table p{
+   margin-bottom: 3rem;
+}
+
+
+@media (max-width:800px){
+  .sub_table{
+    padding:0
+  }
+}
+
+
+/* Subroker Feature Card */
+
+/* src/FeatureCards.css */
+
+.subBroker_features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.subBroker_feature-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 200px; /* Responsive width */
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.subBroker_feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-image {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #666;
+  font-size: 0.9em;
 }

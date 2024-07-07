@@ -37,13 +37,13 @@ const Platform = ({ title, para }) => {
             <SwiperSlide>
               <div className="single-cryptocurrency-platform-box">
                 <img
-                  src="/images/cryptocurrency-platform/cryptocurrency-platform-3.jpg"
+                  src="/images/man1.png"
                   alt="image"
                   className="w-100"
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon5.png" alt="image" />
+                    <img src="/images/brokers/broker2.png" alt="image" style={{width:"100%", height:"100%", borderRadius:"100%"}}/>
                   </div>
                   <h3>
                     <Link href="/cryptocurrency-details">
@@ -65,13 +65,14 @@ const Platform = ({ title, para }) => {
             <SwiperSlide>
               <div className="single-cryptocurrency-platform-box">
                 <img
-                  src="/images/cryptocurrency-platform/cryptocurrency-platform-1.jpg"
+                  src="/images/man4.png"
                   alt="image"
                   className="w-100"
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon4.png" alt="image" />
+                    {/* <img src="/images/icon/icon4.png" alt="image" /> */}
+                    <img src="/images/brokers/broker3.jpg" alt="image" style={{width:"100%", height:"100%", borderRadius:"100%"}}/>
                   </div>
                   <h3>
                     <Link href="/cryptocurrency-details">
@@ -94,13 +95,13 @@ const Platform = ({ title, para }) => {
             <SwiperSlide>
               <div className="single-cryptocurrency-platform-box">
                 <img
-                  src="/images/cryptocurrency-platform/cryptocurrency-platform-4.jpg"
+                  src="/images/man1.png"
                   alt="image"
                   className="w-100"
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon6.png" alt="image" />
+                  <img src="/images/brokers/broker2.png" alt="image" style={{width:"100%", height:"100%", borderRadius:"100%"}}/>
                   </div>
                   <h3>
                     <Link href="/cryptocurrency-details">
@@ -122,13 +123,14 @@ const Platform = ({ title, para }) => {
             <SwiperSlide>
               <div className="single-cryptocurrency-platform-box">
                 <img
-                  src="/images/cryptocurrency-platform/cryptocurrency-platform-2.jpg"
+                  src="/images/man4.png"
                   alt="image"
                   className="w-100"
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon7.png" alt="image" />
+                    {/* <img src="/images/icon/icon7.png" alt="image" /> */}
+                    <img src="/images/brokers/broker3.jpg" alt="image" style={{width:"100%", height:"100%", borderRadius:"100%"}}/>
                   </div>
                   <h3>
                     <Link href="/cryptocurrency-details">

@@ -28,7 +28,7 @@ const RegisterArea = ({ bgGradient, blackText, ctaImage }) => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="cta-image">
-                <img src={ctaImage} alt="image" />
+                <img src={ctaImage ? ctaImage : "/images/office"} alt="image" />
               </div>
             </div>
           </div>

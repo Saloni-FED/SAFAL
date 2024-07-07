@@ -3,6 +3,7 @@
 
     body {
         font-size: 14px;
+        overflow: hidden;
     }
     p {
         font-size: 14px;
@@ -3927,7 +3928,8 @@
 
     .navbar-area {
         .container {
-            width: 1140px;
+            max-width: 1140px;
+            overflow: hidden;
         }
         .container-fluid {
             max-width: 1140px;

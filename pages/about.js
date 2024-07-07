@@ -15,7 +15,7 @@ const About = () => {
       <HistoryTimeline />
      <WhyUs title={"Why to Choose Us ?"}/>
       <AdvisorArea bgColor="bg-f9f9f9" />
-      <RegisterArea ctaImage="/images/man.png" />
+      <RegisterArea ctaImage="/images/office.png" />
       
         <Values />
 
