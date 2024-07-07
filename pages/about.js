@@ -5,6 +5,7 @@ import AboutContent from "../components/About/AboutContent";
 import HistoryTimeline from "../components/HistoryTimeline";
 
 import Values from "../components/Value/Value";
+import WhyUs from "../components/WhyUs/WhyUs"
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <AboutContent />
 
       <HistoryTimeline />
-
+     <WhyUs title={"Why to Choose Us ?"}/>
       <AdvisorArea bgColor="bg-f9f9f9" />
       <RegisterArea ctaImage="/images/man.png" />
       

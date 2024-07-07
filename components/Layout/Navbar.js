@@ -70,19 +70,12 @@ const Navbar = () => {
             <div className="collapse navbar-collapse mean-menu">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="/" className="dropdown-toggle nav-link">
-                    Home
+                  <Link href="/about" className="nav-link">
+                    About us
                   </Link>
 
-                  <ul className="dropdown-menu">
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/"
-                        className={`nav-link ${currentPath == "/" && "active"}`}
-                      >
-                        Home Demo - 1
-                      </Link> */}
-                    {/* </li> */}
+                  {/* <ul className="dropdown-menu">
+                    
 
                     <li className="nav-item">
                       <Link
@@ -107,9 +100,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      {/* <Link href="#" className="dropdown-toggle nav-link">
-                        Pages
-                      </Link> */}
+                     
 
                       <ul className="dropdown-menu">
                         <li className="nav-item">
@@ -156,10 +147,28 @@ const Navbar = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                 </li>
 
+                <li className="nav-item">
+                  <Link
+                    href="/subbroker"
+                    className={`nav-link ${
+                      currentPath == "/blog/" && "active"
+                    }`}
+                  >
+                    Sub Broker
+                  </Link>
+                  {/* <Link
+                    href="/blog/"
+                    className={`nav-link ${
+                      currentPath == "/blog/" && "active"
+                    }`}
+                  >
+                    Blog
+                  </Link> */}
+                </li>
                 <li className="nav-item megamenu">
                   <Link href="#" className="dropdown-toggle nav-link">
                     Invest With us
@@ -257,86 +266,6 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item megamenu">
-                  <Link href="#" className="dropdown-toggle nav-link">
-                   Resources
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency4.png"
-                          alt="image"
-                        />
-                        XRP - Ripple
-                      </Link>
-                    </li> */}
-
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency5.png"
-                          alt="image"
-                        />
-                        STE - Stellar
-                      </Link>
-                    </li> */}
-
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency2.png"
-                          alt="image"
-                        />
-                        BTC - Bitcoin
-                      </Link>
-                    </li> */}
-
-                    <li className="nav-item">
-                      <Link
-                        href="/download"
-                        className={`nav-link ${
-                          currentPath == "/download" && "active"
-                        }`}
-                      >
-                        {/* <img
-                          src="/images/cryptocurrency/cryptocurrency3.png"
-                          alt="image"
-                        /> */}
-                        Downloads
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/backoffice"
-                        className={`nav-link ${
-                          currentPath == "/backoffice" && "active"
-                        }`}
-                      >
-                        {/* <i className="bx bxs-chevron-right-circle"></i> */}
-                        Back Office
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-
                 <li className="nav-item">
                   {/* <Link
                     href="/prices/"
@@ -355,7 +284,16 @@ const Navbar = () => {
                     Unlisted Shares
                   </Link>
                 </li>
-
+                <li className="nav-item megamenu">
+                  <Link href="/download" className="nav-link">
+                    Resources
+                  </Link>
+                </li>
+                <li className="nav-item megamenu">
+                  <Link href="/contact" className=" nav-link">
+                    Contact Us
+                  </Link>
+                </li>
                 <li className="nav-item megamenu support">
                   {/* <Link href="#" className="dropdown-toggle nav-link">
                     Support
@@ -435,38 +373,23 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/subbroker"
-                    className={`nav-link ${
-                      currentPath == "/blog/" && "active"
-                    }`}
-                  >
-                    Sub Broker
-                  </Link>
-                  {/* <Link
-                    href="/blog/"
-                    className={`nav-link ${
-                      currentPath == "/blog/" && "active"
-                    }`}
-                  >
-                    Blog
-                  </Link> */}
-                </li>
               </ul>
 
               <div className="others-option">
                 <div className="d-flex align-items-center">
-                  <div className="option-item">
+                  {/* <div className="option-item">
                     <Link href="/authentication/" className="login-btn">
                       <i className="bx bx-log-in"></i> Login
-                    </Link>
-                  </div>
+                    </Link> */}
+                  {/* </div> */}
                   <div className="option-item d-none d-lg-block">
-                    <Link href="/contact/" className="default-btn">
-                      <i className="bx bxs-contact"></i> Contact Us
-                    </Link>
+                    <a
+                      href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
+                      target="_blank"
+                      className="default-btn"
+                    >
+                      <i className="bx bxs-contact"></i> Open an Account
+                    </a>
                   </div>
 
                   <div className="option-item">{/* <LangDropdown /> */}</div>

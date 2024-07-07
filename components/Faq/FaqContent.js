@@ -18,7 +18,7 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    What are Sub-Broker?
+                    What are Sub-Brokers?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -34,7 +34,7 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    How do i become a Sub-Broker?
+                    How do I become a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -49,14 +49,14 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    what are the benfits of becoming Sub-Broker?
+                    What are the benefits of becoming a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
                     As a sub-broker, you can earn commissions on the trades you
                     help facilitate, gain access to a wide range of financial
-                    products, receive training and support from us and build
+                    products, receive training and support from us, and build
                     your own client base.
                   </p>
                 </AccordionItemPanel>
@@ -81,7 +81,7 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    How Much can i earch as a Sub-broker
+                    How much can I earn as a Sub-Broker?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -96,7 +96,7 @@ const FaqContent = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    What kind of support I will get from Safal?
+                    What kind of support will I get from Safal?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

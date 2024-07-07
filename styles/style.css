@@ -268,6 +268,8 @@ Navbar Area CSS
 .navbar-area .container {
   max-width: 1400px;
 }
+
+
 .navbar-area.is-sticky {
   top: 0;
   left: 0;
@@ -6028,18 +6030,18 @@ Footer Area CSS
 }
 .single-footer-widget h3 {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   padding-bottom: 8px;
   font-size: 20px;
 }
 .single-footer-widget h3::before {
-  left: 0;
-  bottom: 0;
+  /* left: 20px; */
+  /* bottom: 0;
   content: "";
-  width: 44px;
+  width: 35%;
   height: 2px;
   position: absolute;
-  background-color: var(--optionalColor);
+  background-color: var(--optionalColor); */
 }
 .single-footer-widget .newsletter-form {
   margin-top: 25px;
@@ -6772,9 +6774,9 @@ Go Top CSS
 
 
 /* Custom footer */
-.flex-center{
-  margin: 1rem 0;
-}
+/* .flex-center{
+  margin: 0.3rem 0;
+} */
 .link{
   font-weight: bold;
   color: var(--optionalColor);
@@ -6829,7 +6831,7 @@ Go Top CSS
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 .search-bar {
@@ -6984,4 +6986,17 @@ Go Top CSS
 .broker p strong {
   display: inline-block;
   width: 150px;
+}
+
+
+/* Footer Other links */
+.other_links{
+  /* text-align: center; */
+  padding-left: 3rem;
+}
+@media (max-width: 768px) {
+  .other_links{
+     text-align: left;
+     padding-left: 0;
+  }
 }

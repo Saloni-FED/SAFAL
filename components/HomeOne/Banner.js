@@ -63,7 +63,7 @@ const Banner = () => {
     <>
       <div className="main-banner-area">
         <div className="container">
-          <div className="main-banner-box">
+          {/* <div className="main-banner-box">
             <div className="currency-selection">
               <label>YOU PAY</label>
               <input
@@ -165,18 +165,18 @@ const Banner = () => {
             >
               <i className="bx bxs-hand-right"></i> Buy With Visa
             </a>
-          </div>
+          </div> */}
 
           <div className="row align-items-center m-0">
             <div className="col-xl-6 col-lg-6 col-md-12 p-0">
               <div className="main-banner-content">
                 <h1>Buy & Sell Cryptocurrency Easy, Fast and Secure!</h1>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                </p> */}
                 <Link
                   href="https://www.coinbase.com/signup"
                   className="default-btn"

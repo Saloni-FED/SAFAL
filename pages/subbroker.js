@@ -7,7 +7,8 @@ import PageBanner from "../components/Common/PageBanner";
 import PartnershipOptions from "../components/PartnerShips/PartnerShipsOptions";
 import Platform from "../components/HomeOne/Platform";
 import FeedBack from "../components/HomeOne/FeedBack";
-
+import { toast } from "react-hot-toast"
+ 
 const Subbroker = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -27,7 +28,7 @@ const Subbroker = () => {
     try {
       console.log(formData);
       await addDoc(collection(db, "subBroker"), formData);
-      alert("Message sent successfully!");
+      toast.success("Message sent successfully!");
       setFormData({
         name: "",
         email: "",

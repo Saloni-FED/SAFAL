@@ -46,7 +46,8 @@ const ContactUsForm = () => {
 
           <div className="col-xl-8 col-lg-12 col-md-12">
             <div className="maps">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46660.669043361966!2d-76.17429939609431!3d43.03529129888566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3b8019f2991%3A0x58d5929e21a62e5!2sDinosaur%20Bar-B-Que!5e0!3m2!1sen!2sbd!4v1593527523138!5m2!1sen!2sbd"></iframe>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46660.669043361966!2d-76.17429939609431!3d43.03529129888566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3b8019f2991%3A0x58d5929e21a62e5!2sDinosaur%20Bar-B-Que!5e0!3m2!1sen!2sbd!4v1593527523138!5m2!1sen!2sbd"></iframe> */}
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.0397662677162!2d72.5989361070786!3d23.017931123442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85cce36f012f%3A0x68b0264ba5797629!2sNew%20Cloth%20Market%2C%20Sarangpur%2C%20Sherkotda%2C%20Ahmedabad%2C%20Gujarat%20380002!5e0!3m2!1sen!2sin!4v1720341608581!5m2!1sen!2sin" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>

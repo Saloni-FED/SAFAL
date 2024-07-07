@@ -31,21 +31,23 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-footer-widget">
                 <Link href="/" className="d-inline-block logo">
-                  {/* <img src='/images/logo.png' alt='logo' /> */}
-                  <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" />
-                  {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
+                  <img src="/images/newLogo.png" alt="logo" />
                 </Link>
 
-                <div className="single-footer-widget">
+                <div
+                  className="single-footer-widget"
+                  style={{ marginTop: "0.8rem" }}
+                >
                   <h3>Contact Info</h3>
                   <ul className="footer-contact-info">
                     <li>
-                      Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur
-                      Gate, Sarangpur, Ahmedabad. Gujarat-380002.
+                      <a href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD" target="_blank">Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur
+                      Gate, Sarangpur, Ahmedabad. Gujarat-380002.</a>
+                      
                     </li>
                     <li>
                       Email:{" "}
-                      <a href="mailto:hello@novis.com">
+                      <a href="mailto:helpdesk@safalcapital.in">
                         helpdesk@safalcapital.in
                       </a>
                     </li>
@@ -84,26 +86,26 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-2 col-sm-6 col-md-6">
-              <div className="single-footer-widget">
+              <div className="single-footer-widget other_links">
                 <h3>Other Links</h3>
                 <ul className="services-links">
                   <li>
-                    <Link href="/buy">BSE</Link>
+                    <Link href="https://www.bseindia.com/" target="_blank">BSE</Link>
                   </li>
                   <li>
-                    <Link href="/buy">NSE</Link>
+                    <Link href="https://www.nseindia.com/" target="_blank">NSE</Link>
                   </li>
                   <li>
-                    <Link href="/buy">MCX</Link>
+                    <Link href="https://www.mcxindia.com/"  target="_blank">MCX</Link>
                   </li>
                   <li>
-                    <Link href="/buy">NCDEX</Link>
+                    <Link href="https://www.ncdex.com/" target="_blank">NCDEX</Link>
                   </li>
                   <li>
-                    <Link href="/buy">SEBI</Link>
+                    <Link href="https://www.sebi.gov.in/" target="_blank">SEBI</Link>
                   </li>
                   <li>
-                    <Link href="/buy">RBI</Link>
+                    <Link href="https://www.rbi.org.in/" target="_blank">RBI</Link>
                   </li>
                 </ul>
               </div>
@@ -112,27 +114,18 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
                 <h3>Useful Links</h3>
-                <ul className="quick-links">
+                <ul className="quick-links" style={{ paddingLeft: "0.5rem" }}>
                   <li>
-                    <Link href="/trade">Trade</Link>
+                    <Link href="http://safalcapital.in/Pdfs/ESCALATION%20MATRIX.pdf" target="_blank">Escalation Matrix</Link>
                   </li>
                   <li>
-                    <Link href="/guides">Guides</Link>
-                  </li>
-                  <li>
-                    <Link href="/wallet">Wallets</Link>
-                  </li>
-                  <li>
-                    <Link href="/faq">FAQ</Link>
+                    <Link href="/subbroker">Sub Broker</Link>
                   </li>
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Escalation Matrix</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Sub Broker</Link>
+                    <Link href="/faq">Faq</Link>
                   </li>
                 </ul>
               </div>
@@ -140,7 +133,7 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>CIN Number</h3>
+                <h3>Grievance Details</h3>
                 <ul className="footer-contact-info">
                   <li>
                     SAFAL CAPITAL (INDIA) LIMITED CIN No:- U67110MP2000PLC014099
@@ -148,11 +141,14 @@ const Footer = () => {
                     CDSL–IN–DP-CDSL-168-2002
                   </li>
                   <li>
-                    <a href="mailto:hello@novis.com">
-                    For Investor Grievances: investorgrievancedesk@safalcapital.in
-                    </a>
+                    <span>
+                      For Investor Grievances:{" "}
+                      <a href="investorgrievancedesk@safalcapital.in">
+                        investorgrievancedesk@safalcapital.in
+                      </a>
+                    </span>
                   </li>
-                  
+
                   {/* <li>
                     Fax: <a href='tel:+44587154756'>+1416-555-0477</a>
                   </li> */}
@@ -179,13 +175,13 @@ const Footer = () => {
               Disclaimer
             </a>
           </div>
-         
         </div>
 
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright <strong>Safal Capital Private Lmited</strong>. All Rights Reserved by{" "}
+              Copyright <strong>Safal Capital India Private Limited</strong>. All
+              Rights Reserved by{" "}
               {/* <Link href="https://envytheme.com/" target="_blank">
                 EnvyTheme
               </Link> */}

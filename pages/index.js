@@ -28,7 +28,7 @@ const Index = () => {
 
      <Products/>
 
-      <AccountCreate title='Get Started in a Few Minutes' />
+      {/* <AccountCreate title='Get Started in a Few Minutes' /> */}
 
       {/* <Platform /> */}
 
