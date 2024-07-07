@@ -2975,7 +2975,8 @@
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .navbar-area .container {
-    max-width: 1140px;
+    width:100%;
+    
   }
   .navbar-area .container-fluid {
     max-width: 1140px;

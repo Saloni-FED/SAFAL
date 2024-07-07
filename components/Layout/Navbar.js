@@ -46,7 +46,7 @@ const Navbar = () => {
               <div className="logo">
                 <Link href="/">
                   {/* <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" /> */}
-                  <img src="/images/newLogo.png" alt="logo" />
+                  <img src="/images/newLogo.png" alt="logo" className="safal_img"/>
                   {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
                 </Link>
               </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
         >
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/newLogo.png" alt="logo" />
+              <img src="/images/newLogo.png" alt="logo" className="safal_img"/>
               {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
             </Link>
 
@@ -74,90 +74,7 @@ const Navbar = () => {
                     About
                   </Link>
 
-                  <ul className="dropdown-menu">
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/"
-                        className={`nav-link ${currentPath == "/" && "active"}`}
-                      >
-                        Home Demo - 1
-                      </Link> */}
-                    {/* </li> */}
-
-                    <li className="nav-item">
-                      <Link
-                        href="/about"
-                        className={`nav-link ${
-                          currentPath == "/index-2/" && "active"
-                        }`}
-                      >
-                        About Us
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/whyus"
-                        className={`nav-link ${
-                          currentPath == "/index-3/" && "active"
-                        }`}
-                      >
-                        Why Us
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      {/* <Link href="#" className="dropdown-toggle nav-link">
-                        Pages
-                      </Link> */}
-
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link
-                            href="/trade/"
-                            className={`nav-link ${
-                              currentPath == "/trade/" && "active"
-                            }`}
-                          >
-                            Trade
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/leadership/"
-                            className={`nav-link ${
-                              currentPath == "/leadership/" && "active"
-                            }`}
-                          >
-                            Leadership Team
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/privacy-policy/"
-                            className={`nav-link ${
-                              currentPath == "/privacy-policy/" && "active"
-                            }`}
-                          >
-                            Privacy Policy
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/terms-condition/"
-                            className={`nav-link ${
-                              currentPath == "/terms-condition/" && "active"
-                            }`}
-                          >
-                            Terms & Conditions
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                
                 </li>
 
                 <li className="nav-item">
@@ -299,79 +216,7 @@ const Navbar = () => {
                     Resources
                   </Link>
 
-                  <ul className="dropdown-menu">
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency4.png"
-                          alt="image"
-                        />
-                        XRP - Ripple
-                      </Link>
-                    </li> */}
-
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency5.png"
-                          alt="image"
-                        />
-                        STE - Stellar
-                      </Link>
-                    </li> */}
-
-                    {/* <li className="nav-item">
-                      <Link
-                        href="/sell/"
-                        className={`nav-link ${
-                          currentPath == "/sell/" && "active"
-                        }`}
-                      >
-                        <img
-                          src="/images/cryptocurrency/cryptocurrency2.png"
-                          alt="image"
-                        />
-                        BTC - Bitcoin
-                      </Link>
-                    </li> */}
-
-                    <li className="nav-item">
-                      <Link
-                        href="/download"
-                        className={`nav-link ${
-                          currentPath == "/download" && "active"
-                        }`}
-                      >
-                        {/* <img
-                          src="/images/cryptocurrency/cryptocurrency3.png"
-                          alt="image"
-                        /> */}
-                        Downloads
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/backoffice"
-                        className={`nav-link ${
-                          currentPath == "/backoffice" && "active"
-                        }`}
-                      >
-                        {/* <i className="bx bxs-chevron-right-circle"></i> */}
-                        Back Office
-                      </Link>
-                    </li>
-                  </ul>
+                 
                 </li>
                 <li className="nav-item megamenu">
                   <Link href="/contact" className=" nav-link">
@@ -379,103 +224,7 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                <li className="nav-item megamenu support">
-                  {/* <Link href="#" className="dropdown-toggle nav-link">
-                    Support
-                  </Link> */}
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/faq/"
-                        className={`nav-link ${
-                          currentPath == "/faq/" && "active"
-                        }`}
-                      >
-                        <i className="bx bx-info-circle"></i>
-                        FAQ
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/guides/"
-                        className={`nav-link ${
-                          currentPath == "/guides/" && "active"
-                        }`}
-                      >
-                        <i className="bx bx-book"></i>
-                        Guides
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/wallet/"
-                        className={`nav-link ${
-                          currentPath == "/wallet/" && "active"
-                        }`}
-                      >
-                        <i className="bx bx-wallet"></i>
-                        Wallets
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/about/"
-                        className={`nav-link ${
-                          currentPath == "/about/" && "active"
-                        }`}
-                      >
-                        <i className="bx bx-group"></i>
-                        About Us
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/contact/"
-                        className={`nav-link ${
-                          currentPath == "/contact/" && "active"
-                        }`}
-                      >
-                        <i className="bx bx-phone-call"></i>
-                        Contact Us
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/affiliate/"
-                        className={`nav-link ${
-                          currentPath == "/affiliate/" && "active"
-                        }`}
-                      >
-                        <i className="bx bxs-paper-plane"></i>
-                        Affiliates
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        href="/contact"
-                        className={`nav-link ${
-                          currentPath == "/contact" && "active"
-                        }`}
-                      >
-                        Contact Us
-                      </Link>
-                      {/* <Link
-                    href="/blog/"
-                    className={`nav-link ${
-                      currentPath == "/blog/" && "active"
-                    }`}
-                  >
-                    Blog
-                  </Link> */}
-                    </li>
-                  </ul>
-                </li>
+             
               </ul>
 
               <div className="others-option">
@@ -485,7 +234,7 @@ const Navbar = () => {
                       href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
                       className="default-btn"
                     >
-                      <i className="bx bxs-contact"></i> Open an Account
+                      <i className="bx bxs-contact"></i> <span>Open an Account</span>
                     </Link>
                   </div>
 

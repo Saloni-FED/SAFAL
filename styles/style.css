@@ -199,20 +199,21 @@ p:last-child {
   border: none;
   background-color: var(--mainColor);
   color: var(--whiteColor);
-  padding-top: 12px;
-  padding-left: 55px;
-  padding-right: 30px;
-  padding-bottom: 12px;
+
   font-family: var(--fontFamily2);
   font-size: var(--fontSize);
   font-weight: 600;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* gap:10px;
+   */
+
+  padding: 10px 15px;
 }
 .default-btn i {
-  top: 50%;
-  left: 30px;
-  position: absolute;
+  /* margin-top:1rem; */
   font-weight: normal;
-  transform: translateY(-50%);
 }
 .default-btn:hover {
   box-shadow: 0 30px 50px rgba(107, 124, 147, 0.15);
@@ -287,7 +288,7 @@ Navbar Area CSS
   list-style-type: none;
 }
 .navbar-area .navbar .navbar-nav {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .navbar-area .navbar .navbar-nav .nav-item {
   position: relative;
@@ -360,6 +361,7 @@ Navbar Area CSS
   position: relative;
   color: var(--blackColor);
 }
+
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
   color: var(--mainColor);
   padding-left: 25px;
@@ -6688,10 +6690,10 @@ Go Top CSS
 }
 
 /* Products component */
-.comp_product{
+.comp_product {
   padding: 3rem 0;
 }
-.comp_product .comp_h5{
+.comp_product .comp_h5 {
   text-align: center;
   font-size: large;
   margin: 3rem 0;
@@ -6719,9 +6721,9 @@ Go Top CSS
   --slide-spacing-lg: 1rem;
   --slide-size-lg: calc(100% / 5);
 }
-.para_embla{
+.para_embla {
   text-align: center;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .embla__viewport {
@@ -6764,21 +6766,19 @@ Go Top CSS
   box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
 
   display: flex;
-  gap:10px;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   height: var(--slide-height);
 }
 
-
 /* Custom footer */
 /* .flex-center{
   margin: 0.3rem 0;
 } */
-.link{
+.link {
   font-weight: bold;
   color: var(--optionalColor);
-  
 }
 
 .center-text {
@@ -6811,20 +6811,17 @@ Go Top CSS
 }
 
 @media (max-width: 764px) {
-  .margin-top{
-    display:flex;
+  .margin-top {
+    display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap: 1rem;
   }
 }
-
 
 /* Listing */
 /* src/index.css */
 
-
 /* App.css */
-
 
 .container {
   max-width: 1200px;
@@ -6865,37 +6862,27 @@ Go Top CSS
   }
 }
 
-
-
-.card{
-  display:flex;
+.card {
+  display: flex;
   flex-direction: row;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   transition: transform 0.2s;
-  gap:1rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
-.card .image-fit{
-  width:fit-content
+.card .image-fit {
+  width: fit-content;
 }
 
-
-
-
-
-
-
-
 /* Card.css */
-
 
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-  cursor:pointer
+  cursor: pointer;
 }
 
 .card-image {
@@ -6943,12 +6930,11 @@ Go Top CSS
   margin-top: 5px;
 }
 
-
 /* Partner Ship */
 .partnership-options {
   text-align: center;
   padding: 20px;
-  margin-top:3rem;
+  margin-top: 3rem;
 }
 
 .options-container {
@@ -6975,7 +6961,7 @@ Go Top CSS
 }
 
 .broker h5 {
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
 .broker p {
@@ -6987,40 +6973,36 @@ Go Top CSS
   width: 150px;
 }
 
-
 /* Other links */
 
-.other_links{
-  padding-left:3rem;
+.other_links {
+  padding-left: 3rem;
 }
 
-@media (max-width:800px){
-  .other_links{
-    padding-left:0;
+@media (max-width: 800px) {
+  .other_links {
+    padding-left: 0;
   }
 }
-
 
 /* Sub Broker table */
 
-.sub_table{
-  padding:1rem 5rem;
-  margin-top:5rem;
-  margin-bottom:5rem;
+.sub_table {
+  padding: 1rem 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
-.sub_table p{
-   margin-bottom: 3rem;
+.sub_table p {
+  margin-bottom: 3rem;
 }
 
-
-@media (max-width:800px){
-  .sub_table{
-    padding:0
+@media (max-width: 800px) {
+  .sub_table {
+    padding: 0;
   }
 }
-
 
 /* Subroker Feature Card */
 
@@ -7063,4 +7045,23 @@ Go Top CSS
 .feature-description {
   color: #666;
   font-size: 0.9em;
+}
+
+/* Safal logo */
+
+@media (max-width: 1080px) {
+  .safal_img {
+    width: 150px;
+  }
+  .option-item .default-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+#navbar{
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }
