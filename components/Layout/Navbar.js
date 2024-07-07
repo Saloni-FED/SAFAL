@@ -45,7 +45,8 @@ const Navbar = () => {
               </div>
               <div className="logo">
                 <Link href="/">
-                  <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" />
+                  {/* <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" /> */}
+                  <img src="/images/newLogo.png" alt="logo" />
                   {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
                 </Link>
               </div>
@@ -62,7 +63,7 @@ const Navbar = () => {
         >
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" />
+              <img src="/images/newLogo.png" alt="logo" />
               {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
             </Link>
 
