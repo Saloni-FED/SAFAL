@@ -32,7 +32,8 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <Link href="/" className="d-inline-block logo">
                   {/* <img src='/images/logo.png' alt='logo' /> */}
-                  <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1>
+                  <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" />
+                  {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
                 </Link>
 
                 <div className="single-footer-widget">
@@ -84,7 +85,7 @@ const Footer = () => {
 
             <div className="col-lg-2 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Cryptocurrency</h3>
+                <h3>Other Links</h3>
                 <ul className="services-links">
                   <li>
                     <Link href="/buy">BSE</Link>
@@ -110,7 +111,7 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
-                <h3>Resources</h3>
+                <h3>Useful Links</h3>
                 <ul className="quick-links">
                   <li>
                     <Link href="/trade">Trade</Link>
@@ -139,7 +140,7 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Contact Info</h3>
+                <h3>CIN Number</h3>
                 <ul className="footer-contact-info">
                   <li>
                     SAFAL CAPITAL (INDIA) LIMITED CIN No:- U67110MP2000PLC014099
@@ -184,7 +185,7 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright <strong>Safal</strong>. All Rights Reserved by{" "}
+              Copyright <strong>Safal Capital Private Lmited</strong>. All Rights Reserved by{" "}
               {/* <Link href="https://envytheme.com/" target="_blank">
                 EnvyTheme
               </Link> */}

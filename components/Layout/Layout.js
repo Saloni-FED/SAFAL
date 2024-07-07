@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 //top header
 import TopHeader from "./TopHeader";
 
+import  { Toaster } from 'react-hot-toast';
 //navbar
 import Navbar from "./Navbar";
 import NavbarTwo from "./NavbarTwo";
@@ -29,10 +30,11 @@ const Layout = ({ children }) => {
         />
       </Head>
 
-      {pathname === "/" ? <TopHeader /> : ""}
+      {/* {pathname === "/" ? <TopHeader /> : ""} */}
       {pathname === "/index-2" ? <NavbarTwo /> : <Navbar />}
 
       {children}
+      <Toaster/>
 
       <Footer />
     </>
