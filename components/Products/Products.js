@@ -1,10 +1,14 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import AutoScroll from 'embla-carousel-auto-scroll'
+import AutoScroll from "embla-carousel-auto-scroll";
 const Products = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop : true}, [
-    AutoScroll({stopOnMouseEnter: true, stopOnInteraction: false, speed: 0.5})
-  ])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    AutoScroll({
+      stopOnMouseEnter: true,
+      stopOnInteraction: false,
+      speed: 0.5,
+    }),
+  ]);
 
   const products = [
     { name: "BPO", icon: "/images/allNewImages/products/headphones.png" },
@@ -26,10 +30,14 @@ const Products = () => {
 
   return (
     <div className="comp_product">
-      <h5 className="comp_h5">
-        Wide range of products to suit your investment requirements Commodity
-        Derivatives Currency Equity
-      </h5>
+      <div style={{textAlign: "center", paddingBottom:"3rem"}}>
+        <h3 className="">Wide range of products.</h3>
+        <p>
+          Wide range of products to suit your investment requirements Commodity
+          Derivatives Currency Equity
+        </p>
+      </div>
+
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
