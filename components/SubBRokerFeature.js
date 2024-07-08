@@ -30,10 +30,10 @@ const FeatureCards = () => {
   return (
     <div className="subBroker_features">
       {features.map((feature, index) => (
-        <div className="subBroker_feature-card" key={index}>
+        <div className="subBroker_feature-card" key={index} style={{cursor:"pointer"}}>
           {/* <img src={feature.image} alt={feature.title} className="feature-image" /> */}
-          <h6 className="feature-title">{feature.title}</h6>
-          <p className="feature-description">{feature.description}</p>
+          <h6 style={{fontWeight:"normal", fontSize:"20px"}}>{feature.title}</h6>
+          <p className="">{feature.description}</p>
         </div>
       ))}
     </div>

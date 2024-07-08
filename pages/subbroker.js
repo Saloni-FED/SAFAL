@@ -65,7 +65,7 @@ const Subbroker = () => {
         </div>
       </div>
 
-      <div style={{ marginTop: "3rem", marginBottom: "10rem" }}>
+      <div style={{ marginTop: "3rem", marginBottom: "10rem", padding:"6rem 1rem" }}>
         <h3 style={{ textAlign: "center" }}>Checkout our Profits</h3>
 
         <FeatureCards />

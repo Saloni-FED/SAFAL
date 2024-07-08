@@ -2548,7 +2548,7 @@ Best Seller Cryptocurrency Area CSS
   background-color: var(--whiteColor);
   margin-bottom: 30px;
   border-radius: 5px;
-  padding: 30px;
+  padding: 15px 10px;
 }
 .single-cryptocurrency-item img {
   width: auto !important;
@@ -7061,7 +7061,15 @@ Go Top CSS
   }
 }
 
-#navbar{
+#navbar {
   padding-left: 0.5rem;
   padding-top: 0.5rem;
 }
+
+/* Download backoffice */
+@media (min-width: 700px) and (max-width: 1080px) {
+  .cryptocurrency-area .download_backoffice {
+    padding: 0 5rem;
+  }
+}
+

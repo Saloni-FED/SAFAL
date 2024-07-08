@@ -35,89 +35,113 @@ const cryptocurrencies = [
   {
     name: "Bitconnect",
     image: "/images/bitconnect.png",
-    symbol: "BCC",
+    symbol: "18/07/2018",
     price: "14,514",
   },
   {
     name: "Digibyte",
     image: "/images/digibyte.png",
-    symbol: "DGB",
+    symbol: "18/07/2018",
     price: "41,514",
   },
   {
     name: "Ontology",
     image: "/images/ontology.png",
-    symbol: "ONT",
+    symbol: "18/07/2018",
     price: "14,514",
   },
   {
     name: "OmiseGO",
     image: "/images/omisego.png",
-    symbol: "OMG",
+    symbol: "18/07/2018",
     price: "41,514",
   },
   {
     name: "Qtum",
     image: "/images/qtum.png",
-    symbol: "QTUM",
+    symbol: "18/07/2018",
     price: "€41,905",
   },
   {
     name: "ZCash",
     image: "/images/zcash.png",
-    symbol: "ZEC",
+    symbol: "18/07/2018",
     price: "50,000",
   },
   {
     name: "Gulden",
     image: "/images/gulden.png",
-    symbol: "NLG",
+    symbol: "18/07/2018",
     price: "38,541",
   },
 ];
 
 const values = [
   {
-      title: "Our Vision",
-      icon: "/images/allNewImages/vision.png",
-    },
-    {
-      title: "Our Philosophy",
-      icon: "/images/allNewImages/philosophy.png",
-    },
-    {
-      title: "Towards Our Clients",
-      icon: "/images/allNewImages/public-relation.png",
-    },
-    {
-      title: "Towards Our Business Associates",
-      icon: "/images/allNewImages/vision.png",
-    },
-    {
-      title: "Towards Our Business Associates",
-      icon: "/images/allNewImages/vision.png",
-    },
-]
+    title: "MADHYA PRADESH STOCK AND CAPITAL MARKET LTD.",
+    icon: '<i class="fa-solid fa-chart-column" style="font-size:40px"></i>',
+  },
+  {
+    title: "SAFAL CAPITAL (INDIA) LIMITED.",
+    icon: '<i class="fa fa-building" style="font-size:40px"></i>',
+  },
+  {
+    title: "SAFAL CAPITAL (INDIA) LIMITED CDSL",
+    icon: '<i class="fa fa-university" style="font-size:40px"></i>',
+  },
+  {
+    title: "BACK SERVER ONE",
+    icon: '<i class="fa fa-server" style="font-size:40px"></i>',
+  },
+  {
+    title: "BACK SERVER Two",
+    icon: '<i class="fa fa-server" style="font-size:40px"></i>',
+  },
+];
+
 const download = () => {
   return (
     <div>
-      <PageBanner pageTitle={"Downloads"}/>
+      <PageBanner pageTitle={"Downloads"} />
       <div className="cryptocurrency-area pt-100 pb-70">
-        <div className="container">
+        <div className="container download_backoffice">
           <div className="row justify-content-center">
-            <h6>ACCOUNT OPENING & MODIFICATION FORMS</h6>
+            <h5 style={{ marginBottom: "2rem" }}>
+              ACCOUNT OPENING & MODIFICATION FORMS
+            </h5>
 
             {cryptocurrencies.map((crypto, index) => (
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-cryptocurrency-item">
                   <div className="d-flex align-items-center">
                     {/* <img src={crypto.image} alt="image" width={50} height={50}/> */}
-                    <i class="fa-solid fa-download"></i>
-                    <div className="title">
-                      <h5>{crypto.name}</h5>
-                      <span className="sub-title">
-                        {crypto.symbol} - <span>{crypto.price}</span>
-                      </span>
+                    <div
+                      className="title"
+                      style={{
+                        width: "100%",
+                        display: "flex",
+                        // alignItems:"center",
+                        flexWrap: "wrap",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div>
+                        <h5 style={{ fontWeight: "normal", fontSize: "17px" }}>
+                          {crypto.name}{" "}
+                        </h5>
+                        <p>{crypto.symbol}</p>
+                      </div>
+
+                      <div>
+                        <i
+                          className="fa-solid fa-download"
+                          style={{
+                            fontSize: "15px",
+                            color: "var(--optionalColor)",
+                            cursor: "pointer",
+                          }}
+                        ></i>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -125,19 +149,42 @@ const download = () => {
             ))}
           </div>
           <div className="row justify-content-center">
-            <h5 style={{ marginTop: "5rem" }}>Policies & Procedures</h5>
+            <h5 style={{ marginBottom: "2rem", marginTop: "2rem" }}>
+              Policy And Procedures
+            </h5>
 
             {cryptocurrencies.map((crypto, index) => (
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-cryptocurrency-item">
                   <div className="d-flex align-items-center">
                     {/* <img src={crypto.image} alt="image" width={50} height={50}/> */}
-                    <i class="fa-solid fa-download"></i>
-                    <div className="title">
-                      <h5>{crypto.name}</h5>
-                      <span className="sub-title">
-                        {crypto.symbol} - <span>{crypto.price}</span>
-                      </span>
+                    <div
+                      className="title"
+                      style={{
+                        width: "100%",
+                        display: "flex",
+                        // alignItems:"center",
+                        flexWrap: "wrap",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div>
+                        <h5 style={{ fontWeight: "normal", fontSize: "17px" }}>
+                          {crypto.name}{" "}
+                        </h5>
+                        <p>{crypto.symbol}</p>
+                      </div>
+
+                      <div>
+                        <i
+                          className="fa-solid fa-download"
+                          style={{
+                            fontSize: "15px",
+                            color: "var(--optionalColor)",
+                            cursor: "pointer",
+                          }}
+                        ></i>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -147,15 +194,19 @@ const download = () => {
         </div>
       </div>
 
+      <div>
+        {" "}
+        <PageBanner pageTitle={"Back Office"} />
+      </div>
       <h1 className="values_h1">Utilities</h1>
       <div className="values-container">
         {values.map((value, index) => (
           <div key={index} className="value-card">
-            <div className="value-icon">
-              <img src={value.icon} alt={value.title} />
-            </div>
+            <div
+              className="value-icon"
+              dangerouslySetInnerHTML={{ __html: value.icon }}
+            />
             <h3 className="value-title">{value.title}</h3>
-            {/* <p className="value-description">{value.description}</p> */}
           </div>
         ))}
       </div>
