@@ -177,12 +177,13 @@ const Banner = () => {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p> */}
-                <Link
-                  href="https://www.coinbase.com/signup"
+                <a
+                  href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
+                  target="_blank"
                   className="default-btn"
                 >
-                  <i className="bx bxs-user"></i> Register Now
-                </Link>
+                  <i className="bx bxs-user"></i> {" "} Register
+                </a>
               </div>
             </div>
             <div className="col-xl-4 col-lg-12 col-md-12 p-0">

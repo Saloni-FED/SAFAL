@@ -107,6 +107,18 @@ const Footer = () => {
                   <li>
                     <Link href="https://www.rbi.org.in/" target="_blank">RBI</Link>
                   </li>
+                  <li>
+                    <Link href="https://nsdl.co.in/" target="_blank">NSDL</Link>
+                  </li>
+                  <li>
+                    <Link href="https://www.msei.in/" target="_blank">MSEI</Link>
+                  </li>
+                  <li>
+                    <Link href="https://www.cdslindia.com/" target="_blank">CDSL</Link>
+                  </li>
+                  <li>
+                    <Link href="https://irdai.gov.in/" target="_blank">IRDA</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -180,7 +192,7 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright <strong>Safal Capital India Private Limited</strong>. All
+              Copyright <strong>Safal Capital (India) Limited</strong>. All
               Rights Reserved by{" "}
               {/* <Link href="https://envytheme.com/" target="_blank">
                 EnvyTheme

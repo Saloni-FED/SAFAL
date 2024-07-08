@@ -57,8 +57,9 @@ const Subbroker = () => {
         <div className="option-item  d-lg-block">
           <a
             target="_blank"
+            href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
             className="default-btn"
-            style={{ marginTop: "2rem", marginBottom: "3rem" }}
+            style={{ marginTop: "4rem", marginBottom: "3rem" }}
           >
             <i className="bx bxs-contact"></i> Get Started
           </a>

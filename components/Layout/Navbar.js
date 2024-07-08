@@ -232,6 +232,7 @@ const Navbar = () => {
                   <div className="option-item d-none d-lg-block">
                     <Link
                       href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
+                      target="_blank"
                       className="default-btn"
                     >
                       <i className="bx bxs-contact"></i> <span>Open an Account</span>
