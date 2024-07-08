@@ -157,7 +157,7 @@ const Subbroker = () => {
         </div>
       </div>
 
-      <div style={{ padding: "0 6rem" }}>
+      <div style={{ padding: "0 2rem" }}>
         <Faq />
       </div>
     </div>
