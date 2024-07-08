@@ -38,22 +38,39 @@ const Footer = () => {
                   className="single-footer-widget"
                   style={{ marginTop: "0.8rem" }}
                 >
-                  <h3 style={{paddingTop:"2rem"}}>Contact Info</h3>
+                  <h3 style={{ paddingTop: "1.5rem" }}>Contact Info</h3>
                   <ul className="footer-contact-info">
-                    <li>
-                      <a href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD" target="_blank">Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur
-                      Gate, Sarangpur, Ahmedabad. Gujarat-380002.</a>
-                      
+                    <li style={{ display: "flex", alignItems: "center" , cursor:"pointer"}}>
+                      <i
+                        className="fas fa-map-marker-alt"
+                        style={{ marginRight: "10px", color: "var(--optionalColor)" , fontSize:"20px" }}
+                      ></i>
+                      <a
+                        href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD"
+                        target="_blank"
+                      >
+                        Ahmedabad Office: 350 -A, New Cloth Market, O/s Raipur
+                        Gate, Sarangpur, Ahmedabad, Gujarat-380002.
+                      </a>
                     </li>
                     <li>
+                      <i
+                        className="fas fa-envelope"
+                        style={{ marginRight: "10px", color: "var(--optionalColor)" }}
+                      ></i>
                       Email:{" "}
                       <a href="mailto:helpdesk@safalcapital.in">
                         helpdesk@safalcapital.in
                       </a>
                     </li>
                     <li>
-                      Phone: <a href="tel:7227906014"> 7227906014</a>
+                      <i
+                        className="fas fa-phone"
+                        style={{ marginRight: "10px", color: "var(--optionalColor)" }}
+                      ></i>
+                      Phone: <a href="tel:7227906014">7227906014</a>
                     </li>
+
                     {/* <li>
                     Fax: <a href='tel:+44587154756'>+1416-555-0477</a>
                   </li> */}
@@ -90,34 +107,54 @@ const Footer = () => {
                 <h3>Other Links</h3>
                 <ul className="services-links">
                   <li>
-                    <Link href="https://www.bseindia.com/" target="_blank">BSE</Link>
+                    <Link href="https://www.bseindia.com/" target="_blank">
+                      BSE
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.nseindia.com/" target="_blank">NSE</Link>
+                    <Link href="https://www.nseindia.com/" target="_blank">
+                      NSE
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.mcxindia.com/"  target="_blank">MCX</Link>
+                    <Link href="https://www.mcxindia.com/" target="_blank">
+                      MCX
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.ncdex.com/" target="_blank">NCDEX</Link>
+                    <Link href="https://www.ncdex.com/" target="_blank">
+                      NCDEX
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.sebi.gov.in/" target="_blank">SEBI</Link>
+                    <Link href="https://www.sebi.gov.in/" target="_blank">
+                      SEBI
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.rbi.org.in/" target="_blank">RBI</Link>
+                    <Link href="https://www.rbi.org.in/" target="_blank">
+                      RBI
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://nsdl.co.in/" target="_blank">NSDL</Link>
+                    <Link href="https://nsdl.co.in/" target="_blank">
+                      NSDL
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.msei.in/" target="_blank">MSEI</Link>
+                    <Link href="https://www.msei.in/" target="_blank">
+                      MSEI
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://www.cdslindia.com/" target="_blank">CDSL</Link>
+                    <Link href="https://www.cdslindia.com/" target="_blank">
+                      CDSL
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://irdai.gov.in/" target="_blank">IRDA</Link>
+                    <Link href="https://irdai.gov.in/" target="_blank">
+                      IRDA
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -128,7 +165,12 @@ const Footer = () => {
                 <h3>Useful Links</h3>
                 <ul className="quick-links" style={{ paddingLeft: "0.5rem" }}>
                   <li>
-                    <Link href="http://safalcapital.in/Pdfs/ESCALATION%20MATRIX.pdf" target="_blank">Escalation Matrix</Link>
+                    <Link
+                      href="http://safalcapital.in/Pdfs/ESCALATION%20MATRIX.pdf"
+                      target="_blank"
+                    >
+                      Escalation Matrix
+                    </Link>
                   </li>
                   <li>
                     <Link href="/subbroker">Sub Broker</Link>
