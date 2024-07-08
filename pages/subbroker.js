@@ -15,7 +15,7 @@ const Subbroker = () => {
     name: "",
     email: "",
     phone_number: "",
-    msg_subject: "",
+    question: "",
     message: "",
   });
 
@@ -65,12 +65,12 @@ const Subbroker = () => {
         </div>
       </div>
 
-      <div style={{ marginTop:"3rem", marginBottom:"10rem" }}>
-        <h3 style={{textAlign:"center"}}>Checkout our Profits</h3>
+      <div style={{ marginTop: "3rem", marginBottom: "10rem" }}>
+        <h3 style={{ textAlign: "center" }}>Checkout our Profits</h3>
 
         <FeatureCards />
       </div>
-      
+
       <Platform title={"What our community of sub-brokers has to say"} />
       {/* <FeedBack /> */}
       <div style={{ width: "100%", overflow: "hidden" }}>
@@ -133,30 +133,14 @@ const Subbroker = () => {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="form-group">
-                  <input
-                    type="text"
-                    name="msg_subject"
-                    className="form-control"
-                    id="msg_subject"
-                    placeholder="Enter your subject"
-                    required
-                    value={formData.msg_subject}
-                    onChange={handleChange}
-                  />
-                </div>
-              </div>
-
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="form-group">
                   <textarea
-                    name="message"
-                    id="message"
+                    type="text"
+                    name="question"
                     className="form-control"
-                    cols="30"
-                    rows="6"
+                    id="question"
+                    placeholder="Enter your Question"
                     required
-                    placeholder="Enter Your Question..."
-                    value={formData.message}
+                    value={formData.question}
                     onChange={handleChange}
                   ></textarea>
                 </div>

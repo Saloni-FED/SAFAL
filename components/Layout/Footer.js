@@ -52,7 +52,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      Phone: <a href="tel:+44587154756"> 7227906014</a>
+                      Phone: <a href="tel:7227906014"> 7227906014</a>
                     </li>
                     {/* <li>
                     Fax: <a href='tel:+44587154756'>+1416-555-0477</a>
