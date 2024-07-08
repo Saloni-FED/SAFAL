@@ -38,7 +38,7 @@ const Footer = () => {
                   className="single-footer-widget"
                   style={{ marginTop: "0.8rem" }}
                 >
-                  <h3>Contact Info</h3>
+                  <h3 style={{paddingTop:"2rem"}}>Contact Info</h3>
                   <ul className="footer-contact-info">
                     <li>
                       <a href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD" target="_blank">Ahmedabad Office: 350 -A,New Cloth Market, O/s Raipur
@@ -182,7 +182,7 @@ const Footer = () => {
             <a
               className="link link-left"
               style={{ marginLeft: "1rem" }}
-              href="#"
+              href="/download"
             >
               Disclaimer
             </a>
