@@ -11,19 +11,19 @@ const Products = () => {
   ]);
 
   const products = [
-    { name: "BPO", icon: "/images/allNewImages/products/headphones.png" },
-    { name: "Commodity", icon: "/images/allNewImages/products/commodity.png" },
-    { name: "Equity", icon: "/images/allNewImages/products/equity.png" },
+    { name: "BPO", icon: "/images/headphone1.png" },
+    { name: "Commodity", icon: "/images/commodity (1).png" },
+    { name: "Equity", icon: "/images/equity (1).png" },
     {
       name: "Currency",
-      icon: "/images/allNewImages/products/rupee-indian.png",
+      icon: "/images/rupee-sign.png",
     },
     {
       name: "Derivatives",
-      icon: "/images/allNewImages/products/derivatives.png",
+      icon: "/images/menu.png",
     },
-    { name: "Management", icon: "/images/allNewImages/products/suitcase.png" },
-    { name: "Mutual Funds", icon: "/images/allNewImages/public-relation.png" },
+    { name: "Management", icon: "/images/suitcase (1).png" },
+    { name: "Mutual Funds", icon: "/images/handshake.png" },
     // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
     // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
   ];
