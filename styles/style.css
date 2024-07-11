@@ -269,8 +269,8 @@ Navbar Area CSS
 /* Notification Badge */
 .notification-badge {
   position: absolute;
-  top: 5px;
-  right: -10px;
+  top: 6px;
+  right: -15px;
   background-color: var(--mainColor);
   color: white;
   border-radius: 5px;

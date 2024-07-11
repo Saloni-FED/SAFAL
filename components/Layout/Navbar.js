@@ -100,7 +100,6 @@ const Navbar = () => {
                 <li className="nav-item megamenu">
                   <Link href="#" className="dropdown-toggle nav-link">
                     Invest With us
-                    <span className="notification-badge">New</span>
                   </Link>
 
                   <ul className="dropdown-menu">
@@ -206,6 +205,7 @@ const Navbar = () => {
                     }`}
                   >
                     Unlisted Shares
+                    <span className="notification-badge">New</span>
                   </Link>
                 </li>
 
