@@ -95,17 +95,17 @@ const Footer = () => {
 
                 <ul className="social-links">
                   <li>
-                    <a href="#" target="_blank" className="facebook">
+                    <a href="https://www.facebook.com/safalcapitalindia/" target="_blank" className="facebook">
                       <i className="bx bxl-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank" className="twitter">
+                    <a href="https://x.com/capitalsafal?lang=en" target="_blank" className="twitter">
                       <i className="bx bxl-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank" className="linkedin">
+                    <a href="https://www.linkedin.com/company/safal-capital/" target="_blank" className="linkedin">
                       <i className="bx bxl-linkedin"></i>
                     </a>
                   </li>
