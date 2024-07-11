@@ -13,15 +13,18 @@ import RegisterAreaTwo from "../components/Common/RegisterAreaTwo";
 import WhyUs from "../components/WhyUs/WhyUs";
 import Products from "../components/Products/Products";
 import Listing from "../components/Listing/Listing";
+import TradingViewWidget from "../components/TradingViewWidget/TradingViewWidget";
 
 const Index = () => {
   return (
     <>
       <Banner />
+      <TradingViewWidget/>
 
       {/* <Funfact pt100='pt-100' /> */}
 
       <WhyUs title="Why Choose SAFAL?" />
+     
 
       {/* <BuySell pt70='pt-70' /> */}
 

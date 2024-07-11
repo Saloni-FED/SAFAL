@@ -43,7 +43,7 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
     try {
       await addDoc(collection(db, "unlistedSharesContact"), formData);
       handleClose();
-      toast.success("Form Submitted Successfully")
+      toast.success("Form Submitted Successfully");
       console.log("Sucess");
     } catch (e) {
       console.error("Error adding document: ", e);
@@ -188,35 +188,37 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
                 boxShadow: "0 0 2px rgba(0,0,0,0.1)",
               }}
             />
-            <Button
-              type="submit"
-              sx={{
-                mt: 2,
-                backgroundColor: "var(--mainColor)",
-                color: "white",
-                "&:hover": {
-                  backgroundColor: "var(--optionalColor)",
+            <div style={{display:"flex", justifyContent:"flex-end"}}>
+              <Button
+                type="submit"
+                sx={{
+                  mt: 2,
+                  backgroundColor: "var(--mainColor)",
                   color: "white",
-                },
-              }}
-            >
-              Submit
-            </Button>
-            <Button
-              sx={{
-                mt: 2,
-                backgroundColor: "var(--mainColor)",
-                color: "white",
-                ml: 2,
-                "&:hover": {
-                  backgroundColor: "var(--optionalColor)",
+                  "&:hover": {
+                    backgroundColor: "var(--optionalColor)",
+                    color: "white",
+                  },
+                }}
+              >
+                Submit
+              </Button>
+              <Button
+                sx={{
+                  mt: 2,
+                  backgroundColor: "var(--mainColor)",
                   color: "white",
-                },
-              }}
-              onClick={handleClose}
-            >
-              Cancel
-            </Button>
+                  ml: 2,
+                  "&:hover": {
+                    backgroundColor: "var(--optionalColor)",
+                    color: "white",
+                  },
+                }}
+                onClick={handleClose}
+              >
+                Cancel
+              </Button>
+            </div>
           </Box>
         </Box>
       </Modal>
