@@ -96,7 +96,7 @@ const Navbar = () => {
                   </Link> */}
                 </li>
                 <li className="nav-item megamenu">
-                  <Link href="#" className="dropdown-toggle nav-link">
+                  <Link href="/insurance" className="dropdown-toggle nav-link">
                     Invest With us
                   </Link>
 
