@@ -44,11 +44,13 @@ const Subbroker = () => {
   };
 
   return (
+    <>
+    <PageBanner
+    pageTitle="Partner with us"
+    pageSubTitle="Join our family of more than 2261 business partners."
+  />
     <div style={{ width: "100%" }}>
-      <PageBanner
-        pageTitle="Partner with us"
-        pageSubTitle="Join our family of more than 2261 business partners."
-      />
+     
       {/* <PartnershipOptions /> */}
       <div className="sub_table">
         <h1>Do you have what it takes to be an entrepreneur?</h1>
@@ -161,6 +163,7 @@ const Subbroker = () => {
         <Faq />
       </div>
     </div>
+    </>
   );
 };
 

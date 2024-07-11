@@ -46,7 +46,11 @@ const Navbar = () => {
               <div className="logo">
                 <Link href="/">
                   {/* <img src="http://safalcapital.in/Theme/New/images/logo.png" alt="logo" /> */}
-                  <img src="/images/newLogo.png" alt="logo" className="safal_img"/>
+                  <img
+                    src="/images/newLogo.png"
+                    alt="logo"
+                    className="safal_img"
+                  />
                   {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
                 </Link>
               </div>
@@ -63,7 +67,7 @@ const Navbar = () => {
         >
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/newLogo.png" alt="logo" className="safal_img"/>
+              <img src="/images/newLogo.png" alt="logo" className="safal_img" />
               {/* <h1 style={{ color: "var(--mainColor)" }}>SAFAL</h1> */}
             </Link>
 
@@ -73,8 +77,6 @@ const Navbar = () => {
                   <Link href="/about" className=" nav-link">
                     About
                   </Link>
-
-                
                 </li>
 
                 <li className="nav-item">
@@ -96,31 +98,23 @@ const Navbar = () => {
                   </Link> */}
                 </li>
                 <li className="nav-item megamenu">
-                  <Link href="/insurance" className="dropdown-toggle nav-link">
+                  <Link href="#" className="dropdown-toggle nav-link">
                     Invest With us
                   </Link>
 
                   <ul className="dropdown-menu">
                     <li className="nav-item">
-                      {/* <Link
-                        href="/buy/"
+                      <Link
+                        href="/insurance"
                         className={`nav-link ${
-                          currentPath == "/buy/" && "active"
+                          currentPath == "mutualfunds" && "active"
                         }`}
                       >
                         <img
-                          src="/images/cryptocurrency/cryptocurrency2.png"
+                          src="/images/cryptocurrency/cryptocurrency3.png"
                           alt="image"
                         />
-                        BTC - Bitcoin
-                      </Link> */}
-                      <Link
-                        href="/buy/"
-                        className={`nav-link ${
-                          currentPath == "/buy/" && "active"
-                        }`}
-                      >
-                        Mutual Funds
+                        Insurance
                       </Link>
                     </li>
 
@@ -185,8 +179,11 @@ const Navbar = () => {
                           currentPath == "/cryptocurrency/" && "active"
                         }`}
                       >
-                        {/* <i className="bx bxs-chevron-right-circle"></i> */}
-                        Insurance
+                        <img
+                          src="/images/cryptocurrency/cryptocurrency5.png"
+                          alt="image"
+                        />
+                        Mutual Funds
                       </Link>
                     </li>
                   </ul>
@@ -215,16 +212,12 @@ const Navbar = () => {
                   <Link href="/download" className=" nav-link">
                     Resources
                   </Link>
-
-                 
                 </li>
                 <li className="nav-item megamenu">
                   <Link href="/contact" className=" nav-link">
                     Contact Us
                   </Link>
                 </li>
-
-             
               </ul>
 
               <div className="others-option">
@@ -235,7 +228,8 @@ const Navbar = () => {
                       target="_blank"
                       className="default-btn"
                     >
-                      <i className="bx bxs-contact"></i> <span>Open an Account</span>
+                      <i className="bx bxs-contact"></i>{" "}
+                      <span>Open an Account</span>
                     </Link>
                   </div>
 

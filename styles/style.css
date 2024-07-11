@@ -291,7 +291,7 @@ Navbar Area CSS
   margin-left: 50px;
 }
 .navbar-area .navbar .navbar-nav .nav-item {
-  position: relative;
+  /* position: relative; */
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -336,7 +336,7 @@ Navbar Area CSS
   color: var(--mainColor);
 }
 .navbar-area .navbar .navbar-nav .nav-item .dropdown-menu {
-  left: 0;
+  left: 500px;
   top: 82px;
   opacity: 0;
   z-index: 99;
@@ -543,6 +543,7 @@ Navbar Area CSS
 }
 .navbar-area .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
+  
   visibility: visible;
 }
 .navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu {
@@ -884,6 +885,9 @@ Navbar Area CSS
     width: 50%;
   }
 }
+
+
+
 /*================================================
 Main Banner Area CSS
 =================================================*/
