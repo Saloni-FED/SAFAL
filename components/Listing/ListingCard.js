@@ -3,6 +3,7 @@ import { Modal, Box, Button, Typography } from "@mui/material";
 import { db } from "../../firebase/firebaseConfig"; // Import Firebase configuration
 import { collection, addDoc } from "firebase/firestore";
 
+import { toast } from "react-hot-toast"
 const truncateTitle = (title, wordLimit) => {
   const words = title.split(" ");
   if (words.length > wordLimit) {
