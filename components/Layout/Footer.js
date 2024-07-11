@@ -40,10 +40,20 @@ const Footer = () => {
                 >
                   <h3 style={{ paddingTop: "1.5rem" }}>Contact Info</h3>
                   <ul className="footer-contact-info">
-                    <li style={{ display: "flex", alignItems: "center" , cursor:"pointer"}}>
+                    <li
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        cursor: "pointer",
+                      }}
+                    >
                       <i
                         className="fas fa-map-marker-alt"
-                        style={{ marginRight: "10px", color: "var(--optionalColor)" , fontSize:"20px" }}
+                        style={{
+                          marginRight: "10px",
+                          color: "var(--optionalColor)",
+                          fontSize: "20px",
+                        }}
                       ></i>
                       <a
                         href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD"
@@ -56,7 +66,10 @@ const Footer = () => {
                     <li>
                       <i
                         className="fas fa-envelope"
-                        style={{ marginRight: "10px", color: "var(--optionalColor)" }}
+                        style={{
+                          marginRight: "10px",
+                          color: "var(--optionalColor)",
+                        }}
                       ></i>
                       Email:{" "}
                       <a href="mailto:helpdesk@safalcapital.in">
@@ -66,7 +79,10 @@ const Footer = () => {
                     <li>
                       <i
                         className="fas fa-phone"
-                        style={{ marginRight: "10px", color: "var(--optionalColor)" }}
+                        style={{
+                          marginRight: "10px",
+                          color: "var(--optionalColor)",
+                        }}
                       ></i>
                       Phone: <a href="tel:7227906014">7227906014</a>
                     </li>
@@ -173,13 +189,22 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/about">About</Link>
+                  </li>
+                  <li>
                     <Link href="/subbroker">Sub Broker</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/subbroker">Invest With Us </Link>
                   </li>
                   <li>
-                    <Link href="/faq">Faq</Link>
+                    <Link href="/unlistedshares">Unlisted Shares</Link>
+                  </li>
+                  <li>
+                    <Link href="/download">Resources</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>

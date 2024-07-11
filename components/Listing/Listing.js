@@ -63,7 +63,9 @@ const Listing = () => {
               key={index}
               image={item.imageUrl}
               title={item.name}
-              price={item.price}
+              price={item.changePrice}
+              percentage={item.changePercentage}
+              operation={item.operation}
             />
           ))
         ) : (
