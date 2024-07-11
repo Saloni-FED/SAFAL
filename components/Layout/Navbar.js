@@ -100,6 +100,7 @@ const Navbar = () => {
                 <li className="nav-item megamenu">
                   <Link href="#" className="dropdown-toggle nav-link">
                     Invest With us
+                    <span className="notification-badge">New</span>
                   </Link>
 
                   <ul className="dropdown-menu">
@@ -174,9 +175,9 @@ const Navbar = () => {
                         View All Coins
                       </Link> */}
                       <Link
-                        href="/cryptocurrency/"
+                        href="/mutualfunds"
                         className={`nav-link ${
-                          currentPath == "/cryptocurrency/" && "active"
+                          currentPath == "/mutualfunds" && "active"
                         }`}
                       >
                         <img

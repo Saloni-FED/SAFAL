@@ -263,6 +263,37 @@ textarea.form-control {
 /*================================================
 Navbar Area CSS
 =================================================*/
+
+
+
+/* Notification Badge */
+.notification-badge {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  background-color: var(--optionalColor);
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+/* .dropdown-toggle {
+  position: relative;
+} */
 .navbar-area {
   background-color: var(--whiteColor);
 }
