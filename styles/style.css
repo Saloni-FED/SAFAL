@@ -271,7 +271,7 @@ Navbar Area CSS
   position: absolute;
   top: 5px;
   right: -10px;
-  background-color: var(--optionalColor);
+  background-color: var(--mainColor);
   color: white;
   border-radius: 5px;
   padding: 2px 5px;
