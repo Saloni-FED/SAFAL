@@ -264,8 +264,6 @@ textarea.form-control {
 Navbar Area CSS
 =================================================*/
 
-
-
 /* Notification Badge */
 .notification-badge {
   position: absolute;
@@ -574,7 +572,7 @@ Navbar Area CSS
 }
 .navbar-area .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
-  
+
   visibility: visible;
 }
 .navbar-area .navbar .navbar-nav .nav-item.megamenu .dropdown-menu {
@@ -916,8 +914,6 @@ Navbar Area CSS
     width: 50%;
   }
 }
-
-
 
 /*================================================
 Main Banner Area CSS
@@ -6959,14 +6955,13 @@ Go Top CSS
   color: #f56565;
 }
 
-
-.card_p{
+.card_p {
   margin-bottom: 0.3rem;
   transition: all 0.5s ease-in-out;
 }
 
-.card_p:hover{
-  color:var(--mainColor)
+.card_p:hover {
+  color: var(--mainColor);
 }
 .card-days {
   font-size: 0.875rem;
@@ -7117,9 +7112,6 @@ Go Top CSS
   }
 }
 
-
-
-
 /* Calculator */
 .container1 {
   max-width: 600px;
@@ -7135,17 +7127,17 @@ Go Top CSS
   color: #333;
 }
 
-.container1  .form-group {
+.container1 .form-group {
   margin-bottom: 20px;
 }
 
-.container1  .form-group label {
+.container1 .form-group label {
   display: block;
   margin-bottom: 10px;
   color: #333;
 }
 
-.container1  .radio-group {
+.container1 .radio-group {
   display: flex;
   gap: 10px;
 }
@@ -7154,7 +7146,7 @@ Go Top CSS
   display: none;
 }
 
-.container1  .radio-group label {
+.container1 .radio-group label {
   background-color: #e7e7e7;
   padding: 10px 20px;
   border-radius: 5px;
@@ -7178,7 +7170,7 @@ output {
   color: #333;
 }
 
-.container1  button {
+.container1 button {
   display: block;
   width: 100%;
   padding: 15px;
@@ -7203,4 +7195,949 @@ output {
   .radio-group {
     flex-direction: column;
   }
+}
+
+/* Mutual funds calcukations */
+.app {
+  text-align: center;
+}
+
+.navbar,
+.sub-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.navbar button,
+.sub-navbar button {
+  padding: 1rem;
+  /* background-color: #f0f0f0; */
+  border: none;
+  cursor: pointer;
+}
+
+.navbar button.active,
+.sub-navbar button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.calc-header {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.calc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.calc-body input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.calc-body input[type="range"] {
+  width: 100%;
+}
+
+.calc-result {
+  margin-top: 1rem;
+}
+
+.calc-result h2 {
+  margin: 0;
+}
+
+.calc-result h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar,
+.sub-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.navbar button,
+.sub-navbar button {
+  padding: 1rem;
+  /* background-color: #f0f0f0; */
+  border: none;
+  cursor: pointer;
+}
+
+.navbar button.active,
+.sub-navbar button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.calc-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 45%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.calc-actions {
+  margin-top: 1rem;
+}
+
+.calc-actions button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.calc-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Retirement */
+
+.retirement-calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border : 1px solid #ccc;
+  background-color: #f0f0f0;
+  /* border: none; */
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.retirement-calculator h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+/* Marriage for child */
+
+.marriage-for-child {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.marriage-for-child h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.investment-details div {
+  text-align: center;
+}
+
+.investment-details span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.shortfall {
+  margin-top: 20px;
+  font-size: 12px;
+  color: red;
+}
+
+/* Education */
+
+.child-education-calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.child-education-calculator h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.investment-details div {
+  text-align: center;
+}
+
+.investment-details span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.shortfall {
+  margin-top: 20px;
+  font-size: 12px;
+  color: red;
+}
+
+/* Sip  */
+.sip-growth-calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.sip-growth-calculator h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.investment-details div {
+  text-align: center;
+}
+
+.investment-details span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Sip Need Calculator */
+.sip-need-calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.sip-need-calculator h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.investment-details div {
+  text-align: center;
+}
+
+.investment-details span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Sip Delay Cost */
+.sip-delay-cost-calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sip-delay-cost-calculator h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #007bff; */
+}
+
+.result p {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #007bff; */
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.investment-details div {
+  text-align: center;
+}
+
+.investment-details span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sip-delay-cost-calculator {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .sip-delay-cost-calculator h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .result h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .result p {
+    font-size: 24px;
+  }
+
+  .investment-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .investment-details div {
+    margin-bottom: 10px;
+  }
+
+  .investment-details span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sip-delay-cost-calculator {
+    padding: 10px;
+  }
+
+  .sip-delay-cost-calculator h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .result h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .result p {
+    font-size: 20px;
+  }
+
+  .investment-details span {
+    font-size: 14px;
+  }
+}
+
+/* Sub navbar */
+
+.red {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+/* Quick Tools */
+.investment-calculator {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.investment-calculator h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.investment-calculator .calc-type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.investment-calculator .calc-type label {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.investment-calculator .calc-type input {
+  margin-right: 5px;
+}
+
+.investment-calculator .form-group {
+  margin-bottom: 15px;
+}
+
+.investment-calculator label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.investment-calculator input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.investment-calculator input[type="range"] {
+  width: 100%;
+}
+
+.investment-calculator button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.investment-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.investment-calculator .result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* ... previous styles ... */
+
+@media (max-width: 600px) {
+  .investment-calculator .calc-type {
+    flex-direction: column;
+  }
+
+  .investment-calculator .calc-type label {
+    margin-bottom: 10px;
+  }
+}
+
+/* Irregular Cash Flow */
+
+.irregular-cash-flow-calculator {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+}
+
+.irregular-cash-flow-calculator h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 3rem;
+}
+
+.irregular-cash-flow-calculator label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.irregular-cash-flow-calculator input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.irregular-cash-flow-calculator button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.irregular-cash-flow-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.irregular-cash-flow-calculator .cash-flows {
+  margin-top: 20px;
+}
+
+.irregular-cash-flow-calculator .cash-flows ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.irregular-cash-flow-calculator .cash-flows li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.irregular-cash-flow-calculator .results {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.irregular-cash-flow-calculator .results h3 {
+  margin: 10px 0;
+}
+
+/* Weighted average */
+/* WeightedCalculator.css */
+
+.weighted {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border:none;
+  border-radius: 5px;
+}
+
+.weighted .header {
+  text-align: center;
+  
+}
+
+.weighted .calculator {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.weighted .inputs {
+  flex: 1;
+  /* padding: 10px; */
+  /* background-color: #fff; */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 5px; */
+  border:none;
+}
+
+.investment {
+  margin-bottom: 10px;
+}
+
+.weighted input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top:"2rem";
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.weighted  button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.weighted .btn_center{
+  margin:0.8rem auto;
+}
+.weighted .investment button:hover {
+  background-color: #0056b3;
+}
+
+.weighted .results {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.weighted .results h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.weighted .results p {
+  margin-bottom: 8px;
 }
