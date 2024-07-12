@@ -111,7 +111,7 @@ const Navbar = () => {
                         }`}
                       >
                         <img
-                          src="/images/cryptocurrency/cryptocurrency3.png"
+                          src="/images/secure-finance (1).png"
                           alt="image"
                         />
                         Insurance
@@ -180,7 +180,7 @@ const Navbar = () => {
                         }`}
                       >
                         <img
-                          src="/images/cryptocurrency/cryptocurrency5.png"
+                          src="/images/cost.png"
                           alt="image"
                         />
                         Mutual Funds
