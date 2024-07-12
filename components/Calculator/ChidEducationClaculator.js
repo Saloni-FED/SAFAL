@@ -97,7 +97,7 @@ const ChildEducationCalculator = () => {
       </div>
       <div className="result">
         <h2>Recommended Target Amount</h2>
-        <p>₹ {futureCost.toFixed(2)}</p>
+        <h2>₹ {futureCost.toFixed(2)}</h2>
         <div className="investment-details">
           <div>
             <span>Monthly</span>

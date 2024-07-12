@@ -43,7 +43,7 @@ const RetirementCalculator = () => {
       </div>
       <div className="result">
         <h2>Recommended Retirement Kitty Amount</h2>
-        <p>₹ {recommendedRetirementKitty}</p>
+        <h2>₹ {recommendedRetirementKitty}</h2>
       </div>
     </div>
   );

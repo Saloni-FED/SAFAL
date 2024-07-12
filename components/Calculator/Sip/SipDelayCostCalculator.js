@@ -78,7 +78,7 @@ const SIPDelayCostCalculator = () => {
       </div>
       <div className="result">
         <h2>Estimated SIP Delay Cost</h2>
-        <p>₹ {sipDelayCost.toFixed(2)}</p>
+        <h2>₹ {sipDelayCost.toFixed(2)}</h2>
         <div className="investment-details">
           <div>
             <span>Without Delay</span>

@@ -70,7 +70,7 @@ const SIPGrowthCalculator = () => {
       </div>
       <div className="result">
         <h2>Estimated Future Value</h2>
-        <p>₹ {futureValue.toFixed(2)}</p>
+        <h2>₹ {futureValue.toFixed(2)}</h2>
         <div className="investment-details">
           <div>
             <span>Total Amount Invested</span>

@@ -85,7 +85,7 @@ const SIPNeedCalculator = () => {
       </div>
       <div className="result">
         <h2>Required SIP Amount</h2>
-        <p>₹ {requiredSIP.toFixed(2)}</p>
+        <h2>₹ {requiredSIP.toFixed(2)}</h2>
         <div className="investment-details">
           <div>
             <span>Target Amount Required</span>
