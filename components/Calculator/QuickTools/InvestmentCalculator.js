@@ -25,7 +25,7 @@ const InvestmentCalculator = () => {
 
   return (
     <div className="investment-calculator">
-      <h2>Investment Calculator</h2>
+      <h2>Single Amount</h2>
       <div className="calc-type">
         <label>
           <input

@@ -51,7 +51,7 @@ const IrregularCashFlowCalculator = () => {
 
   return (
     <div className="irregular-cash-flow-calculator">
-      <h2>Irregular Cash Flow Calculator</h2>
+      <h2>Irregular Cash Flow</h2>
       <div>
         <label>
           Amount: {amount}
