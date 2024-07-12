@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const WeightedCalculator = () => {
   const [investments, setInvestments] = useState([
     { amount: 100000, returns: 12 },
-    { amount: 100000, returns: 12 },
-    { amount: 100000, returns: 12 },
+    // { amount: 100000, returns: 12 },
+    // { amount: 100000, returns: 12 },
   ]);
   const [futureYears, setFutureYears] = useState(5);
 
