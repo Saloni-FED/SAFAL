@@ -3,7 +3,7 @@ import { Modal, Box, Button, Typography } from "@mui/material";
 import { db } from "../../firebase/firebaseConfig"; // Import Firebase configuration
 import { collection, addDoc } from "firebase/firestore";
 
-import { toast } from "react-hot-toast"
+import { toast } from "react-hot-toast";
 const truncateTitle = (title, wordLimit) => {
   const words = title.split(" ");
   if (words.length > wordLimit) {
@@ -189,21 +189,7 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
                 boxShadow: "0 0 2px rgba(0,0,0,0.1)",
               }}
             />
-            <div style={{display:"flex", justifyContent:"flex-end"}}>
-              <Button
-                type="submit"
-                sx={{
-                  mt: 2,
-                  backgroundColor: "var(--mainColor)",
-                  color: "white",
-                  "&:hover": {
-                    backgroundColor: "var(--optionalColor)",
-                    color: "white",
-                  },
-                }}
-              >
-                Submit
-              </Button>
+            <div style={{ display: "flex", justifyContent: "flex-end" }}>
               <Button
                 sx={{
                   mt: 2,
@@ -218,6 +204,20 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
                 onClick={handleClose}
               >
                 Cancel
+              </Button>
+              <Button
+                type="submit"
+                sx={{
+                  mt: 2,
+                  backgroundColor: "var(--mainColor)",
+                  color: "white",
+                  "&:hover": {
+                    backgroundColor: "var(--optionalColor)",
+                    color: "white",
+                  },
+                }}
+              >
+                Submit
               </Button>
             </div>
           </Box>
