@@ -6266,7 +6266,7 @@ Footer Area CSS
   color:white
 }
 .single-footer-widget .footer-contact-info li a:hover {
-  color: var(--mainColor);
+  color: #ccc;
 }
 .single-footer-widget .footer-contact-info li:last-child {
   margin-bottom: 0;

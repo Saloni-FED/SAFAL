@@ -14,7 +14,7 @@ const PageBanner = ({ pageTitle, pageSubTitle, button, img }) => {
             <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", gap:"4rem"}}>
               {showBUtton && (
                 <Link
-                  href="https://www.coinbase.com/affiliates"
+                  href="/contact"
                   className="default-btn global-cursor"
                   style={{width:"fit-content"}}
                 >
