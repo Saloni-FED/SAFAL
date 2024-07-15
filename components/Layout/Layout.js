@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Safal- React Next Blockchain & Cryptocurrency Template</title>
+        <title>Safal Capital</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"

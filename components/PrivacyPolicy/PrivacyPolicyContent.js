@@ -22,8 +22,8 @@ const PrivacyPolicyContent = () => {
             </p>
             <h3>Collection of information</h3>
             <p>
-              This site is provided by <strong>Novis</strong>.{" "}
-              <strong>Novis</strong> collects information in several ways from
+              This site is provided by <strong>Safal Capital</strong>.{" "}
+              <strong>Safal Capital</strong> collects information in several ways from
               different parts of this site.
             </p>
             <p>
@@ -44,7 +44,7 @@ const PrivacyPolicyContent = () => {
             </p>
             <h3>Payment methods</h3>
             <p>
-              <strong>Novis</strong> accepts the following payment methods:
+              <strong>Safal Capital</strong> accepts the following payment methods:
             </p>
             <ul>
               <li>
@@ -54,7 +54,7 @@ const PrivacyPolicyContent = () => {
                 will be charged to your card when the order is shipped.
               </li>
               <li>
-                <strong>Novis</strong> features a Fast Checkout option, allowing
+                <strong>Safal Capital</strong> features a Fast Checkout option, allowing
                 you to securely save your credit card details so that you don't
                 have to re-enter them for future purchases.
               </li>

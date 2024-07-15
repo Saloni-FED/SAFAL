@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     <>
       <PageBanner
         pageTitle='Privacy Policy'
-        pageSubTitle='Novis is the easiest place to buy and sell cryptocurrency.'
+        pageSubTitle='Safal Capital is the easiest place to buy and sell cryptocurrency.'
       />
 
       <PrivacyPolicyContent />

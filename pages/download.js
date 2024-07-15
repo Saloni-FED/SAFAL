@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import PageBanner from "../components/Common/PageBanner";
 const cryptocurrencies = [
   {
@@ -113,9 +114,6 @@ const software = [
   },
 ];
 
-
-
-
 const policy = [
   {
     name: "DO's AND DON'Ts",
@@ -222,9 +220,7 @@ const policy = [
     price: "38,541",
     a: "/assests/policy/Client Consent Letter24_11_2021_21_8_58.pdf.crdownload",
   },
-
 ];
-
 
 const values = [
   {
@@ -252,6 +248,17 @@ const values = [
 const download = () => {
   return (
     <div>
+      <Head>
+        <title>Downloads - SAFAL CAPITAL (INDIA) LIMITED</title>
+        <meta
+          name="description"
+          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+        />
+        <meta
+          name="keywords"
+          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+        />
+      </Head>
       <PageBanner pageTitle={"Downloads"} />
       <div className="cryptocurrency-area pt-100 pb-70">
         <div className="container download_backoffice">
@@ -307,9 +314,7 @@ const download = () => {
           </div>
 
           <div className="">
-            <h5 style={{ marginBottom: "2rem" }}>
-              Software
-            </h5>
+            <h5 style={{ marginBottom: "2rem" }}>Software</h5>
 
             {software.map((crypto, index) => (
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">
@@ -358,11 +363,9 @@ const download = () => {
           </div>
 
           {/* Application */}
-         
+
           <div className="row justify-content-center">
-            <h5 style={{ marginBottom: "2rem" }}>
-              Policy Procedures
-            </h5>
+            <h5 style={{ marginBottom: "2rem" }}>Policy Procedures</h5>
 
             {policy.map((crypto, index) => (
               <div key={index} className="col-lg-4 col-md-6 col-sm-6">

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Calculator from "../components/Calculator/Calculator";
+import Head from "next/head";
 import {
   Accordion,
   AccordionItem,
@@ -12,6 +13,18 @@ import {
 const Insurance = () => {
   return (
     <>
+      <Head>
+        <title>Insurance - SAFAL CAPITAL (INDIA) LIMITED</title>
+        <meta
+          name="description"
+          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+        />
+        <meta
+          name="keywords"
+          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+        />
+        <link rel="canonical" href="http://safalcapital.in/ContactUs.aspx" />
+      </Head>
       <div className="container">
         <div className="blog-details-header row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12">
@@ -21,10 +34,10 @@ const Insurance = () => {
               </a>
               <h1>Things to know before buying a term plan</h1>
 
-              <div style={{display:"flex", justifyContent:"center"}}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
                 <img src="/images/ins.png" alt="image" />
               </div>
-              <h3 style={{marginTop:"3rem"}}>What is Term Insurance</h3>
+              <h3 style={{ marginTop: "3rem" }}>What is Term Insurance</h3>
 
               <p>
                 Imagine a world where you could potentially buy a product that
@@ -57,7 +70,9 @@ const Insurance = () => {
                 address some of the key factors affecting a term insurance
                 purchase in the next section.
               </p>
-              <h3 style={{marginTop:"3rem"}}>What is an ideal cover for your Term policy?</h3>
+              <h3 style={{ marginTop: "3rem" }}>
+                What is an ideal cover for your Term policy?
+              </h3>
               <p>
                 The first question should be obvious by now — How much money do
                 you need to replace yourself financially?
@@ -69,7 +84,7 @@ const Insurance = () => {
                 demands a certain level of spending you will need to keep it up
                 if you don’t want your absence to be felt. So if you’re spending
                 50,000 every month, your term insurance product should replace
-                this income. 
+                this income.
               </p>
             </div>
           </div>
@@ -211,7 +226,7 @@ const Insurance = () => {
         </div>
 
         <Calculator />
-        <div className="faq-area ptb-100" style={{marginTop:"7rem"}}>
+        <div className="faq-area ptb-100" style={{ marginTop: "7rem" }}>
           <div className="container">
             <h2>FAQs</h2>
             <div className="faq-accordion">
