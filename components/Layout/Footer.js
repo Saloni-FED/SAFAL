@@ -242,7 +242,7 @@ const Footer = () => {
           <div className="flex-center">
             <a
               className="link link-right"
-              style={{ marginRight: "1rem" }}
+              style={{ marginRight: "1rem", color:"white" }}
               href="/privacy-policy"
             >
               Privacy Policy
@@ -250,7 +250,7 @@ const Footer = () => {
             |
             <a
               className="link link-left"
-              style={{ marginLeft: "1rem" }}
+              style={{ marginLeft: "1rem" , color:"white"}}
               href="/download"
             >
               Disclaimer
@@ -258,10 +258,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="copyright-area">
+        <div className="copyright-area" style={{backgroundColor:"var(--mainColor)"}}>
           <div className="container">
-            <p>
-              Copyright <strong>Safal Capital (India) Limited</strong>. All
+            <p style={{color:"white"}}>
+              Copyright <strong style={{color:"white"}}>Safal Capital (India) Limited</strong>. All
               Rights Reserved by{" "}
               {/* <Link href="https://envytheme.com/" target="_blank">
                 EnvyTheme

@@ -6641,6 +6641,7 @@ Go Top CSS
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   padding: 2rem 0;
+  z-index: 99;
   width: 100%;
   max-width: 1200px;
 }

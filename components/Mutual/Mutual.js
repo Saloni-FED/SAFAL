@@ -95,10 +95,58 @@ const Mutual = () => {
 
   return (
     <div>
-      <PageBanner
-        pageTitle={"Mutual Funds"}
-        pageSubTitle={"Steps to Get started with Mutual Funds"}
-      />
+      <div className="container">
+        <div className="blog-details-header row align-items-center justify-content-center">
+          <div className="col-lg-6 col-md-12">
+            <div className="content">
+              <a href="#" className="category">
+                Term Mutual Funds
+              </a>
+              <h1>Things to know before Getting Started With Mutual Funds</h1>
+
+              <h3 style={{marginTop:"3rem"}}>What is Term Mutual Funds?</h3>
+
+              <p>
+                Mutual funds are investment vehicles that pool money from many
+                investors to invest in a diversified portfolio of stocks, bonds,
+                or other assets. Managed by professional fund managers, mutual
+                funds offer investors access to a wide range of securities and
+                asset classes that might be difficult to access individually.
+                They provide diversification, spreading risk across different
+                investments, which can help mitigate losses. Mutual funds come
+                in various types catering to different investment goals and risk
+                tolerances, such as equity funds, bond funds, and balanced funds.
+              </p>
+              <p>
+                They offer liquidity, allowing investors to redeem their shares
+                at current market prices. Additionally, mutual funds are
+                regulated, ensuring transparency through regular reporting of
+                holdings, performance, and fees. This structure provides
+                individual investors with a cost-effective and professionally
+                managed way to participate in the financial markets.
+              </p>
+            </div>
+          </div>
+          {/* <div className="col-lg-6 col-md-12">
+            <div className="image">
+              <img src="/images/blog/blog1.jpg" alt="image" />
+            </div>
+          </div> */}
+        </div>
+
+        {/* <div className="blog-details-desc">
+          <div className="article-content">
+            <h3>What is Term Insurance ?</h3>
+          </div>
+        </div> */}
+      </div>
+      <div style={{ marginTop: "10rem" }}>
+        <PageBanner
+          pageTitle="Mutual Funds"
+          pageSubTitle={"Steps to Proceed With Mutual Funds"}
+        />
+      </div>
+
       <GuidesStep />
       <div style={{ paddingBottom: "4rem" }}>
         <Navbar2
