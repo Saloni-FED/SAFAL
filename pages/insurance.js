@@ -21,6 +21,9 @@ const Insurance = () => {
               </a>
               <h1>Things to know before buying a term plan</h1>
 
+              <div style={{display:"flex", justifyContent:"center"}}>
+                <img src="/images/ins.png" alt="image" />
+              </div>
               <h3 style={{marginTop:"3rem"}}>What is Term Insurance</h3>
 
               <p>

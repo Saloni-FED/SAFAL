@@ -1,3 +1,5 @@
+import Link from "next/link"; // Correct import for Link from next/link
+
 const OurFeature = ({ title }) => {
   return (
     <>
@@ -5,35 +7,30 @@ const OurFeature = ({ title }) => {
         <div className="container">
           <div className="section-title">
             <h2>{title}</h2>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p> */}
           </div>
 
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-features-box">
                 <img src="/images/features/features-img2.png" alt="image" />
-                <h3> Mutual Fund</h3>
+                <h3>Mutual Fund</h3>
                 <p>
                   Mutual funds pool money from investors to buy a diversified
                   portfolio of assets managed by professionals. They offer
                   diversification and expert management, with share values
                   fluctuating based on asset performance.
                 </p>
-                <a className="default-btn" href="/mutualfunds">
+                <Link href="/mutualfunds" className="default-btn">
                   {" "}
-                  <span>Read More</span>
-                </a>
+                  {/* Using Link correctly */}
+                    <span>Read More</span>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-features-box">
                 <img src="/images/features/features-img1.png" alt="image" />
-
                 <h3>Insurance</h3>
                 <p>
                   Insurance is a financial product that provides protection
@@ -41,10 +38,11 @@ const OurFeature = ({ title }) => {
                   exchange for coverage, which can include health, life, auto,
                   and property insurance.
                 </p>
-                <a className="default-btn" href="/insurance">
+                <Link href="/insurance" className="default-btn">
                   {" "}
+                  {/* Using Link correctly */}
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -58,10 +56,11 @@ const OurFeature = ({ title }) => {
                   They offer investment opportunities with higher risk and
                   potential returns.
                 </p>
-                <a className="default-btn" href="/unlistedshares">
+                <Link href="/unlistedshares" className="default-btn">
                   {" "}
+                  {/* Using Link correctly */}
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

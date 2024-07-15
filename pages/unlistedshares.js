@@ -18,7 +18,7 @@ const unlistedshares = () => {
         pageTitle="Unlisted Shares"
         pageSubTitle="You can easily find unlisted shares in India that are available for trading . Buy and Sell Unlisted Shares at best prices with us"
         button="Register Now"
-        img="/images/pour.jpg"
+        img="/images/pour.png"
       />
       <div className="container">
         <div className="blog-details-header row align-items-center justify-content-center">
@@ -201,6 +201,9 @@ const unlistedshares = () => {
       </div>
       <FeedBack />
 
+      <div style={{ margin: "5rem 0" }}>
+        <Listing />
+      </div>
       <div id="faq">
         <>
           <div className="faq-area ptb-100">
@@ -332,9 +335,6 @@ const unlistedshares = () => {
             </div>
           </div>
         </>
-      </div>
-      <div style={{ margin: "5rem 0" }}>
-        <Listing />
       </div>
     </div>
   );

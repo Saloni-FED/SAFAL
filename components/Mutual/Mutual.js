@@ -103,8 +103,10 @@ const Mutual = () => {
                 Term Mutual Funds
               </a>
               <h1>Things to know before Getting Started With Mutual Funds</h1>
-
-              <h3 style={{marginTop:"3rem"}}>What is Term Mutual Funds?</h3>
+              <div style={{ display: "flex", justifyContent: "center", marginTop:"3rem" }}>
+                <img src="/images/purse.png" alt="image" />
+              </div>
+              <h3 style={{ marginTop: "3rem" }}>What is Term Mutual Funds?</h3>
 
               <p>
                 Mutual funds are investment vehicles that pool money from many
@@ -115,7 +117,8 @@ const Mutual = () => {
                 They provide diversification, spreading risk across different
                 investments, which can help mitigate losses. Mutual funds come
                 in various types catering to different investment goals and risk
-                tolerances, such as equity funds, bond funds, and balanced funds.
+                tolerances, such as equity funds, bond funds, and balanced
+                funds.
               </p>
               <p>
                 They offer liquidity, allowing investors to redeem their shares

@@ -204,7 +204,7 @@ const Navbar = () => {
                     }`}
                   >
                      <img
-                          src="/images/cost.png"
+                          src="/images/shar.png"
                           alt="image"
                         />
                     
