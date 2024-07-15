@@ -74,7 +74,7 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
           </p>
           <p
             style={{ fontSize: "12px", color: "var(--optionalColor)" }}
-          >{`(+ ${(price / 100).toFixed(2)} -) (${percentage}%)`}</p>
+          >{`(${operation})`}</p>
         </div>
       </div>
 

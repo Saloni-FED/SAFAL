@@ -21,7 +21,7 @@ const AboutContent = () => {
           </div>
 
           <div className="history-timeline timeline">
-            <h3 style={{ textAlign: "center", marginBottom: "2rem" }}>
+            <h3 style={{ textAlign: "center", marginBottom: "2rem", marginTop:"4rem" }}>
               About SAFAL CAPITAL
             </h3>
             <p>

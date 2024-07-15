@@ -1586,20 +1586,22 @@ About Area CSS
 .about-content {
   border-radius: 0 0 5px 5px;
   /* background-color: var(--blackColor); */
-  background-image: url(/images/urban.gif);
-  background-position: center center;
+  /* background-image: url(/images/urban.gif); */
+  background-image: url(/images/portfolio/portfolio-img1.png);
+  background-position: center  right;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 500px;
+  /* background-size: cover; */
+  padding-top: 200px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 .about-content .content {
   padding: 30px;
   max-width: 720px;
   border-radius: 5px;
   background-color: var(--whiteColor);
+  /* margin-top: 5rem; */
 }
 .about-content .content h1 {
   font-size: 34px;
@@ -7922,7 +7924,7 @@ body {
 
 /* Quick Tools */
 .investment-calculator {
-  max-width: 500px;
+  max-width: 600px;
   margin: 2rem auto;
   padding: 20px;
   border: 1px solid #ddd;

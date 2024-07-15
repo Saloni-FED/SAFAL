@@ -30,15 +30,15 @@ const Footer = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <Link href="/" className="d-inline-block logo">
+                {/* <Link href="/" className="d-inline-block logo">
                   <img src="/images/newLogo.png" alt="logo" />
-                </Link>
+                </Link> */}
 
                 <div
                   className="single-footer-widget"
-                  style={{ marginTop: "0.8rem", color:"white" }}
+                  style={{  color:"white" }}
                 >
-                  <h3 style={{ paddingTop: "1.5rem" , color:"white"}}>Contact Info</h3>
+                  <h3 style={{  color:"white"}}>Contact Info</h3>
                   <ul className="footer-contact-info" style={{color:"white"}}>
                     <li
                       style={{

@@ -54,7 +54,7 @@ const Insurance = () => {
                 address some of the key factors affecting a term insurance
                 purchase in the next section.
               </p>
-              <h3>What is an ideal cover for your Term policy?</h3>
+              <h3 style={{marginTop:"3rem"}}>What is an ideal cover for your Term policy?</h3>
               <p>
                 The first question should be obvious by now — How much money do
                 you need to replace yourself financially?
