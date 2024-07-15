@@ -58,8 +58,8 @@ const Subbroker = () => {
         <SubTable />
         <div className="option-item  d-lg-block">
           <a
-            target="_blank"
-            href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
+            // target=""
+            href="/contact"
             className="default-btn"
             style={{ marginTop: "4rem", marginBottom: "3rem" }}
           >

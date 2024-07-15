@@ -240,11 +240,11 @@ const values = [
     icon: '<i class="fa fa-university" style="font-size:40px"></i>',
   },
   {
-    title: "BACK SERVER ONE",
+    title: "BACKUP SERVER ONE",
     icon: '<i class="fa fa-server" style="font-size:40px"></i>',
   },
   {
-    title: "BACK SERVER Two",
+    title: "BACKUP SERVER TWO",
     icon: '<i class="fa fa-server" style="font-size:40px"></i>',
   },
 ];

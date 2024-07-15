@@ -19,7 +19,7 @@ const RegisterArea = ({ bgGradient, blackText, ctaImage }) => {
                   accountability
                 </p>
                 <Link
-                  href="https://www.coinbase.com/signup"
+                  href="/contact"
                   className="default-btn global-cursor"
                 >
                   <i className="bx bxs-user"></i> Register Now

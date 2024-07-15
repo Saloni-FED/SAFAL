@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const PageBanner = ({ pageTitle, pageSubTitle, button }) => {
+const PageBanner = ({ pageTitle, pageSubTitle, button , img}) => {
   const [showBUtton, setShowButton] = React.useState(button);
 
   return (
@@ -13,9 +13,10 @@ const PageBanner = ({ pageTitle, pageSubTitle, button }) => {
             <p>{pageSubTitle}</p>
             {showBUtton && (
               <Link href="https://www.coinbase.com/affiliates" className="default-btn global-cursor">
-                <i className="bx bxs-user"></i> Become an Affiliate
+                <i className="bx bxs-user"></i> Register Now
               </Link>
             )}
+             {/* {img && <img src={img} alt="pour"/>} */}
           </div>
         </div>
         <div className="lines">

@@ -36,15 +36,18 @@ const Index = () => {
 
       {/* <Platform /> */}
 
-      {/* <FeedBack /> */}
-
+    
       {/* <Portfolio bgColor='bg-f9f9f9' /> */}
 
-      {/* <OurFeature title='Our Features' /> */}
+      <OurFeature title='Our Finacial Services' />
+        <FeedBack />
+
 
       {/* <AppDownload /> */}
 
-      <Listing />
+      {/* <Listing /> */}
+
+
 
       <RegisterAreaTwo title="Start Trading on Safal" />
     </>

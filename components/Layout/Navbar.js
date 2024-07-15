@@ -86,7 +86,7 @@ const Navbar = () => {
                       currentPath == "/subroker" && "active"
                     }`}
                   >
-                    Sub Broker
+                    Partner With Us
                   </Link>
                   {/* <Link
                     href="/blog/"
@@ -186,10 +186,9 @@ const Navbar = () => {
                         Mutual Funds
                       </Link>
                     </li>
-                  </ul>
-                </li>
 
-                <li className="nav-item">
+                    {/* Unlisted  */}
+                    <li className="nav-item">
                   {/* <Link
                     href="/prices/"
                     className={`nav-link ${
@@ -204,10 +203,19 @@ const Navbar = () => {
                       currentPath == "/unlistedshares" && "active"
                     }`}
                   >
+                     <img
+                          src="/images/cost.png"
+                          alt="image"
+                        />
+                    
                     Unlisted Shares
-                    <span className="notification-badge">New</span>
+                    {/* <span className="notification-badge">New</span> */}
                   </Link>
                 </li>
+                  </ul>
+                </li>
+
+                
 
                 <li className="nav-item megamenu">
                   <Link href="/download" className=" nav-link">

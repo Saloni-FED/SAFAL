@@ -171,25 +171,25 @@ const Banner = () => {
             <div className="col-xl-6 col-lg-6 col-md-12 p-0">
               <div className="main-banner-content">
                 <h1>Buy & Sell Cryptocurrency Easy, Fast and Secure!</h1>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p> */}
+                <p>100 of Years of Experience</p>
                 <a
                   href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
                   target="_blank"
                   className="default-btn"
                 >
-                  <i className="bx bxs-user"></i> {" "} Register
+                  <i className="bx bxs-user"></i> Register
                 </a>
               </div>
             </div>
             <div className="col-xl-4 col-lg-12 col-md-12 p-0">
               <div className="main-banner-image">
                 {/* <img src="/images/banner/banner-img1.png" alt="image" /> */}
-                <img src="/images/newImg.png" alt="image" width={539} height={849}/>
+                <img
+                  src="/images/portfolio/portfolio-img1.png"
+                  alt="image"
+                  width={539}
+                  height={849}
+                />
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const GuidesStep = () => {
                   <p>
                     Determine your investment objectives, such as growth, income, or capital preservation. Understanding your goals will help you select the right type of mutual fund.
                   </p>
-                  <img src="/images/create-account.jpg" alt="image" />
+                  {/* <img src="/images/create-account.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const GuidesStep = () => {
                   <p>
                     Evaluate different mutual funds based on their performance history, fees, management style, and risk. Use resources like fund prospectuses and financial websites to gather information.
                   </p>
-                  <img src="/images/select-coin.jpg" alt="image" />
+                  {/* <img src="/images/select-coin.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const GuidesStep = () => {
                   <p>
                     Select a mutual fund that aligns with your goals and risk tolerance. Consider factors like the fund's investment strategy, asset allocation, and the reputation of the fund manager.
                   </p>
-                  <img src="/images/select-payment.jpg" alt="image" />
+                  {/* <img src="/images/select-payment.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ const GuidesStep = () => {
                   <p>
                     Invest in the mutual fund through a brokerage account, financial advisor, or directly from the fund company. Ensure you understand the purchase process and any associated fees.
                   </p>
-                  <img src="/images/payment-method.jpg" alt="image" />
+                  {/* <img src="/images/payment-method.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ const GuidesStep = () => {
                   <p>
                     Regularly review your investment to ensure it remains aligned with your goals. Make adjustments as needed, such as rebalancing your portfolio or changing funds if performance or objectives shift.
                   </p>
-                  <img src="/images/confirm-order.jpg" alt="image" />
+                  {/* <img src="/images/confirm-order.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>

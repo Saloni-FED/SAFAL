@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Calculator from "../components/Calculator/Calculator";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
 
 const Insurance = () => {
   return (
@@ -27,17 +34,29 @@ const Insurance = () => {
             <div className="article-content">
               <ul className="social-links">
                 <li>
-                  <a href="https://www.facebook.com/safalcapitalindia/" target="_blank" className="facebook">
+                  <a
+                    href="https://www.facebook.com/safalcapitalindia/"
+                    target="_blank"
+                    className="facebook"
+                  >
                     <i className="bx bxl-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/capitalsafal?lang=en" target="_blank" className="twitter">
+                  <a
+                    href="https://x.com/capitalsafal?lang=en"
+                    target="_blank"
+                    className="twitter"
+                  >
                     <i className="bx bxl-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/safal-capital/" target="_blank" className="linkedin">
+                  <a
+                    href="https://www.linkedin.com/company/safal-capital/"
+                    target="_blank"
+                    className="linkedin"
+                  >
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </li>
@@ -100,7 +119,7 @@ const Insurance = () => {
                 money. Assume they do the least sophisticated thing possible —
                 which is probably the smartest thing to do as well.
               </p>
-              <h3>Fixed Deposits!</h3>
+              {/* <h3>Fixed Deposits!</h3>
               <p>
                 At 6% annually, they will receive 6 lakhs each year. That should
                 adequately compensate for your lost income. However with
@@ -119,7 +138,7 @@ const Insurance = () => {
                 (including EMIs) and also leave a little extra for your family.
                 Check out our free term insurance calculator to know all about
                 your ideal cover.
-              </p>
+              </p> */}
               <blockquote className="wp-block-quote">
                 <div class="option-item  d-lg-block">
                   <a
@@ -133,7 +152,7 @@ const Insurance = () => {
                   </a>
                 </div>
               </blockquote>
-              <h3>What’s an ideal policy duration?</h3>
+              {/* <h3>What’s an ideal policy duration?</h3>
               <p>
                 Remember. With a term insurance product, you keep paying your
                 premiums until you die. Or the policy lapses. So there is an
@@ -167,9 +186,6 @@ const Insurance = () => {
                 them all is a life stage benefit.
               </p>
 
-              <h3>Calculate Term Insurance Premium</h3>
-
-              <Calculator />
               <h3>How does a Life Stage Benefit help you?</h3>
               <p>
                 Term insurance policies are extremely rigid. You can’t change
@@ -352,7 +368,7 @@ const Insurance = () => {
                 opting for this rider, make sure you are doubly sure you won’t
                 need a massive cover as you grow older. Don't forget to share
                 this Guide on Below Links:-
-              </p>
+              </p> */}
               {/* <ul className="wp-block-gallery columns-3">
                 <li className="blocks-gallery-item">
                   <figure>
@@ -387,7 +403,9 @@ const Insurance = () => {
                 enim ad minim veniam, quis nostrud.
               </p> */}
               <div className="article-tags">
-                <Link href="https://www.linkedin.com/company/safal-capital/">Linkedin</Link>
+                <Link href="https://www.linkedin.com/company/safal-capital/">
+                  Linkedin
+                </Link>
                 <Link href="https://x.com/capitalsafal?lang=en">Twitter</Link>
               </div>
               {/* <div className="comment-respond">
@@ -467,10 +485,135 @@ const Insurance = () => {
                   </div>
                 </form>
               </div> */}
+             
             </div>
+          </div>
+
+          
+        </div>
+        
+      </div>
+      <>
+
+      <div style={{ textAlign: "center", marginTop: "5rem" }}>
+                <h3>"Secure Your Future Today"</h3>
+                <h3>Calculate Your Coverage with Confidence</h3>
+              </div>
+
+              <Calculator />
+      <div className="faq-area ptb-100">
+        <div className="container">
+          <h2>FAQs</h2>
+          <div className="faq-accordion">
+            <Accordion>
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    What is fixed deposits?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    Fixed deposits are a type of financial instrument offered by banks and non-banking financial companies that provides investors with a higher rate of interest than a regular savings account, until the given maturity date.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    What’s an ideal policy duration?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    With a term insurance product, you keep paying your premiums until you die or the policy lapses. You need to decide the duration at the time of purchase, typically aiming for a policy that lasts until your financial obligations decrease significantly, often around the age of 60 to 70.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    How does a Life Stage Benefit help you?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    A life stage benefit allows you to increase your coverage during major life events, such as marriage or having children, providing flexibility to ensure your policy remains adequate as your financial responsibilities grow.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    When the Insurer waives your premiums
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    Some insurers offer a waiver of premium benefit if you become permanently disabled or are diagnosed with a critical illness, allowing you to keep your policy without paying premiums during challenging times.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    Extra cover if you die in an accident?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    An accidental death benefit provides an additional payout if you die in an accident, offering extra financial protection for your family on top of the base term cover.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    Should you opt for a Terminal Illness Benefit?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    A terminal illness benefit provides a lump sum payout if you are diagnosed with a terminal illness, allowing you to access funds for treatment and other expenses during a critical time.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    Can you beat inflation with increasing cover?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    An increasing cover option ensures that your sum insured grows each year by a fixed percentage, helping to counteract inflation. However, premiums for such plans are typically higher.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <AccordionItemHeading>
+                  <AccordionItemButton>
+                    Should you decrease your cover as you grow older?
+                  </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                  <p>
+                    As you grow older and your financial obligations decrease, some insurers offer the option to reduce your cover, which can also lower your premiums. This is useful when your dependents are less financially reliant on you.
+                  </p>
+                </AccordionItemPanel>
+              </AccordionItem>
+            </Accordion>
           </div>
         </div>
       </div>
+    </>
     </>
   );
 };

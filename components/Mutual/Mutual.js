@@ -18,6 +18,14 @@ import InvestmentCalculator from "../Calculator/QuickTools/InvestmentCalculator"
 import IrregularCashFlowCalculator from "../Calculator/QuickTools/IrregularCashFlowCalculator";
 import WeightedCalculator from "../Calculator/QuickTools/WeightedCalculator";
 
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
+
 const Mutual = () => {
   const [selectedNav, setSelectedNav] = useState("life-goal");
   // const [selectedSubNav, setSelectedSubNav] = useState("Retirement");
@@ -87,89 +95,12 @@ const Mutual = () => {
 
   return (
     <div>
-      <div className="container">
-        <div className="blog-details-header row align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-12">
-            <div className="content">
-              <a href="#" className="category">
-                Mutual Funds
-              </a>
-              <h1>Things to know About Mutual Funds</h1>
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-12">
-            <div className="image">
-              <img src="/images/blog/blog1.jpg" alt="image" />
-            </div>
-          </div>
-        </div>
-
-        <div className="blog-details-desc">
-          <div className="article-content">
-            <h3>What is Term Mutual Funds?</h3>
-            <p>
-              Mutual funds are investment vehicles that pool money from multiple
-              investors to invest in a diversified portfolio of securities, such
-              as stocks, bonds, money market instruments, and other assets. They
-              are managed by professional portfolio managers who allocate the
-              fund's investments and attempt to produce capital gains or income
-              for the fund's investors. Here’s a detailed look into mutual
-              funds, their types, benefits, and how they work.
-            </p>
-            <h3>How Mutual Funds Work?</h3>
-            <ul>
-              <li>
-                Investors purchase shares in a mutual fund. This pooled money is
-                then invested in a diversified portfolio of assets.
-              </li>
-              <li>
-                Experienced fund managers make decisions about buying, holding,
-                or selling securities in the fund’s portfolio, based on research
-                and analysis.
-              </li>
-              <li>
-                Mutual funds typically invest in a wide variety of assets, which
-                helps spread risk.
-              </li>
-              <li>
-                The value of the mutual fund is determined by its Net Asset
-                Value (NAV), which is the total value of the fund’s assets minus
-                its liabilities, divided by the number of shares outstanding.
-              </li>
-            </ul>
-            <h3>Benefits of Mutual Funds</h3>
-            <ul>
-              <li>
-                By investing in a mutual fund, investors gain exposure to a
-                diversified portfolio, reducing individual security risk.
-              </li>
-              <li>
-                Fund managers bring expertise and experience in selecting and
-                managing investments.
-              </li>
-              <li>
-                Mutual fund shares can be bought or sold at the fund’s NAV at
-                the end of each trading day.
-              </li>
-              <li>
-                Mutual funds have relatively low minimum investment
-                requirements, making them accessible to a broad range of
-                investors.
-              </li>
-              <li>
-                They offer a hassle-free way to invest, as the fund handles
-                buying, selling, and record-keeping.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
       <PageBanner
         pageTitle={"Mutual Funds"}
         pageSubTitle={"Steps to Get started with Mutual Funds"}
       />
       <GuidesStep />
-      <div style={{paddingBottom:"4rem"}}>
+      <div style={{ paddingBottom: "4rem" }}>
         <Navbar2
           onSelect={setSelectedNav}
           selectedSubNav={selectedSubNav}
@@ -182,6 +113,166 @@ const Mutual = () => {
         />
         {renderCalculator()}
       </div>
+
+      <>
+        <div className="faq-area ptb-100">
+          <div className="container">
+            <h2>FAQs</h2>
+            <div className="faq-accordion">
+              <Accordion>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      What is a mutual fund?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      A mutual fund is an investment vehicle that pools money
+                      from many investors to purchase a diversified portfolio of
+                      stocks, bonds, or other securities. Professional fund
+                      managers manage these funds to achieve specific investment
+                      goals.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      How do mutual funds work?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Mutual funds collect money from multiple investors and
+                      invest it in a diversified portfolio. Each investor owns
+                      shares, which represent a portion of the holdings of the
+                      fund. The fund's value is based on the performance of its
+                      investments.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      What are the types of mutual funds?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      There are several types of mutual funds, including equity
+                      funds, debt funds, hybrid funds, and money market funds.
+                      Each type has a different investment strategy and risk
+                      level.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      What are the benefits of investing in mutual funds?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Mutual funds offer diversification, professional
+                      management, liquidity, and convenience. They allow
+                      investors to access a broad range of securities with
+                      relatively small amounts of money.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      How do I choose the right mutual fund?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Choosing the right mutual fund depends on your investment
+                      goals, risk tolerance, and investment horizon. It's
+                      important to research and compare funds based on their
+                      performance, fees, and the fund manager's track record.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      What are the risks associated with mutual funds?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Mutual funds are subject to market risk, interest rate
+                      risk, credit risk, and liquidity risk. The value of mutual
+                      fund investments can fluctuate, and there is no guarantee
+                      of returns.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      How are mutual funds taxed?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Mutual funds are subject to capital gains tax. Short-term
+                      capital gains are taxed at the investor's income tax rate,
+                      while long-term capital gains are taxed at a lower rate.
+                      Dividends received from mutual funds may also be subject
+                      to tax.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      Can I lose money in mutual funds?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Yes, investing in mutual funds involves risk, and it is
+                      possible to lose money. The value of mutual fund
+                      investments can go down as well as up, depending on market
+                      conditions and the performance of the fund's underlying
+                      assets.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      How can I invest in mutual funds?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      You can invest in mutual funds directly through the fund
+                      house, through a broker, or via online investment
+                      platforms. It's important to review the fund's prospectus
+                      and understand the fees and investment strategy before
+                      investing.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </div>
+        </div>
+      </>
     </div>
   );
 };

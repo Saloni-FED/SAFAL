@@ -36,26 +36,28 @@ const Footer = () => {
 
                 <div
                   className="single-footer-widget"
-                  style={{ marginTop: "0.8rem" }}
+                  style={{ marginTop: "0.8rem", color:"white" }}
                 >
-                  <h3 style={{ paddingTop: "1.5rem" }}>Contact Info</h3>
-                  <ul className="footer-contact-info">
+                  <h3 style={{ paddingTop: "1.5rem" , color:"white"}}>Contact Info</h3>
+                  <ul className="footer-contact-info" style={{color:"white"}}>
                     <li
                       style={{
                         display: "flex",
                         alignItems: "center",
                         cursor: "pointer",
+                        color:"white"
                       }}
                     >
                       <i
                         className="fas fa-map-marker-alt"
                         style={{
                           marginRight: "10px",
-                          color: "var(--optionalColor)",
+                          color: "white",
                           fontSize: "20px",
                         }}
                       ></i>
                       <a
+                      style={{color:"white"}}
                         href="https://www.google.com/maps/place/New+Cloth+Market,+Sarangpur,+Sherkotda,+Ahmedabad,+Gujarat+380002/@23.0179311,72.5989361,19z/data=!4m6!3m5!1s0x395e85cce36f012f:0x68b0264ba5797629!8m2!3d23.017687!4d72.6001477!16s%2Fg%2F11gjp8b1v9?entry=tts&g_ep=EgoyMDI0MDcwMS4wKgBIAVAD"
                         target="_blank"
                       >
@@ -68,11 +70,11 @@ const Footer = () => {
                         className="fas fa-envelope"
                         style={{
                           marginRight: "10px",
-                          color: "var(--optionalColor)",
+                          color: "white",
                         }}
                       ></i>
                       Email:{" "}
-                      <a href="mailto:helpdesk@safalcapital.in">
+                      <a href="mailto:helpdesk@safalcapital.in" style={{color:"white"}}>
                         helpdesk@safalcapital.in
                       </a>
                     </li>
@@ -81,10 +83,10 @@ const Footer = () => {
                         className="fas fa-phone"
                         style={{
                           marginRight: "10px",
-                          color: "var(--optionalColor)",
+                          color: "white",
                         }}
                       ></i>
-                      Phone: <a href="tel:7227906014">7227906014</a>
+                      Phone: <a href="tel:7227906014" style={{color:"white"}}>7227906014</a>
                     </li>
 
                     {/* <li>
@@ -120,7 +122,7 @@ const Footer = () => {
 
             <div className="col-lg-2 col-sm-6 col-md-6">
               <div className="single-footer-widget other_links">
-                <h3>Other Links</h3>
+                <h3 style={{color:"white"}}>Other Links</h3>
                 <ul className="services-links">
                   <li>
                     <Link href="https://www.bseindia.com/" target="_blank">
@@ -178,7 +180,7 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget pl-5">
-                <h3>Useful Links</h3>
+                <h3 style={{color:"white"}}>Useful Links</h3>
                 <ul className="quick-links" style={{ paddingLeft: "0.5rem" }}>
                   <li>
                     <Link
@@ -212,7 +214,7 @@ const Footer = () => {
 
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-footer-widget">
-                <h3>Grievance Details</h3>
+                <h3 style={{color:"white"}}>Grievance Details</h3>
                 <ul className="footer-contact-info">
                   <li>
                     SAFAL CAPITAL (INDIA) LIMITED CIN No:- U67110MP2000PLC014099

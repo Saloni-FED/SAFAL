@@ -38,8 +38,8 @@ const WeightedCalculator = () => {
   };
 
   return (
-    <div className="weighted">
-      <div className="calculator">
+    <div className="weighted" style={{border:"1px solid #ddd", borderRadius:"10px", marginTop:"2rem"}}>
+      <div className="" style={{borderRadius:"10px"}}>
         <div className="inputs">
           <div>
             <h3
@@ -100,11 +100,11 @@ const WeightedCalculator = () => {
             </button>
           </div>
         </div>
-        <div className="results">
+        <div className="result">
           <h6>Weighted Avg. Returns</h6>
-          <p>Estimated Future Value: ₹{totalFutureValue.toFixed(2)}</p>
-          <p>Weighted Average Returns: {weightedAverageReturns.toFixed(2)}%</p>
-          <p>Invested Amount: ₹{totalInvested}</p>
+          <h6>Estimated Future Value: ₹{totalFutureValue.toFixed(2)}</h6>
+          <h6>Weighted Average Returns: {weightedAverageReturns.toFixed(2)}%</h6>
+          <h6>Invested Amount: ₹{totalInvested}</h6>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Products = () => {
   ]);
 
   const products = [
-    { name: "BPO", icon: "/images/headphone1.png" },
+    { name: "IPO", icon: "/images/headphone1.png" },
     { name: "Commodity", icon: "/images/commodity (1).png" },
     { name: "Equity", icon: "/images/equity (1).png" },
     {
@@ -20,9 +20,9 @@ const Products = () => {
     },
     {
       name: "Derivatives",
-      icon: "/images/menu.png",
+      icon: "/images/equals-sign.png",
     },
-    { name: "Management", icon: "/images/suitcase (1).png" },
+    { name: "Portfolio Management", icon: "/images/suitcase (1).png" },
     { name: "Mutual Funds", icon: "/images/handshake.png" },
     // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },
     // { name: "Equity", icon: "/images/allNewImages/public-relation.png" },

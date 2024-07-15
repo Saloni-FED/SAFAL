@@ -268,7 +268,7 @@ Navbar Area CSS
 .notification-badge {
   position: absolute;
   top: 6px;
-  right: -15px;
+  right: 2px;
   background-color: var(--mainColor);
   color: white;
   border-radius: 5px;
@@ -1585,8 +1585,8 @@ About Area CSS
 
 .about-content {
   border-radius: 0 0 5px 5px;
-  background-color: var(--blackColor);
-  background-image: url(/images/about.jpg);
+  /* background-color: var(--blackColor); */
+  background-image: url(/images/urban.gif);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2672,7 +2672,7 @@ Feedback Area CSS
   color: var(--paragraphColor);
   font-size: 14.5px;
 }
-.single-feedback-box::before {
+/* .single-feedback-box::before {
   content: "\edd8";
   line-height: 1;
   color: var(--blackColor);
@@ -2682,7 +2682,7 @@ Feedback Area CSS
   top: -20px;
   font-family: "boxicons";
   font-size: 120px;
-}
+} */
 
 .single-feedback-item {
   background-color: #f9f9f9;
@@ -2724,7 +2724,7 @@ Feedback Area CSS
   color: var(--mainColor);
   font-size: 14.5px;
 }
-.single-feedback-item::before {
+/* .single-feedback-item::before {
   content: "\edd8";
   line-height: 1;
   color: var(--blackColor);
@@ -2734,7 +2734,7 @@ Feedback Area CSS
   top: -20px;
   font-family: "boxicons";
   font-size: 120px;
-}
+} */
 
 .feedback-slides .swiper-pagination {
   position: initial;
@@ -6052,8 +6052,9 @@ Contact Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: #f9faff;
+  background-color: var(--mainColor);
   padding-top: 100px;
+  color:white
 }
 
 .single-footer-widget {
@@ -6219,10 +6220,10 @@ Footer Area CSS
 }
 .single-footer-widget .services-links li a {
   display: inline-block;
-  color: var(--paragraphColor);
+  color: white;
 }
 .single-footer-widget .services-links li a:hover {
-  color: var(--mainColor);
+  color: #ccc;
 }
 .single-footer-widget .services-links li:last-child {
   margin-bottom: 0;
@@ -6237,10 +6238,11 @@ Footer Area CSS
 }
 .single-footer-widget .quick-links li a {
   display: inline-block;
-  color: var(--paragraphColor);
+  /* color: var(--paragraphColor); */
+  color:white
 }
 .single-footer-widget .quick-links li a:hover {
-  color: var(--mainColor);
+  color: #ccc;
 }
 .single-footer-widget .quick-links li:last-child {
   margin-bottom: 0;
@@ -6252,11 +6254,14 @@ Footer Area CSS
 }
 .single-footer-widget .footer-contact-info li {
   margin-bottom: 12px;
-  color: var(--paragraphColor);
+  /* color: var(--paragraphColor); */
+  color:white
 }
 .single-footer-widget .footer-contact-info li a {
   display: inline-block;
-  color: var(--paragraphColor);
+  /* color: var(--paragraphColor); */
+  /*  */
+  color:white
 }
 .single-footer-widget .footer-contact-info li a:hover {
   color: var(--mainColor);
@@ -7229,6 +7234,7 @@ output {
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid #ccc;
+  /* border-radius: 10px; */
 }
 
 .calc-header {
@@ -7300,6 +7306,7 @@ body {
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid #ccc;
+  /* border-radius: 10px; */
 }
 
 .calc-inputs {
@@ -7348,9 +7355,10 @@ body {
   max-width: 800px;
   margin: 50px auto;
   padding: 20px;
-  border : 1px solid #ccc;
+  border : 1px solid #ddd;
   background-color: #f0f0f0;
   /* border: none; */
+  border-radius: 10px;
   background-color: #fff;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
@@ -7747,7 +7755,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .sip-delay-cost-calculator h1 {
@@ -8085,6 +8093,7 @@ body {
 .weighted .calculator {
   justify-content: space-between;
   margin-top: 20px;
+  border-radius: 10px solid var(--blackColor);
 }
 
 .weighted .inputs {

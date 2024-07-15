@@ -17,13 +17,13 @@ const values = [
     title: "Towards Our Clients",
     description:
       "We strive to understand the needs of our clients. To serve their diverse requirement we have developed a bouquet of high quality products and services besides providing guidance and hand holding. We invest in building long-term relationship with our clients.",
-    icon: "/images/allNewImages/public-relation.png",
+    icon: "/images/people.png",
   },
   {
     title: "Towards Our Business Associates",
     description:
       "Our relationship with business associates is built on mutual trust and admiration. We provide state-of-the-art facilities to our business associates who in turn efficiently serve the fast expanding clientele.",
-    icon: "/images/allNewImages/vision.png",
+    icon: "/images/hand.png",
   },
 ];
 
