@@ -24,7 +24,7 @@ const InvestmentCalculator = () => {
   };
 
   return (
-    <div className="investment-calculator">
+    <div className="investment-calculator" style={{maxWidth:"800px", marginTop:"50px"}}>
       <h2>Single Amount</h2>
       <div className="calc-type">
         <label>
@@ -88,11 +88,11 @@ const InvestmentCalculator = () => {
           onChange={(e) => setRate(e.target.value)}
         />
       </div>
-      <div className="result">
+      <div className="result" style={{height:"15rem", marginTop:"5.5rem"}}>
         {calculateFuture ? (
-          <div>Future Value: ₹{futureValue}</div>
+          <h2>Future Value: ₹{futureValue}</h2>
         ) : (
-          <div>Present Value: ₹{amount}</div>
+          <h2>Present Value: ₹{amount}</h2>
         )}
       </div>
     </div>

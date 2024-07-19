@@ -41,7 +41,7 @@ const RetirementCalculator = () => {
           <input type="number" value={growthInSavings} onChange={(e) => setGrowthInSavings(e.target.value)} />
         </div>
       </div>
-      <div className="result">
+      <div className="result" style={{height:"15rem", marginTop:"4rem"}}>
         <h2>Recommended Retirement Kitty Amount</h2>
         <h2>₹ {recommendedRetirementKitty}</h2>
       </div>

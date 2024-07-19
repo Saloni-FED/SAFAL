@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { db } from "../firebase/firebaseConfig";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import Faq from "../components/Faq/FaqContent";
@@ -9,15 +9,21 @@ import { toast } from "react-hot-toast";
 import SubTable from "../components/SubTable";
 import FeatureCards from "../components/SubBRokerFeature";
 import Head from "next/head";
+
+import { Modal, Box, Button, Typography } from "@mui/material";
 // import { toast } from "react-hot-toast"
 
 const Subbroker = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone_number: "",
     question: "",
-    message: "",
+    // message: "",
   });
 
   const handleChange = (e) => {
@@ -29,6 +35,8 @@ const Subbroker = () => {
     e.preventDefault();
     try {
       console.log(formData);
+      setOpen(false);
+
       await addDoc(collection(db, "subBroker"), formData);
       toast.success("Message sent successfully!");
       setFormData({
@@ -77,9 +85,14 @@ const Subbroker = () => {
           <div className="option-item  d-lg-block">
             <a
               // target=""
-              href="/contact"
+              // href="/contact"
               className="default-btn"
-              style={{ marginTop: "4rem", marginBottom: "3rem" }}
+              style={{
+                marginTop: "4rem",
+                marginBottom: "3rem",
+                cursor: "pointer",
+              }}
+              onClick={handleOpen}
             >
               <i className="bx bxs-contact"></i> Get Started
             </a>
@@ -187,6 +200,111 @@ const Subbroker = () => {
           <Faq />
         </div>
       </div>
+
+      <Modal
+        open={open}
+        onClose={handleClose}
+        // aria-labelledby="modal-title"
+        // aria-describedby="modal-description"
+      >
+        <Box
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: { xs: "90%", sm: "70%", md: "50%", lg: "600px" },
+            bgcolor: "background.paper",
+            borderRadius: "10px",
+            boxShadow: 24,
+            p: 4,
+          }}
+        >
+          {/* <Typography>Connect With Us</Typography> */}
+          <div className="contact-form" style={{ marginTop: "4px" }}>
+            <div className="section-title">
+              <h2>Get Started With Us!!</h2>
+              <p>Feel Free to Connect</p>
+            </div>
+            <form id="contactForm" onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control"
+                      id="name"
+                      required
+                      placeholder="Eg: Sarah Taylor"
+                      value={formData.name}
+                      onChange={handleChange}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      name="email"
+                      className="form-control"
+                      id="email"
+                      required
+                      placeholder="hello@sarah.com"
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="phone_number"
+                      className="form-control"
+                      id="phone_number"
+                      required
+                      placeholder="Enter your phone number"
+                      value={formData.phone_number}
+                      onChange={handleChange}
+                      pattern="[0-9]+"
+                      onInput={(e) => {
+                        e.target.value = e.target.value.replace(/[^0-9]/g, "");
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                    <textarea
+                      type="text"
+                      name="question"
+                      className="form-control"
+                      id="question"
+                      placeholder="Enter your Question"
+                      required
+                      value={formData.question}
+                      onChange={handleChange}
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <button type="submit" className="default-btn">
+                    <i className="bx bxs-plane-art"></i> Send Message
+                  </button>
+                  {/* <button type="submit" className="default-btn" >
+                     Cancel
+                  </button> */}
+                </div>
+              </div>
+            </form>
+          </div>
+        </Box>
+      </Modal>
     </>
   );
 };

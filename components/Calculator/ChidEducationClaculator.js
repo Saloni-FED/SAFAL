@@ -95,7 +95,7 @@ const ChildEducationCalculator = () => {
           </select>
         </div>
       </div>
-      <div className="result">
+      <div className="result" style={{height:"15rem"}}>
         <h2>Recommended Target Amount</h2>
         <h2>₹ {futureCost.toFixed(2)}</h2>
         <div className="investment-details">

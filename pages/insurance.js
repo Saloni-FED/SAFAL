@@ -1,4 +1,9 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase/firebaseConfig";
+import { Modal, Box, Button, Typography } from "@mui/material";
+import { addDoc } from "firebase/firestore";
+import { toast } from "react-hot-toast";
 import Link from "next/link";
 import Calculator from "../components/Calculator/Calculator";
 import Head from "next/head";
@@ -11,6 +16,44 @@ import {
 } from "react-accessible-accordion";
 
 const Insurance = () => {
+  const [open, setOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phoneNumber: "",
+    subject: "",
+  });
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { name, email, phoneNumber, subject } = formData;
+
+    if (!name || !email || !phoneNumber || !subject) {
+      toast("Please fill out all fields.");
+      return;
+    }
+
+    try {
+      await addDoc(collection(db, "insurance"), formData);
+      handleClose();
+      toast.success("Form Submitted Successfully");
+      setFormData({ name: "", email: "", phoneNumber: "", subject: "" });
+      console.log("Sucess");
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+  };
   return (
     <>
       <Head>
@@ -101,123 +144,23 @@ const Insurance = () => {
           </div>
         </div> */}
       </div>
-      {/* <div className="blog-details-area ptb-100">
-        <div className="container">
-          <div className="blog-details-header row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="content">
-                <Link href="#" className="category">
-                  Term Insurance
-                </Link>
-                <h1>Things to know before buying a term plan</h1>
-                <h3>What is Term Insurance ?</h3>
-                <p>
-                  Imagine a world where you could potentially buy a product that
-                  could replace you. Okay, not you precisely, because that would
-                  be a bit silly. But what if you had a replica version of
-                  yourself that could earn like you and make money like you.
-                  Wouldn’t you jump on that opportunity? Or maybe pay an annual
-                  fee just so you could hold on to this person? You probably
-                  would. And a term insurance product does just that. It is your
-                  financial replica and it comes alive when you die.
-                </p>
-                <p>
-                  Let me explain. When you buy a term insurance product, you pay
-                  a small fee every year to protect your downside. And in the
-                  event of your passing, the insurance company pays out a large
-                  sum of money to your family or your loved ones. Think — 1
-                  Crore or 5 Crore or even 10 Crore. Ideally, this money should
-                  replace you financially. It should support your family when
-                  you’re no longer the breadwinner. And unless you’ve
-                  deliberately misled your insurer whilst buying the policy,
-                  they will pay out the full amount the moment you die. Hell,
-                  even if you do mislead them, they have 3 years to uncover the
-                  fraud. If they don’t do it by then, they are mandated to pay
-                  out, no questions asked. So unless you commit suicide within
-                  one year of buying the policy or you died while committing a
-                  crime, your loved ones will get this money.
-                </p>
-                <p>
-                  And while the base product is simple enough to understand,
-                  we’ll address some of the key factors affecting a term
-                  insurance purchase in the next section.
-                </p>
-                <h3>What is an ideal cover for your Term policy?</h3>
-                <p>
-                  The first question should be obvious by now — How much money
-                  do you need to replace yourself financially?
-                </p>
-                <p>
-                  It’s a tough question and let’s be honest — It is a bit
-                  subjective as well. But there are a few key things you have to
-                  remember here. For starters, your expenses. If your lifestyle
-                  demands a certain level of spending you will need to keep it
-                  up if you don’t want your absence to be felt. So if you’re
-                  spending 50,000 every month, your term insurance product
-                  should replace this income. And at that rate, you’re probably
-                  looking at a cover totalling 1 Crore. Let me explain why.
-                </p>
-                Think about what your family would do if they received this
-                money. Assume they do the least sophisticated thing possible —
-                which is probably the smartest thing to do as well. Get Started
-                With Us
-              </div>
-            </div>
-            {/* <div className="col-lg-6 col-md-12">
-              <div className="image">
-                <img src="/images/blog/blog1.jpg" alt="image" />
-              </div>
-            </div> */}
-      {/* </div> */}
-
-      {/* <div className="blog-details-desc">
-            <div className="article-content">
-              <ul className="social-links">
-                <li>
-                  <a
-                    href="https://www.facebook.com/safalcapitalindia/"
-                    target="_blank"
-                    className="facebook"
-                  >
-                    <i className="bx bxl-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://x.com/capitalsafal?lang=en"
-                    target="_blank"
-                    className="twitter"
-                  >
-                    <i className="bx bxl-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/company/safal-capital/"
-                    target="_blank"
-                    className="linkedin"
-                  >
-                    <i className="bx bxl-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" className="instagram">
-                    <i className="bx bxl-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-
-              
-              <div className="article-tags">
-                <Link href="https://www.linkedin.com/company/safal-capital/">
-                  Linkedin
-                </Link>
-                <Link href="https://x.com/capitalsafal?lang=en">Twitter</Link>
-              </div>
-              
-            </div>
-          </div> */}
-      {/* </div> */}
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "10rem",
+          marginTop:"3rem"
+        }}
+      >
+        <p
+          className="default-btn"
+          style={{ cursor: "pointer" }}
+          onClick={handleOpen}
+        >
+          Get To Know More
+        </p>
+      </div>
 
       <>
         <div style={{ textAlign: "center", marginTop: "10rem" }}>
@@ -363,6 +306,152 @@ const Insurance = () => {
             </div>
           </div>
         </div>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-title"
+          aria-describedby="modal-description"
+        >
+          <Box
+            sx={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              width: { xs: "90%", sm: "70%", md: "50%", lg: "400px" },
+              bgcolor: "background.paper",
+              borderRadius: "10px",
+              boxShadow: 24,
+              p: 4,
+            }}
+          >
+            <Typography
+              id="modal-title"
+              variant="h6"
+              component="h2"
+              sx={{ textAlign: "center" }}
+            >
+              Know More About Insurance!!
+            </Typography>
+            <Box
+              component="form"
+              // noValidate
+              autoComplete="off"
+              sx={{ mt: 2 }}
+              onSubmit={handleSubmit}
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                className="form-control"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                style={{
+                  display: "block",
+                  width: "100%",
+                  margin: "8px 0",
+                  padding: "8px",
+                  backgroundColor: "#f9f9f9",
+                  borderRadius: "0",
+                  border: "none",
+                  boxShadow: "0 0 2px rgba(0,0,0,0.1)",
+                }}
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+                className="form-control"
+                required
+                style={{
+                  display: "block",
+                  width: "100%",
+                  margin: "8px 0",
+                  padding: "8px",
+                  backgroundColor: "#f9f9f9",
+                  borderRadius: "0",
+                  border: "none",
+                  boxShadow: "0 0 2px rgba(0,0,0,0.1)",
+                }}
+              />
+              <input
+                type="tel"
+                name="phoneNumber"
+                placeholder="Phone Number"
+                className="form-control"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                required
+                pattern="[0-9]{10}"
+                style={{
+                  display: "block",
+                  width: "100%",
+                  margin: "8px 0",
+                  padding: "8px",
+                  backgroundColor: "#f9f9f9",
+                  borderRadius: "0",
+                  border: "none",
+                  boxShadow: "0 0 2px rgba(0,0,0,0.1)",
+                }}
+              />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                className="form-control"
+                value={formData.subject}
+                onChange={handleChange}
+                required
+                style={{
+                  display: "block",
+                  width: "100%",
+                  margin: "8px 0",
+                  padding: "8px",
+                  backgroundColor: "#f9f9f9",
+                  borderRadius: "0",
+                  border: "none",
+                  boxShadow: "0 0 2px rgba(0,0,0,0.1)",
+                }}
+              />
+              <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                <Button
+                  sx={{
+                    mt: 2,
+                    backgroundColor: "var(--mainColor)",
+                    color: "white",
+                    ml: 10,
+                    "&:hover": {
+                      backgroundColor: "var(--optionalColor)",
+                      color: "white",
+                    },
+                  }}
+                  onClick={handleClose}
+                >
+                  Cancel
+                </Button>
+                <Button
+                  type="submit"
+                  sx={{
+                    mt: 2,
+                    marginLeft: "10px",
+                    backgroundColor: "var(--mainColor)",
+                    color: "white",
+                    "&:hover": {
+                      backgroundColor: "var(--optionalColor)",
+                      color: "white",
+                    },
+                  }}
+                >
+                  Submit
+                </Button>
+              </div>
+            </Box>
+          </Box>
+        </Modal>
       </>
     </>
   );

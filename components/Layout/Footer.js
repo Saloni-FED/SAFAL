@@ -86,7 +86,7 @@ const Footer = () => {
                           color: "white",
                         }}
                       ></i>
-                      Phone: <a href="tel:7227906014" style={{color:"white"}}>7227906014</a>
+                      Phone: <a href="tel:7227906014" style={{color:"white"}}>7227906099</a>
                     </li>
 
                     {/* <li>

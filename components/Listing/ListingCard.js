@@ -65,164 +65,20 @@ const ListingCard = ({ image, title, price, percentage, operation }) => {
         </div>
         <div style={{ width: "10rem" }}>
           <p className="card-title">{truncateTitle(title, 3)}</p>
-          <p
+          {/* <p
             style={{ fontSize: "15px", cursor: "pointer" }}
             className="card_p"
             onClick={handleOpen}
           >
             Price On Request
-          </p>
+          </p> */}
           <p
             style={{ fontSize: "12px", color: "var(--optionalColor)" }}
           >{`(${operation})`}</p>
         </div>
       </div>
 
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-title"
-        aria-describedby="modal-description"
-      >
-        <Box
-          sx={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            width: { xs: "90%", sm: "70%", md: "50%", lg: "400px" },
-            bgcolor: "background.paper",
-            borderRadius: "10px",
-            boxShadow: 24,
-            p: 4,
-          }}
-        >
-          <Typography
-            id="modal-title"
-            variant="h6"
-            component="h2"
-            sx={{ textAlign: "center" }}
-          >
-            Contact
-          </Typography>
-          <Box
-            component="form"
-            // noValidate
-            autoComplete="off"
-            sx={{ mt: 2 }}
-            onSubmit={handleSubmit}
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              className="form-control"
-              value={formData.name}
-              onChange={handleChange}
-              required
-              style={{
-                display: "block",
-                width: "100%",
-                margin: "8px 0",
-                padding: "8px",
-                backgroundColor: "#f9f9f9",
-                borderRadius: "0",
-                border: "none",
-                boxShadow: "0 0 2px rgba(0,0,0,0.1)",
-              }}
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={formData.email}
-              onChange={handleChange}
-              className="form-control"
-              required
-              style={{
-                display: "block",
-                width: "100%",
-                margin: "8px 0",
-                padding: "8px",
-                backgroundColor: "#f9f9f9",
-                borderRadius: "0",
-                border: "none",
-                boxShadow: "0 0 2px rgba(0,0,0,0.1)",
-              }}
-            />
-            <input
-              type="tel"
-              name="phoneNumber"
-              placeholder="Phone Number"
-              className="form-control"
-              value={formData.phoneNumber}
-              onChange={handleChange}
-              required
-              pattern="[0-9]{10}"
-              style={{
-                display: "block",
-                width: "100%",
-                margin: "8px 0",
-                padding: "8px",
-                backgroundColor: "#f9f9f9",
-                borderRadius: "0",
-                border: "none",
-                boxShadow: "0 0 2px rgba(0,0,0,0.1)",
-              }}
-            />
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              className="form-control"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-              style={{
-                display: "block",
-                width: "100%",
-                margin: "8px 0",
-                padding: "8px",
-                backgroundColor: "#f9f9f9",
-                borderRadius: "0",
-                border: "none",
-                boxShadow: "0 0 2px rgba(0,0,0,0.1)",
-              }}
-            />
-            <div style={{ display: "flex", justifyContent: "flex-end" }}>
-              <Button
-                sx={{
-                  mt: 2,
-                  backgroundColor: "var(--mainColor)",
-                  color: "white",
-                  ml: 2,
-                  "&:hover": {
-                    backgroundColor: "var(--optionalColor)",
-                    color: "white",
-                  },
-                }}
-                onClick={handleClose}
-              >
-                Cancel
-              </Button>
-              <Button
-                type="submit"
-                sx={{
-                  mt: 2,
-                  backgroundColor: "var(--mainColor)",
-                  color: "white",
-                  "&:hover": {
-                    backgroundColor: "var(--optionalColor)",
-                    color: "white",
-                  },
-                }}
-              >
-                Submit
-              </Button>
-            </div>
-          </Box>
-        </Box>
-      </Modal>
+     
     </>
   );
 };

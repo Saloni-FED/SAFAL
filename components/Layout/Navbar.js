@@ -75,7 +75,7 @@ const Navbar = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link href="/about" className=" nav-link">
-                    About
+                    About Us
                   </Link>
                 </li>
 
@@ -227,6 +227,17 @@ const Navbar = () => {
                     Contact Us
                   </Link>
                 </li>
+                <li className="nav-item megamenu">
+                  <Link href="/unlistedshares" className=" nav-link">
+                    Unlisted Shares
+                     <span className="notification-badge">New</span>
+                  </Link>
+                </li>
+                <li className="nav-item megamenu">
+                  <Link href="/blog" className=" nav-link">
+                    Blogs
+                  </Link>
+                </li>
               </ul>
 
               <div className="others-option">
@@ -242,7 +253,7 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className="option-item">{/* <LangDropdown /> */}</div>
+                  {/* <div className="option-item"><LangDropdown /></div> */}
                 </div>
               </div>
             </div>

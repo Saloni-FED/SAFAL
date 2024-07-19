@@ -38,8 +38,16 @@ const WeightedCalculator = () => {
   };
 
   return (
-    <div className="weighted" style={{border:"1px solid #ddd", borderRadius:"10px", marginTop:"2rem"}}>
-      <div className="" style={{borderRadius:"10px"}}>
+    <div
+      className="weighted"
+      style={{
+        border: "1px solid #ddd",
+        borderRadius: "10px",
+        marginTop: "50px",
+        maxWidth: "800px",
+      }}
+    >
+      <div className="" style={{ borderRadius: "10px" }}>
         <div className="inputs">
           <div>
             <h3
@@ -86,7 +94,7 @@ const WeightedCalculator = () => {
               <button onClick={() => removeInvestment(index)}>-</button>
             </div>
           ))}
-          <div style={{display:"flex", justifyContent:"center"}}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
             <button
               className="btn_center"
               onClick={() =>
@@ -100,11 +108,17 @@ const WeightedCalculator = () => {
             </button>
           </div>
         </div>
-        <div className="result">
-          <h6>Weighted Avg. Returns</h6>
-          <h6>Estimated Future Value: ₹{totalFutureValue.toFixed(2)}</h6>
-          <h6>Weighted Average Returns: {weightedAverageReturns.toFixed(2)}%</h6>
-          <h6>Invested Amount: ₹{totalInvested}</h6>
+        {/* <div className="result" style={{height:"15rem", marginTop:"4rem"}}>
+        <h2>Recommended Retirement Kitty Amount</h2>
+        <h2>₹ {recommendedRetirementKitty}</h2>
+      </div> */}
+        <div className="result" style={{height:"15rem"}}>
+          <h2>Weighted Avg. Returns</h2>
+          <h2>Estimated Future Value: ₹{totalFutureValue.toFixed(2)}</h2>
+          <h2>
+            Weighted Average Returns: {weightedAverageReturns.toFixed(2)}%
+          </h2>
+          <h2>Invested Amount: ₹{totalInvested}</h2>
         </div>
       </div>
     </div>

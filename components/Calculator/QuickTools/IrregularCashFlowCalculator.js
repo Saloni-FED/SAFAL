@@ -50,7 +50,7 @@ const IrregularCashFlowCalculator = () => {
   };
 
   return (
-    <div className="irregular-cash-flow-calculator">
+    <div className="irregular-cash-flow-calculator" style={{maxWidth:"800px", marginTop:"50px"}}>
       <h2>Irregular Cash Flow</h2>
       <div>
         <label>
@@ -90,9 +90,9 @@ const IrregularCashFlowCalculator = () => {
         </label>
       </div>
     
-      <div className="result">
-        <h6>Total Future Value: {totalFutureValue.toFixed(2)}</h6>
-        <h6>Total Present Value: {totalPresentValue.toFixed(2)}</h6>
+      <div className="result" style={{height:'15rem', marginTop:"9rem"}}>
+        <h2>Total Future Value: {totalFutureValue.toFixed(2)}</h2>
+        <h2>Total Present Value: {totalPresentValue.toFixed(2)}</h2>
       </div>
     </div>
   );

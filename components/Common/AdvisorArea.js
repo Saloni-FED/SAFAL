@@ -18,7 +18,7 @@ const AdvisorArea = ({ bgColor }) => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-advisor-box">
                 <div className="image">
-                  <img src="/images/about-man1.png" alt="image" />
+                  <img src="/images/chairman.png" alt="image" />
                 </div>
                 <div className="content">
                   <h3> Mr. Pavankumar Satyanarayan Agrawal.</h3>
@@ -30,7 +30,7 @@ const AdvisorArea = ({ bgColor }) => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-advisor-box">
                 <div className="image">
-                  <img src="/images/about-man2.png" alt="image" width={175} height={150}/>
+                  <img src="/images/chairman.png" />
                 </div>
                 <div className="content">
                   <h3> Mr. Aatish Pavankumar Agrawal.</h3>
@@ -42,7 +42,7 @@ const AdvisorArea = ({ bgColor }) => {
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-advisor-box">
                 <div className="image">
-                  <img src="/images/about-man3.png" alt="image"  width={156} height={150}/>
+                  <img src="/images/chairman.png" alt="image" />
                 </div>
                 <div className="content">
                   <h3>Mr. Ayush Pavankumar Agrawal.</h3>

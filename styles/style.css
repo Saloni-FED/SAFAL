@@ -1585,9 +1585,10 @@ About Area CSS
 
 .about-content {
   border-radius: 0 0 5px 5px;
+
   /* background-color: var(--blackColor); */
   /* background-image: url(/images/urban.gif); */
-  background-image: url(/images/portfolio/portfolio-img1.png);
+  background-image: url(/images/banner/banner-img3.png);
   background-position: center  right;
   background-repeat: no-repeat;
   /* background-size: cover; */

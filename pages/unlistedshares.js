@@ -52,7 +52,7 @@ const unlistedshares = () => {
 
         <div className="blog-details-desc">
           <div className="article-content">
-            <h3>What is Term Unlisted Shares?</h3>
+            <h3>What are Unlisted Shares?</h3>
             <p>
               Unlisted shares refer to the equity shares of a company that are
               not listed on any recognized stock exchange. This means that they
@@ -212,10 +212,189 @@ const unlistedshares = () => {
           </div>
         </div>
       </div>
-      <FeedBack />
+      {/* <FeedBack /> */}
+      {/* Feedback */}
+      <div className="fedback-area pt-100 pb-70">
+        <div className="container">
+          <div className="section-title">
+            <h2>Testimonials</h2>
+            {/* <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p> */}
+          </div>
+
+          <div className="row justify-content-center">
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
+              style={{ paddingRight: "3rem" }}
+            >
+              <div className="single-feedback-box">
+                <div className="rating">
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                </div>
+                <p>
+                  {/* On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled demoralized by the charms of
+                  pleasure of the moment, so blinded by desire, that they cannot
+                  foresee the pain and trouble that are bound to ensue; and
+                  equal blame belongs. */}
+                  {/* I had the pleasure of working with Safal Capital India Ltd.
+                  for my recent purchase of unlisted shares, and I couldn't be
+                  more satisfied with the experience. From the very beginning,
+                  the team demonstrated a high level of professionalism and
+                  expertise, guiding me */}
+                  I had Pleasure of working Safal Capital India Ltd. For my
+                  recent purchase of unlisted shares, and I couldn't be more
+                  satisfied with the experience. From the very beginning, the
+                  team demonstrated a high level of professionalism and
+                  expertise, guiding me .
+                </p>
+                <div className="client-info">
+                  <div className="d-flex align-items-center">
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
+                    <div className="title">
+                      <h3>Manohar Kanjani</h3>
+                      <span>Long Term Investor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
+              style={{ paddingRight: "3rem" }}
+            >
+              <div className="single-feedback-box">
+                <div className="rating">
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                </div>
+                <p>
+                  {/* On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled demoralized by the charms of
+                  pleasure of the moment, so blinded by desire, that they cannot
+                  foresee the pain and trouble that are bound to ensue; and
+                  equal blame belongs. */}
+                  I wholeheartedly recommend Safal Capital India Ltd. to anyone
+                  considering their first investment in unlisted shares or
+                  private equity. Thank you for making my entry into this market
+                  a successful and rewarding experience!
+                </p>
+                <div className="client-info">
+                  <div className="d-flex align-items-center">
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
+                    <div className="title">
+                      <h3>Nilesh Mehta </h3>
+                      <span>Equity Investor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12"
+              // style={{ paddingRight: "3rem" }}
+            >
+              <div className="single-feedback-box">
+                <div className="rating">
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                  <img src="/images/star.png" alt="image" />
+                </div>
+                <p>
+                  {/* On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled demoralized by the charms of
+                  pleasure of the moment, so blinded by desire, that they cannot
+                  foresee the pain and trouble that are bound to ensue; and
+                  equal blame belongs. */}
+                  I highly recommend Safal Capital India Ltd. to anyone looking
+                  to invest in unlisted shares. Their exceptional service and
+                  support have made a significant impact on my investment
+                  journey.
+                </p>
+                <div className="client-info">
+                  <div className="d-flex align-items-center">
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
+                    <div className="title">
+                      <h3>Ashish Goyal </h3>
+                      <span>Ace Investor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div style={{ margin: "5rem 0" }}>
         <Listing />
+      </div>
+
+      <div className="container">
+        <div className="blog-details-header row align-items-center justify-content-center">
+          <div className="col-lg-6 col-md-12">
+            <div className="content">
+              <h1 style={{  marginBottom: "30px" }}>
+                Why Invest in Unlisted Shares with SAFAL
+              </h1>
+
+              <p>
+                The complexities of unlisted investments can be daunting,
+                particularly for individual investors. Seeking guidance from an
+                external advisor brings several advantages: Access and network :
+                Benefit and leverage from established relationships to unlock
+                exclusive investment opportunities.
+              </p>
+              <p>
+                <strong>Valuation expertise:</strong> SAFAL possess skills and
+                tools to accurately assess the fair value of unlisted assets.
+              </p>
+              <p>
+                <strong>Risk management:</strong> With SAFAL you can navigate
+                risks associated with unlisted investments and develop a sound
+                investment strategy.
+              </p>
+              <p>
+                <strong>Regulatory compliance:</strong> We ensure investments
+                comply with relevant regulations and legal requirements.
+              </p>
+              <p>
+                Unlisted shares and securities offer a distinctive investment
+                avenue with high return potential. However, understanding the
+                risks and navigating complexities necessitates careful
+                consideration and expert guidance. By partnering with a
+                qualified external advisor, investors can unlock the potential
+                of unlisted investments while mitigating associated risks,
+                enabling informed decisions to achieve their financial goals.
+              </p>
+            </div>
+          </div>
+          {/* <div className="col-lg-6 col-md-12">
+            <div className="image">
+              <img src="/images/blog/blog1.jpg" alt="image" />
+            </div>
+          </div> */}
+        </div>
+
+        {/* <div className="blog-details-desc">
+          <div className="article-content">
+            <h3>What is Term Insurance ?</h3>
+          </div>
+        </div> */}
       </div>
       <div id="faq">
         <>
