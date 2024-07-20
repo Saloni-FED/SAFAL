@@ -170,15 +170,17 @@ const Banner = () => {
           <div className="row align-items-center m-0">
             <div className="col-xl-6 col-lg-6 col-md-12 p-0">
               <div className="main-banner-content">
-                <h1>Buy & Sell Cryptocurrency Easy, Fast and Secure!</h1>
-                <p>100 of Years of Experience</p>
-                <a
+                <h1>
+                  Leading Financial Services with 100  Years of Combined
+                  Experience.
+                </h1>
+                {/* <a
                   href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
                   target="_blank"
                   className="default-btn"
                 >
                   <i className="bx bxs-user"></i> Register
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-xl-4 col-lg-12 col-md-12 p-0">

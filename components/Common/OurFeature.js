@@ -12,7 +12,11 @@ const OurFeature = ({ title }) => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-features-box">
-                <img src="/images/features/features-img2.png" alt="image" />
+                <div className="features-box">
+                  <div className="icon">
+                    <img src="/images/features/mutual.png" alt="image" />
+                  </div>
+                </div>
                 <h3>Mutual Fund</h3>
                 <p>
                   Mutual funds pool money from investors to buy a diversified
@@ -23,14 +27,18 @@ const OurFeature = ({ title }) => {
                 <Link href="/mutualfunds" className="default-btn">
                   {" "}
                   {/* Using Link correctly */}
-                    <span>Read More</span>
+                  <span>Read More</span>
                 </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-features-box">
-                <img src="/images/features/features-img1.png" alt="image" />
+                <div className="features-box">
+                  <div className="icon">
+                    <img src="/images/features/insuarance.png" alt="image" />
+                  </div>
+                </div>
                 <h3>Insurance</h3>
                 <p>
                   Insurance is a financial product that provides protection
@@ -48,7 +56,12 @@ const OurFeature = ({ title }) => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-features-box">
-                <img src="/images/features/features-img3.png" alt="image" />
+                {/* <img src="/images/features/features-img3.png" alt="image" /> */}
+                <div className="features-box">
+                  <div className="icon">
+                    <img src="/images/features/unlistedshares.png" alt="image" />
+                  </div>
+                </div>
                 <h3>Unlisted Shares</h3>
                 <p>
                   Unlisted shares are securities not traded on formal stock

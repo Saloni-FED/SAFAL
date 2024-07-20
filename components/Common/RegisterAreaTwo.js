@@ -12,13 +12,13 @@ const RegisterAreaTwo = ({ title }) => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco.
             </p> */}
-            <a
+            {/* <a
               href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
               target="_blank"
               className="default-btn global-cursor"
             >
               <i className="bx bxs-user"></i> Register Now
-            </a>
+            </a> */}
           </div>
         </div>
 

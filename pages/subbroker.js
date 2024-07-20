@@ -9,6 +9,7 @@ import { toast } from "react-hot-toast";
 import SubTable from "../components/SubTable";
 import FeatureCards from "../components/SubBRokerFeature";
 import Head from "next/head";
+import FeedBack from "../components/HomeOne/FeedBack";
 
 import { Modal, Box, Button, Typography } from "@mui/material";
 // import { toast } from "react-hot-toast"
@@ -102,7 +103,7 @@ const Subbroker = () => {
         <div
           style={{
             marginTop: "3rem",
-            marginBottom: "10rem",
+
             padding: "6rem 1rem",
           }}
         >
@@ -111,7 +112,11 @@ const Subbroker = () => {
           <FeatureCards />
         </div>
 
-        <Platform title={"What our community of sub-brokers has to say"} />
+        {/* <Platform title={} /> */}
+
+        <div>
+          <FeedBack />
+        </div>
         {/* <FeedBack /> */}
         <div style={{ width: "100%", overflow: "hidden" }}>
           <div className="contact-form">

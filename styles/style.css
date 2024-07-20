@@ -2641,6 +2641,10 @@ Feedback Area CSS
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+
 }
 .single-feedback-box .rating {
   margin-bottom: 20px;
@@ -2656,7 +2660,7 @@ Feedback Area CSS
   font-family: var(--fontFamily2);
 }
 .single-feedback-box .client-info {
-  margin-top: 22px;
+  margin-top: auto;
 }
 .single-feedback-box .client-info img {
   width: 60px;
@@ -7098,14 +7102,22 @@ Go Top CSS
 /* Safal logo */
 
 @media (max-width: 1080px) {
-  .safal_img {
-    width: 150px;
-  }
+  
   .option-item .default-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+}
+
+.safal_img{
+  width:120px
+}
+
+@media (max-width: 1300px){
+  .safal_img{
+    width:100px
   }
 }
 
@@ -7288,7 +7300,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .navbar button,
@@ -8153,4 +8165,9 @@ body {
 
 .weighted .results p {
   margin-bottom: 8px;
+}
+
+
+.navbar-area .navbar .navbar-nav .nav-item a{
+  font-size: 13px !important;
 }
