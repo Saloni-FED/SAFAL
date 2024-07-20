@@ -20,7 +20,7 @@ const Products = () => {
     },
     {
       name: "Derivatives",
-      icon: "/images/equals-sign.png",
+      icon: "/images/derivative1.png",
     },
     { name: "Portfolio Management", icon: "/images/suitcase (1).png" },
     { name: "Mutual Funds", icon: "/images/handshake.png" },
