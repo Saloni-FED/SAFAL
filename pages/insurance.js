@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase/firebaseConfig";
 import { Modal, Box, Button, Typography } from "@mui/material";
@@ -60,13 +60,12 @@ const Insurance = () => {
         <title>Insurance - SAFAL CAPITAL (INDIA) LIMITED</title>
         <meta
           name="description"
-          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+          content="Explore comprehensive insurance solutions with Safal Capital India Limited. We offer a range of insurance products including life insurance, health insurance, and investment-linked insurance plans to secure your future."
         />
         <meta
           name="keywords"
-          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+          content="insurance, life insurance, health insurance, investment-linked insurance, insurance plans, Safal Capital insurance, insurance company in India, comprehensive insurance solutions, insurance services"
         />
-        <link rel="canonical" href="http://safalcapital.in/ContactUs.aspx" />
       </Head>
       <div className="container">
         <div className="blog-details-header row align-items-center justify-content-center">
@@ -150,7 +149,7 @@ const Insurance = () => {
           display: "flex",
           justifyContent: "center",
           marginBottom: "10rem",
-          marginTop:"3rem"
+          marginTop: "3rem",
         }}
       >
         <p

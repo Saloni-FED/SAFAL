@@ -11,12 +11,15 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Us - Safal Capital.in</title>
+        <title>Safal Capital.in</title>
         <meta
           name="description"
           content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
         />
-
+        <meta
+          name="keywords"
+          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+        />
         {/* <meta property="og:image" content="/images/office.png" /> */}
         <meta
           property="og:url"

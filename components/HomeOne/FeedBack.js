@@ -41,7 +41,7 @@ const FeedBack = () => {
                 </p>
                 <div className="client-info">
                   <div className="d-flex align-items-center">
-                    <img src="/images/testi.jpg" alt="image" />
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
                     <div className="title">
                       <h3>Shivani Jain</h3>
                       <span>Equity Investor</span>
@@ -77,7 +77,7 @@ const FeedBack = () => {
                 </p>
                 <div className="client-info">
                   <div className="d-flex align-items-center">
-                    <img src="/images/testi.jpg" alt="image" />
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
                     <div className="title">
                       <h3>Arpit Bisani</h3>
                       <span>Chartered Accountant</span>
@@ -114,7 +114,7 @@ const FeedBack = () => {
                 </p>
                 <div className="client-info">
                   <div className="d-flex align-items-center">
-                    <img src="/images/testi.jpg" alt="image" />
+                    {/* <img src="/images/testi.jpg" alt="image" /> */}
                     <div className="title">
                       <h3>Raghav Arora </h3>
                       <span>Long Term Investor</span>

@@ -8,11 +8,11 @@ const Mutualfunds = () => {
         <title>Mutual Funds - SAFAL CAPITAL (INDIA) LIMITED</title>
         <meta
           name="description"
-          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+          content="Explore a wide range of mutual fund investment options with Safal Capital India Limited. Achieve your financial goals with our expert guidance and comprehensive portfolio management services."
         />
         <meta
           name="keywords"
-          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+          content="mutual funds, mutual fund investment, mutual fund options, Safal Capital mutual funds, financial goals, portfolio management, investment services, equity funds, debt funds, hybrid funds"
         />
         <link rel="canonical" href="http://safalcapital.in/ContactUs.aspx" />
       </Head>

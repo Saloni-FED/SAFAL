@@ -21,7 +21,13 @@ const AboutContent = () => {
           </div>
 
           <div className="history-timeline timeline">
-            <h3 style={{ textAlign: "center", marginBottom: "2rem", marginTop:"4rem" }}>
+            <h3
+              style={{
+                textAlign: "center",
+                marginBottom: "2rem",
+                marginTop: "4rem",
+              }}
+            >
               About SAFAL CAPITAL
             </h3>
             <p>
@@ -32,8 +38,8 @@ const AboutContent = () => {
               under companies Act 1956 registered at Registrar of Companies at
               Ahmadabad (Gujarat) having its corporate Identification Number is
               (CIN) U67110GJ2000PLC106741 and registration number is 106741 and
-              its registered office at 238, Chitvan Society, Opp. Abhijyot
-              Harmony, Gala Gymkhana Road, Bopal Ahmedabad 380058.
+              its registered office at 243, Chittvan, Gala Gymkhana Road, Bopal,
+              Ahmedabad - 380058
             </p>
             <p>
               The Company having the corporate membership of the NSE, BSE, MCX,
@@ -80,9 +86,9 @@ const AboutContent = () => {
               <strong>MPSCML</strong> was allowed through its subsidiary
             </p>
             <p>
-              In 2014, SEBI asked <strong>MPSCML</strong> to create its own trading platform with
-              a net worth of ₹ 100 crore or be de-recognized. SEBI de-recognized
-              MPSE in 2015.
+              In 2014, SEBI asked <strong>MPSCML</strong> to create its own
+              trading platform with a net worth of ₹ 100 crore or be
+              de-recognized. SEBI de-recognized MPSE in 2015.
             </p>
           </div>
         </div>

@@ -8,7 +8,7 @@ const PrivacyPolicyContent = () => {
           <div className="privacy-policy-content">
             {/* <h3>Types of data we collect and use</h3> */}
             <p>
-              We at Safal Capital India LTD run our business having its
+              We at Safal Capital (India) Limited, run our business having its
               registered office at A-162, New Panchwaty Colony, Ghaziabad, Uttar
               Pradesh- 201001 and 232/12, New Kot Gaon, Near Shiv Mandir,
               Ghaziabad, Uttar Pradesh-201001, respectively which expression
@@ -275,7 +275,7 @@ const PrivacyPolicyContent = () => {
               <strong>Contact us: </strong> Please address any questions you may
               have about the collection, processing, usage, disclosure of your
               information in writing to us at our email ID
-              sales@unlistedzone.com. You can always withdraw your consent for
+              safal@unlistedzone.com. You can always withdraw your consent for
               usage, processing of your information by us by writing to us at
               the address mentioned above.
             </p>

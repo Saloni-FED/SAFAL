@@ -10,6 +10,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import UnlistedSharesProcess from "../components/Unlistedshareprocess/UnlistedSharesProcess";
 import Head from "next/head";
 
 const unlistedshares = () => {
@@ -19,14 +20,15 @@ const unlistedshares = () => {
         <title>Unlisted Shares - SAFAL CAPITAL (INDIA) LIMITED</title>
         <meta
           name="description"
-          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+          content="Invest in unlisted shares with Safal Capital India Limited. Discover opportunities in pre-IPO companies, startups, and private equity investments to diversify your portfolio and achieve high returns."
         />
         <meta
           name="keywords"
-          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+          content="unlisted shares, pre-IPO investments, private equity, startup investments, unlisted shares India, Safal Capital unlisted shares, high returns, portfolio diversification, investment opportunities, private companies"
         />
         <link rel="canonical" href="http://safalcapital.in/ContactUs.aspx" />
       </Head>
+
       <PageBanner
         pageTitle="Unlisted Shares"
         pageSubTitle="You can easily find unlisted shares in India that are available for trading . Buy and Sell Unlisted Shares at best prices with us"
@@ -92,126 +94,9 @@ const unlistedshares = () => {
         // pageTitle={"Mutual Funds"}
         pageSubTitle={"Steps to Get started with Unlisted Shares"}
       />
-      <div>
-        <div className="guides-area ptb-100">
-          <div className="container">
-            <div className="guides-content">
-              <div className="number">1</div>
-              <div className="row m-0">
-                <div className="col-lg-3 col-md-12 p-0">
-                  <div className="box">
-                    <h3>Step 1</h3>
-                    <span>Research and Due Diligence</span>
-                  </div>
-                </div>
-                <div className="col-lg-9 col-md-12 p-0">
-                  <div className="content">
-                    <p>
-                      Gather comprehensive information about the company,
-                      including its business model, industry position, financial
-                      health, and management team. Conduct a thorough analysis
-                      of financial statements and market trends.
-                    </p>
-                    {/* <img src="/images/research.jpg" alt="Research" /> */}
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="guides-content">
-              <div className="number">2</div>
-              <div className="row m-0">
-                <div className="col-lg-3 col-md-12 p-0">
-                  <div className="box">
-                    <h3>Step 2</h3>
-                    <span>Valuation Assessment</span>
-                  </div>
-                </div>
-                <div className="col-lg-9 col-md-12 p-0">
-                  <div className="content">
-                    <p>
-                      Use various methods to assess the valuation of the
-                      unlisted shares, such as discounted cash flow (DCF)
-                      analysis, comparable company analysis, and precedent
-                      transactions. Consider getting an independent appraisal.
-                    </p>
-                    {/* <img src="/images/valuation.jpg" alt="Valuation" /> */}
-                  </div>
-                </div>
-              </div>
-            </div>
+      <UnlistedSharesProcess />
 
-            <div className="guides-content">
-              <div className="number">3</div>
-              <div className="row m-0">
-                <div className="col-lg-3 col-md-12 p-0">
-                  <div className="box">
-                    <h3>Step 3</h3>
-                    <span>Regulatory and Legal Considerations</span>
-                  </div>
-                </div>
-                <div className="col-lg-9 col-md-12 p-0">
-                  <div className="content">
-                    <p>
-                      Ensure compliance with all applicable laws and
-                      regulations. Review shareholder agreements, and understand
-                      the legal framework governing unlisted shares in your
-                      jurisdiction.
-                    </p>
-                    {/* <img src="/images/legal.jpg" alt="Legal Considerations" /> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="guides-content">
-              <div className="number">4</div>
-              <div className="row m-0">
-                <div className="col-lg-3 col-md-12 p-0">
-                  <div className="box">
-                    <h3>Step 4</h3>
-                    <span>Purchase Process</span>
-                  </div>
-                </div>
-                <div className="col-lg-9 col-md-12 p-0">
-                  <div className="content">
-                    <p>
-                      Invest in unlisted shares through private placements,
-                      direct purchases from the company, or via brokers
-                      specializing in unlisted securities. Be aware of the
-                      purchase process and associated costs.
-                    </p>
-                    {/* <img src="/images/purchase.jpg" alt="Purchase Process" /> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="guides-content">
-              <div className="number">5</div>
-              <div className="row m-0">
-                <div className="col-lg-3 col-md-12 p-0">
-                  <div className="box">
-                    <h3>Step 5</h3>
-                    <span>Monitor and Exit Strategy</span>
-                  </div>
-                </div>
-                <div className="col-lg-9 col-md-12 p-0">
-                  <div className="content">
-                    <p>
-                      Regularly review the performance of your unlisted shares
-                      and stay informed about the company’s progress. Plan your
-                      exit strategy carefully, whether through a future IPO,
-                      sale to other investors, or other means.
-                    </p>
-                    {/* <img src="/images/monitor.jpg" alt="Monitor and Exit" /> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       {/* <FeedBack /> */}
       {/* Feedback */}
       <div className="fedback-area pt-100 pb-70">
@@ -348,7 +233,7 @@ const unlistedshares = () => {
         <div className="blog-details-header row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12">
             <div className="content">
-              <h1 style={{  marginBottom: "30px" }}>
+              <h1 style={{ marginBottom: "30px" }}>
                 Why Invest in Unlisted Shares with SAFAL
               </h1>
 

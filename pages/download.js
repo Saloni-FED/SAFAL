@@ -252,13 +252,14 @@ const download = () => {
         <title>Downloads - SAFAL CAPITAL (INDIA) LIMITED</title>
         <meta
           name="description"
-          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+          content="Access essential resources and downloads from Safal Capital India Limited. Download forms, brochures, and investment guides to help you navigate the stock market and make informed investment decisions."
         />
         <meta
           name="keywords"
-          content="online mutual fund investment, demat account, future and options trading, online share trading, stock broking company, share trading company, stock broker in india, stock broker in gujarat, stock broker in madhya pradesh, stock broker in ahmedabad, safal capital"
+          content="downloads, investment resources, stock market guides, investment forms, investment brochures, Safal Capital downloads, stock trading resources, investment tools, financial documents, stock market information"
         />
       </Head>
+
       <PageBanner pageTitle={"Downloads"} />
       <div className="cryptocurrency-area pt-100 pb-70">
         <div className="container download_backoffice">

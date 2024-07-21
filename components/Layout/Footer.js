@@ -251,7 +251,7 @@ const Footer = () => {
             <a
               className="link link-left"
               style={{ marginLeft: "1rem" , color:"white"}}
-              href="/download"
+              href="/disclaimer"
             >
               Disclaimer
             </a>

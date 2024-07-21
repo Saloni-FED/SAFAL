@@ -1,76 +1,28 @@
+import React from "react";
 import PageBanner from "../components/Common/PageBanner";
 import RegisterArea from "../components/Common/RegisterArea";
 import PrivacyPolicyContent from "../components/PrivacyPolicy/PrivacyPolicyContent";
 
-const PrivacyPolicy = () => {
+const disclaimer = () => {
   return (
     <>
       <PageBanner
-        pageTitle="Privacy Policy"
-        pageSubTitle="Safal Capital is the easiest place to buy and sell cryptocurrency."
+        pageTitle="Disclaimer"
+        pageSubTitle="Safal Capital is the easiest place to invest."
       />
-
       <div className="privacy-policy-area ptb-100">
         <div className="container">
           <div className="privacy-policy-content">
             {/* <h3>Types of data we collect and use</h3> */}
             <p>
-              We at Safal Capital (India) Limited. run our business having its
-              registered office at A-162, New Panchwaty Colony, Ghaziabad, Uttar
-              Pradesh- 201001 and 232/12, New Kot Gaon, Near Shiv Mandir,
-              Ghaziabad, Uttar Pradesh-201001, respectively which expression
-              shall mean and include its affiliates, successors and permitted
-              assigns and provides certain services on www.unlistedzonecom
-              (Website).
+              Safal Capital (India) Limited is not a stock exchange or a trading
+              platform recognized by the Securities Exchange Board of India
+              (SEBI) under the Securities Contract (Regulation) Act, 1956.
+              Instead,we serves as a specialized online platform designed to
+              facilitate liquidity by enabling the buying and selling of
+              unlisted shares in Pre-IPO companies and startups within India
             </p>
             {/* Safal Capital (India) Limited */}
-            <p>
-              This privacy policy (policy) constitutes a legal agreement between
-              You (You or Your, User), as the user of the Website, and Safal
-              Capital (India) Limited. This Policy is only applicable to the
-              Users of the website, and the information and data gathered from
-              the Users directly and not to any other information or website.
-              You are hereby advised to read this Policy carefully and fully
-              understand the nature and purpose of gathering and/or collecting
-              sensitive, personal and other information and the usage,
-              disclosure and sharing of such information. This Policy has been
-              prepared under the provisions of (Indian) Information Technology
-              Act, 2000 (ITAct) and the Information Technology (Reasonable
-              Security Practices and Procedures and Sensitive Personal Data or
-              Information) Rules, 2011 (IT Rules) promulgated thereunder, and
-              sets out the practices and policies for the protection of personal
-              information (including sensitive personal data or information)
-              collected, received, possessed, stored, dealt with or handled by
-              Safal Capital (India) Limited. Limited and Investor Zone and Safal
-              Capital (India) Limited partnership firm and its website
-              https://safal-theta.vercel.app/
-            </p>
-            <p>
-              <strong>Eligibility:</strong> This privacy policy (Policy)
-              describes our policies and procedures on the collection, use,
-              storage and disclosure of any information including, business or
-              personal information provided by you while using our website. This
-              Policy specifically governs: the collection and use of personal
-              data and sensitive personal data or information provided by You.
-              The processing of personal information and sensitive personal data
-              or information provided by you while using our website. Your use
-              of the website will be governed by this Policy in addition to the
-              Terms of Use as applicable to you. This Policy together with the
-              Terms of Use are referred to as the website documents.
-            </p>
-            <p>
-              <strong>Collection of Information:</strong> Safal Capital (India)
-              Limited and Investor Zone and Unlisted Zone, a partnership firm
-              will use the User Information provided by you only in accordance
-              with the purposes described in this Policy. You can access the
-              website only after registering for an account. You may not be able
-              to access website or features provided on the website that require
-              registration, you to reveal your identity andor other Personal
-              Information or Sensitive Personal Information about you. During
-              Your use of our website, we may collect and process such
-              information from you, including but not limited to the below
-              mentioned:
-            </p>
 
             <p>
               <strong>1.</strong> Information that you provide to us by filling
@@ -83,31 +35,90 @@ const PrivacyPolicy = () => {
               preferences including favourites lists, transaction history and
               investment preference.
               <br />
-              <strong>2.</strong> Information that you provide when you write
-              directly to us (including by e-mails or letters).
+              <strong>2.</strong> Our Website is operated by Safal Capital
+              (India) Limited team and are not an advisor and do not give
+              recommendation to buy any stock from our website The buyers and
+              sellers should consult their financial/legal advisors before
+              buying unlisted securities at Safal Capital (India) Limited
               <br />
-              <strong>3.</strong> Information that you provide to us over
-              telephone. We may make and keep a record of the information you
-              share with us.
+              <strong>3.</strong> Safal Capital (India) Limited are not
+              responsible for any loss arising out of unlisted shares. Safal
+              Capital (India) Limited is NOT a stock exchange recognized by the
+              Securities Exchange Board of India (SEBI) under the Securities
+              Contract (Regulation) Act, 1956.
               <br />
-              <strong>4.</strong> Information that you provide to us to enable
-              us to provide our services.
+              <strong>4.</strong> Safal Capital (India) Limited does not allow
+              any secondary market trading of securities on the Platform.
               <br />
-              <strong>5.</strong> Information that you provide to us by
-              completing surveys, feedbacks etc.
+              <strong>5.</strong> You as a buyer or seller understand and
+              confirm that we fully understand the features and risk of buying
+              unlisted shares from the Safal Capital (India) Limited
               <br />
-              <strong>6.</strong> Information relating to logs is automatically
-              reported by your browser each time you access a web page. When you
-              use the website, our servers automatically record certain
-              information that your web browser sends whenever you visit any
-              website. These server logs may include information such as Your
-              web request, Internet Protocol (IP) address, location (through
-              GPS) browser type, referring/ exit pages and URLs, number of
-              clicks, domain names, landing pages, pages viewed, click paths,
-              feature usage and other such information. We use this information,
-              which may identify Users, to analyse trends, to administer the
-              site, to track users movements around the site and to gather
-              demographic information about the user base as a whole.
+              <strong>6.</strong> You as a buyer or seller also confirm that you
+              neither being influenced or nor been given any assurance of fixed
+              returns arises out of investment in unlisted shares by employees,
+              associates, partners, representative, or relationship managers of
+              Safal Capital (India) Limited.
+              <br />
+              <strong>7.</strong> You as a buyer or seller also confirm that
+              Safal Capital (India) Limited are not responsible for any loss
+              arises out of investment in unlisted shares.
+              <br />
+              <strong>8.</strong> You as a buyer or seller fully understand that
+              investing in unlisted shares/securities is not suitable for all
+              the investors. An investment in unlisted company’s securities is
+              highly speculative and involves a high degree of risk and should
+              only be considered a long term investment and only after
+              consulting your investment advisor.
+              <br />
+              <strong>9.</strong> You as a buyer or seller understand that after
+              buying unlisted shares, you may withstand the risk of total loss
+              of investment as unlisted company’s securities are also highly
+              illiquid and there is no guarantee that a market will develop for
+              such securities.
+              <br />
+              <strong>10.</strong> You as a buyer or seller fully understand
+              that each investment in unlisted shares also carries its own
+              specific risks and you should complete your own independent due
+              diligence regarding the investment, including obtaining additional
+              information about the company, opinions, financial projections and
+              legal or other investment advice.
+              <br />
+              <strong>11.</strong>You as a buyer or seller fully also understand
+              that investing in unlisted companies securities is appropriate
+              only for those investors who can tolerate a high degree of risk
+              and do not require a liquid investment.
+              <br />
+              <strong>12.</strong>You as a buyer or seller declare and confirm
+              that the payment for buying of unlisted shares/securities is
+              coming from the bank of the person to whom is Safal Capital
+              (India) Limited transferring shares. You as a buyer or seller
+              declare to face any legal consequences arises out of this for
+              non-compliance. Safal Capital (India) Limited always ensures that
+              they Do not transfer shares in the third party account.
+              <br />
+              <strong>13.</strong>You as a buyer or seller declare and confirm
+              to complying all laws and regulations setup by SEBI, RBI, FEMA
+              ACT, Companies act 2013 or any Indian relevant acts or laws with
+              regards to buying of unlisted shares in India. And in the event of
+              violation of any laws, will be held responsible for any legal
+              consequences.
+              <br />
+              <strong>14.</strong>Safal Capital (India) Limited declares that
+              the research reports published in the platform of UnlistedZone.com
+              is purely for the purpose of educating the client for the prospect
+              of understanding the business model and should not by any means be
+              considered as an investment advice. Safal Capital (India) Limited
+              do not guarantee the correctness or accuracy of the information
+              provided on our website UnlistedZone.com. The buyer/seller should
+              do the proper due diligence before buying/selling the unlisted
+              shares from our website.
+              <strong>15.</strong>While we strive
+              for accuracy, we cannot guarantee the complete precision of the
+              data presented. Investors are advised not to rely solely on this
+              information when making investment decisions. There is always a
+              risk of errors, and we strongly encourage thorough independent due
+              diligence before proceeding with any investments.
             </p>
 
             <p>
@@ -154,7 +165,7 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              <strong>Disclosure of Information:</strong>
+              <strong>Disclosure of Information: </strong>
               We may disclose the User Information as follows:
             </p>
             <p>
@@ -290,9 +301,9 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <RegisterArea ctaImage="/images/man.png" />
+      <RegisterArea ctaImage="/images/office.png" />
     </>
   );
 };
 
-export default PrivacyPolicy;
+export default disclaimer;

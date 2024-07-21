@@ -56,20 +56,27 @@ const Subbroker = () => {
   return (
     <>
       <Head>
-        <title>Partner with Us - Safal Capital.in</title>
+        <title>SafalCapital - Sub Broker</title>
         <meta
           name="description"
-          content="Safal Capital India Limited is a leading stock broking company in India which provide online stock & commodity trading, mutual fund investment, equity trading & portfolio management services and many more."
+          content="Join Safal Capital India Limited as a sub-broker and become part of a leading stock broking company in India. Enjoy benefits and profits from online stock & commodity trading, mutual fund investment, equity trading & portfolio management services."
         />
-        <meta property="og:title" content="Partner with Us - Safal Capital" />
+        <meta
+          property="og:title"
+          content="Become a Sub-Broker with Safal Capital"
+        />
         <meta
           property="og:description"
-          content="Join Safal Capital's family of more than 2261 business partners. Become a sub-broker and enjoy great benefits and profits."
+          content="Join Safal Capital's family of more than 2261 business partners as a sub-broker. Enjoy great benefits and profits from stock market trading and investment services."
         />
         <meta property="og:image" content="/images/office.png" />
         <meta
           property="og:url"
           content="https://safal-theta.vercel.app/subbroker"
+        />
+        <meta
+          name="keywords"
+          content="Safal Capital sub-broker, stock market sub-broker India, become a sub-broker, stock trading partner, investment services, online stock trading, equity trading, portfolio management"
         />
         <link rel="icon" href="/image/ico.png" />
       </Head>
