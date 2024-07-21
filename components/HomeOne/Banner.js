@@ -171,8 +171,8 @@ const Banner = () => {
             <div className="col-xl-6 col-lg-6 col-md-12 p-0">
               <div className="main-banner-content">
                 <h1>
-                  Leading Financial Services with 100  Years of Combined
-                  Experience.
+                  Buy Mutual Funds, Insurance and Trade Unlisted Shares | Safal
+                  Capital
                 </h1>
                 {/* <a
                   href="https://kyc.swastika.co.in/customer/login/6FDD55F1C5"
