@@ -394,7 +394,7 @@ const Blog = () => {
                     />
                   </a>
                   <div className="tag-list">
-                    <Link href="#">Market News</Link>
+                    <Link href="#">Fundamental Analysis</Link>
                   </div>
                 </div>
                 <div className="post-content">
@@ -425,7 +425,7 @@ const Blog = () => {
                     />
                   </a>
                   <div className="tag-list">
-                    <Link href="#">Market News</Link>
+                    <Link href="#">Fundamental Analysis</Link>
                   </div>
                 </div>
                 <div className="post-content">
@@ -454,7 +454,7 @@ const Blog = () => {
                     target="blank"
                   >
                     <img
-                      src="/images/unlisted/Stock13.webp"
+                      src="/images/unlisted/stc2.webp"
                       alt="image"
                       style={{ height: "206px", width: "100%" }}
                     />
