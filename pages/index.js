@@ -14,8 +14,7 @@ const Index = () => {
     <>
       <Head>
         <title>
-          Online Stock & Commodity Trading Company | Mutual Fund Investment -
-          SAFAL CAPITAL (INDIA) LIMITED
+          Buy Mutual Funds, Insurance and Trade Unlisted Shares | Safal Capital
         </title>
         <meta
           name="description"
