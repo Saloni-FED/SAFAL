@@ -51,8 +51,8 @@ const ContactInfo = () => {
               target="_blank"
             >
               <p>
-                Registered Office Address :- 238 Chitvan Bungalow, South Bopal,
-                Ahmedaad : 380058
+                Registered Office Address :- 243, Chittvan, Gala Gymkhana Road,
+                Bopal, Ahmedabad - 380058
               </p>
             </a>
           </li>
