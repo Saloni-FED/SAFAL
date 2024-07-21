@@ -290,7 +290,7 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <RegisterArea ctaImage="/images/man.png" />
+      <RegisterArea ctaImage="/images/office.png" />
     </>
   );
 };
